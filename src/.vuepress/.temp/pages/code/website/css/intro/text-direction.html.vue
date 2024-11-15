@@ -1,0 +1,79 @@
+<template><div><h2 id="书写模式" tabindex="-1"><a class="header-anchor" href="#书写模式"><span>书写模式</span></a></h2>
+<p>CSS 中的书写模式是指文本的排列方向是横向还是纵向的。<code v-pre>writing-mode</code> 属性使我们从一种模式切换到另一种模式。为此，您不必使用一种竖向的语言——您还可以更改部分文字的方向以实现创新性的布局。</p>
+<p>可以使用 <code v-pre>writing-mode: vertical-rl</code> 对一个标题的显示进行设置，将标题文本变为竖向。</p>
+<p>竖向文本在平面设计中很常见，也可以为您的网页设计增添更加有趣的外观。</p>
+<CodeDemo id="code-demo-12" type="normal" title="%E7%AB%96%E5%90%91%E6%A0%87%E9%A2%98%E6%96%87%E6%9C%AC" code="eJyrVsooyc1RslKyyTC0C8hJrFQozyzJUCgvyizJzEtXyM1PSS220QfKxeQp6SglFxcDlWYYKlTH5CnAFOmCFFkplKUWlWQmJ+boFuVYx+TVAtXXAgC0Fh+z">
+<div class="language-html" data-highlighter="shiki" data-ext="html" data-title="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Play with writing modes&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+</div><div class="language-css" data-highlighter="shiki" data-ext="css" data-title="css" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  writing-mode: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">vertical-rl</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+</div></CodeDemo>
+<p><code v-pre>writing-mode</code> 的三个值分别是:</p>
+<ul>
+<li><code v-pre>horizontal-tb</code>: 块流向从上至下。对应的文本方向是横向的。</li>
+<li><code v-pre>vertical-rl</code>: 块流向从右向左。对应的文本方向是纵向的。</li>
+<li><code v-pre>vertical-lr</code>: 块流向从左向右。对应的文本方向是纵向的。</li>
+</ul>
+<p>因此，<code v-pre>writing-mode</code> 属性实际上设定的是页面上块级元素的显示方向——要么是从上到下，要么是从右到左，要么是从左到右。而这决定了文本的方向。</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>没有从下到上的方向。</p>
+</div>
+<h2 id="书写模式、块级布局和内联布局" tabindex="-1"><a class="header-anchor" href="#书写模式、块级布局和内联布局"><span>书写模式、块级布局和内联布局</span></a></h2>
+<p>我们已经讨论了块级布局和内联布局(block and inline layout)，也知道外部显示类型元素分为块级元素和内联元素。如上所述，块级显示和内联显示与文本的书写模式(而非屏幕的物理显示)密切相关。如果您使用书写模式的显示是横向的，如英文，那么块在页面上的显示就是从上到下的。</p>
+<p>当我们切换书写模式时，我们也在改变块和内联文本的方向。<code v-pre>horizontal-tb</code> 书写模式下块的方向是从上到下的横向的，而 <code v-pre>vertical-rl</code> 书写模式下块的方向是从右到左的纵向的。因此，块维度指的总是块在页面书写模式下的显示方向。而内联维度指的总是文本方向。</p>
+<figure><img src="@source/code/website/css/intro/assets/horizontal-tb.png" alt="这张图展示了在水平书写模式下的两种维度" tabindex="0" loading="lazy"><figcaption>这张图展示了在水平书写模式下的两种维度</figcaption></figure>
+<figure><img src="@source/code/website/css/intro/assets/vertical.png" alt="这张图片展示了纵向书写模式下的两种维度" tabindex="0" loading="lazy"><figcaption>这张图片展示了纵向书写模式下的两种维度</figcaption></figure>
+<h3 id="方向" tabindex="-1"><a class="header-anchor" href="#方向"><span>方向</span></a></h3>
+<p>除了书写模式，我们还可以设置文本方向。正如上面所言，有些语言(如阿拉伯语)是横向书写的，但是是从右向左。</p>
+<p>由于书写模式和文本方向都是可变的，新的 CSS 布局方法不再定义从左到右和从上到下，而是将这些连同内联元素和块级元素的开头和结尾一起考量。</p>
+<h2 id="逻辑属性和逻辑值" tabindex="-1"><a class="header-anchor" href="#逻辑属性和逻辑值"><span>逻辑属性和逻辑值</span></a></h2>
+<p>正常情况下，您可以设置 width 和 height，但是它们并不会跟随书写模式的改编而进行调整。</p>
+<p>CSS 的映射属性用逻辑(logical)和相对变化(flow relative)代替了像宽 width 和高 height 一样的物理属性。</p>
+<p>横向书写模式下，映射到 width 的属性被称作内联尺寸(inline-size)——内联维度的尺寸。而映射 height 的属性被称为块级尺寸(block-size)，这是块级维度的尺寸。下面的例子展示了替换掉 width 的 inline-size 是如何生效的。</p>
+<CodeDemo id="code-demo-80" type="normal" title="%E6%98%A0%E5%B0%84%E5%B1%9E%E6%80%A7" code="eJzNkbFOwzAQhl/l5JkkgMQSQiQEAwtTkVi8uMlRW3Jsy2elpVXfvdcmaVqpD9DpLP/fnX//txM6dVaUompND41VRG9SrKMKAaMUtXQAV9LSb0D7aLbeJWVHghn9XH+hao1bVQWfx9tQv0NQUa14oM7hEzvvKEWVmIPfaE7127dIYBx8LBZ5VYS5+UcjIfCTrGvVI0PWOMzIbPFMVgX7u220x5hMc182pyoeREPEyedj2rA7Yq2hYNV/CX8WN6/S7aWTLj9+5iRfTC7h6eUxzMy8lQFdD76zjn2XFzvL0vLcMwV0q2PSsmgHXuwPkV+9kg==">
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" data-title="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"wrapper"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"box horizontal"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Heading&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>A paragraph. Demonstrating Writing Modes in CSS.&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>These boxes have inline-size.&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"box vertical"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>Heading&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">h2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>A paragraph. Demonstrating Writing Modes in CSS.&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &#x3C;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">>These boxes have inline-size.&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">div</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-css line-numbers-mode" data-highlighter="shiki" data-ext="css" data-title="css" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">.wrapper</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  display: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">flex</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">.box</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  inline-size: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">150</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">.horizontal</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  writing-mode: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">horizontal-tb</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">.vertical</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  writing-mode: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">vertical-rl</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeDemo>
+<h3 id="逻辑外边距、边框和内边距属性" tabindex="-1"><a class="header-anchor" href="#逻辑外边距、边框和内边距属性"><span>逻辑外边距、边框和内边距属性</span></a></h3>
+<p>外边距、边框和内边距属性中，物理属性，例如 <code v-pre>margin-top</code>、<code v-pre>padding-left</code> 和 <code v-pre>border-bottom</code>。同样像 <code v-pre>width</code> 和 <code v-pre>height</code> 一样不会随着书写模式进行变化，当然这些属性也有相应的映射。</p>
+<p><code v-pre>margin-top</code> 属性的映射是 <code v-pre>margin-block-start</code> : 总是指向块级维度开始处的边距。</p>
+<p><code v-pre>padding-left</code> 属性映射到 <code v-pre>padding-inline-start</code>: 这是应用到内联开始方向(这是该书写模式文本开始的地方)上的内边距。</p>
+<p><code v-pre>border-bottom</code> 属性映射到的是 <code v-pre>border-block-end</code>: 也就是块级维度结尾处的边框。</p>
+<p>其他的 9 个属性应该很很容易写出，不做赘述。</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>请注意，在这种状态下，您就不能再用 <code v-pre>margin</code> <code v-pre>padding</code> <code v-pre>border</code> 这三个简写属性了。</p>
+</div>
+<h3 id="逻辑值" tabindex="-1"><a class="header-anchor" href="#逻辑值"><span>逻辑值</span></a></h3>
+<p>物理值(如 <code v-pre>top</code>、<code v-pre>right</code>、<code v-pre>bottom</code> 和 <code v-pre>left</code> )。这些值同样拥有逻辑值映射(<code v-pre>block-start</code>、<code v-pre>inline-end</code>、<code v-pre>block-end</code> 和 <code v-pre>inline-start</code> )。</p>
+<h3 id="是否使用逻辑属性" tabindex="-1"><a class="header-anchor" href="#是否使用逻辑属性"><span>是否使用逻辑属性</span></a></h3>
+<p>如果您并没有应用多种书写模式，那么现在您可能更倾向于使用物理属性，因为这些在您使用弹性布局和网格布局时非常有用。</p>
+</div></template>
+
+

@@ -1,0 +1,16 @@
+import comp from "/Users/carson/Desktop/Mister-Hope.github.io-main/src/.vuepress/.temp/pages/software/vscode/guide/file.html.vue"
+const data = JSON.parse("{\"path\":\"/software/vscode/guide/file.html\",\"title\":\"文件\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2020-08-18T00:00:00.000Z\",\"title\":\"文件\",\"icon\":\"folder\",\"category\":\"VS Code\",\"tag\":[\"VS Code\",\"软件\"],\"description\":\"切换侧边栏 键盘快捷键: Ctrl + B 切换面板 键盘快捷键: Ctrl + J Zen 模式 键盘快捷键: Ctrl + K Z 进入无干扰禅宗模式。 按两次 Esc 键退出 Zen 模式。 并排编辑 键盘快捷键: Ctrl + \\\\ 您还可以拖放编辑器以创建新的编辑器组，并在组之间移动编辑器。 编辑之间切换 键盘快捷键: Ctrl + 1，Ctr...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.com/software/vscode/guide/file.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Mr.Hope\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"文件\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"切换侧边栏 键盘快捷键: Ctrl + B 切换面板 键盘快捷键: Ctrl + J Zen 模式 键盘快捷键: Ctrl + K Z 进入无干扰禅宗模式。 按两次 Esc 键退出 Zen 模式。 并排编辑 键盘快捷键: Ctrl + \\\\ 您还可以拖放编辑器以创建新的编辑器组，并在组之间移动编辑器。 编辑之间切换 键盘快捷键: Ctrl + 1，Ctr...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"VS Code\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"软件\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-08-18T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"文件\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-08-18T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hope\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"切换侧边栏\",\"slug\":\"切换侧边栏\",\"link\":\"#切换侧边栏\",\"children\":[]},{\"level\":2,\"title\":\"切换面板\",\"slug\":\"切换面板\",\"link\":\"#切换面板\",\"children\":[]},{\"level\":2,\"title\":\"Zen 模式\",\"slug\":\"zen-模式\",\"link\":\"#zen-模式\",\"children\":[]},{\"level\":2,\"title\":\"并排编辑\",\"slug\":\"并排编辑\",\"link\":\"#并排编辑\",\"children\":[]},{\"level\":2,\"title\":\"编辑之间切换\",\"slug\":\"编辑之间切换\",\"link\":\"#编辑之间切换\",\"children\":[]},{\"level\":2,\"title\":\"移至资源管理器窗口\",\"slug\":\"移至资源管理器窗口\",\"link\":\"#移至资源管理器窗口\",\"children\":[]},{\"level\":2,\"title\":\"创建或打开一个文件\",\"slug\":\"创建或打开一个文件\",\"link\":\"#创建或打开一个文件\",\"children\":[]},{\"level\":2,\"title\":\"关闭当前打开的文件夹\",\"slug\":\"关闭当前打开的文件夹\",\"link\":\"#关闭当前打开的文件夹\",\"children\":[]},{\"level\":2,\"title\":\"导航历史\",\"slug\":\"导航历史\",\"link\":\"#导航历史\",\"children\":[]},{\"level\":2,\"title\":\"文件关联\",\"slug\":\"文件关联\",\"link\":\"#文件关联\",\"children\":[]},{\"level\":2,\"title\":\"防止脏写入\",\"slug\":\"防止脏写入\",\"link\":\"#防止脏写入\",\"children\":[]}],\"readingTime\":{\"minutes\":1.68,\"words\":503},\"filePathRelative\":\"software/vscode/guide/file.md\",\"localizedDate\":\"2020年8月18日\",\"excerpt\":\"\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
