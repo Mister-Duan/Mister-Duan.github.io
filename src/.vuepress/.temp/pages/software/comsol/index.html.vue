@@ -52,13 +52,13 @@
 <h2 id="文档" tabindex="-1"><a class="header-anchor" href="#文档"><span>文档</span></a></h2>
 <ul>
 <li>
-<p><a href="https://mister-hope.com/file/comsol/IntroductionToCOMSOLMultiphysics.zh_CN.pdf" target="_blank" rel="noopener noreferrer">COMSOL 新手指南</a></p>
+<p><a href="https://mister-duan.github.io/file/comsol/IntroductionToCOMSOLMultiphysics.zh_CN.pdf" target="_blank" rel="noopener noreferrer">COMSOL 新手指南</a></p>
 </li>
 <li>
-<p><a href="https://mister-hope.com/file/comsol/App%E5%BC%80%E5%8F%91%E5%99%A8%E7%AE%80%E4%BB%8B.pdf" target="_blank" rel="noopener noreferrer">COMSOL App 开发器简介</a></p>
+<p><a href="https://mister-duan.github.io/file/comsol/App%E5%BC%80%E5%8F%91%E5%99%A8%E7%AE%80%E4%BB%8B.pdf" target="_blank" rel="noopener noreferrer">COMSOL App 开发器简介</a></p>
 </li>
 <li>
-<p><a href="https://mister-hope.com/file/comsol/ApplicationProgrammingGuide.zh_CN.pdf" target="_blank" rel="noopener noreferrer">COMSOL Multiphysics 应用程序编程指南</a></p>
+<p><a href="https://mister-duan.github.io/file/comsol/ApplicationProgrammingGuide.zh_CN.pdf" target="_blank" rel="noopener noreferrer">COMSOL Multiphysics 应用程序编程指南</a></p>
 </li>
 <li>
 <p><a href="http://cn.comsol.com/multiphysics/" target="_blank" rel="noopener noreferrer">COMSOL 多物理场仿真百科</a></p>

@@ -73,7 +73,7 @@
 <p>直接在硬盘上创建好 HTML 和 JavaScript 文件，然后用浏览器打开的方式运行部分 JavaScript 代码没有问题，但由于浏览器的安全限制，以 <code v-pre>file://</code> 开头的地址无法执行如联网等 JavaScript 代码，</p>
 </div>
 <h3 id="架设本地服务器" tabindex="-1"><a class="header-anchor" href="#架设本地服务器"><span>架设本地服务器</span></a></h3>
-<p>运行 JavaScript 也可以在本地架设一个 Web 服务器，然后以 <code v-pre>http://</code> 或 <code v-pre>https://</code> 开头的地址来正常执行所有 JavaScript 代码。如有需要请下载 Mr.Hope 制作的 WAMP / WNMP 一键安装工具。</p>
+<p>运行 JavaScript 也可以在本地架设一个 Web 服务器，然后以 <code v-pre>http://</code> 或 <code v-pre>https://</code> 开头的地址来正常执行所有 JavaScript 代码。如有需要请下载 Mister.Duan 制作的 WAMP / WNMP 一键安装工具。</p>
 <h3 id="使用-node-js" tabindex="-1"><a class="header-anchor" href="#使用-node-js"><span>使用 Node.js</span></a></h3>
 <p>Node.js 是一个著名的基于 JavaScript 的后端工具，可以很方便快捷的执行并调试 JavaScript。</p>
 <div class="hint-container tip">

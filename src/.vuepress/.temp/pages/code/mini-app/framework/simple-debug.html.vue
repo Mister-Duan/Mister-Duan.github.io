@@ -104,7 +104,7 @@
 <p><strong>string</strong>是字符串，用于表达一串文本。在文本内容外面套上英文双引号 <code v-pre>&quot;</code> 即可表示<strong>string</strong>。</p>
 <p><strong>例</strong>:</p>
 <ul>
-<li><code v-pre>&quot;Mr.Hope is handsome&quot;</code></li>
+<li><code v-pre>&quot;Mister.Duan is handsome&quot;</code></li>
 <li><code v-pre>&quot;春眠不觉晓，处处闻啼鸟&quot;</code></li>
 <li><code v-pre>&quot;A saying goes: \&quot;Great hopes make great man.\&quot;&quot;</code></li>
 </ul>
@@ -117,7 +117,7 @@
 <li><code v-pre>[1, 2, 3]</code></li>
 <li><code v-pre>[-5, &quot;abc&quot;, true]</code>
 (在此数组中第一项是数字 <code v-pre>-5</code>，第二项是字符串 <code v-pre>&quot;abc&quot;</code>，第三项是布尔值 <code v-pre>true</code>，该数组是合法的，数组的元素也可以是接下来的 object)</li>
-<li><code v-pre>[&quot;小程序必火&quot;, &quot;666&quot;, &quot;Mr.Hope有点帅&quot;]</code></li>
+<li><code v-pre>[&quot;小程序必火&quot;, &quot;666&quot;, &quot;Mister.Duan有点帅&quot;]</code></li>
 </ul>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
@@ -171,8 +171,8 @@
 <h3 id="关于值的嵌套" tabindex="-1"><a class="header-anchor" href="#关于值的嵌套"><span>关于值的嵌套</span></a></h3>
 <p>由于<strong>array</strong>的<strong>element</strong>和 <strong>object</strong> 的<strong>value</strong>可以是五种值的任一个，故可以发生嵌套。</p>
 <p><strong>如</strong>:</p>
-<p><code v-pre>[{&quot;a&quot;:&quot;Mr.Hope&quot;},{&quot;b&quot;:&quot;Ms.Hope&quot;}]</code></p>
-<p>就是一个数组: <code v-pre>[ element1 , element2 ]</code>，而该数组的<strong>element1</strong>是<strong>object</strong><code v-pre>{ &quot;a&quot; : &quot;Mr.Hope&quot; }</code>，<strong>element2</strong>是<strong>object</strong><code v-pre>{ &quot;b&quot; : &quot;Ms.Hope&quot; }</code></p>
+<p><code v-pre>[{&quot;a&quot;:&quot;Mister.Duan&quot;},{&quot;b&quot;:&quot;Ms.Hope&quot;}]</code></p>
+<p>就是一个数组: <code v-pre>[ element1 , element2 ]</code>，而该数组的<strong>element1</strong>是<strong>object</strong><code v-pre>{ &quot;a&quot; : &quot;Mister.Duan&quot; }</code>，<strong>element2</strong>是<strong>object</strong><code v-pre>{ &quot;b&quot; : &quot;Ms.Hope&quot; }</code></p>
 </div></template>
 
 

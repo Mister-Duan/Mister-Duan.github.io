@@ -3,7 +3,7 @@
 <p>此部分在初步学习小程序的时候直接略过即可。</p>
 </div>
 <h2 id="界面动画的常见方式" tabindex="-1"><a class="header-anchor" href="#界面动画的常见方式"><span>界面动画的常见方式</span></a></h2>
-<p>在小程序中，通常可以使用 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions" target="_blank" rel="noopener noreferrer">CSS 渐变</a> 和 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations/Using_CSS_animations" target="_blank" rel="noopener noreferrer">CSS 动画</a> 来创建简易的界面动画。(这也是 Mr.Hope 主要使用的动画方式)</p>
+<p>在小程序中，通常可以使用 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions" target="_blank" rel="noopener noreferrer">CSS 渐变</a> 和 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations/Using_CSS_animations" target="_blank" rel="noopener noreferrer">CSS 动画</a> 来创建简易的界面动画。(这也是 Mister.Duan 主要使用的动画方式)</p>
 <blockquote>
 <p><a href="https://developers.weixin.qq.com/s/oHKxDPm47h5k" target="_blank" rel="noopener noreferrer">在开发者工具中预览效果</a></p>
 </blockquote>
@@ -38,7 +38,7 @@
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>这几个事件都不是冒泡事件，需要绑定在真正发生了动画的节点上才会生效。</p>
-<p>Mr.Hope 强烈建议优先使用 <strong>CSS 动画</strong>。只有 <strong>CSS 动画</strong> 无法满足要求时，才应该考虑 <code v-pre>wx.createAnimation</code>。</p>
+<p>Mister.Duan 强烈建议优先使用 <strong>CSS 动画</strong>。只有 <strong>CSS 动画</strong> 无法满足要求时，才应该考虑 <code v-pre>wx.createAnimation</code>。</p>
 </div>
 <h2 id="关键帧动画" tabindex="-1"><a class="header-anchor" href="#关键帧动画"><span>关键帧动画</span></a></h2>
 <blockquote>

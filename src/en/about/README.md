@@ -1,7 +1,7 @@
 ---
 date: 2022-01-07
 layout: SlidePage
-title: Mr.Hope Intro
+title: Mister.Duan Intro
 icon: people
 tag:
   - Personal Intro
@@ -10,11 +10,9 @@ tag:
 @slidestart
 
 - Gender: Male
-- Age: 24
-- Marital status: unmarried
+- Age: 32
+- Marital status: married
 - Single: No
-- Hobbies: fishing, chess, cursive English, badminton, programming
-
-Has a cheerful and easy-going personality, loves to help others, and likes to work with open source projects at spare.
+- Hobbies: programming
 
 @slideend

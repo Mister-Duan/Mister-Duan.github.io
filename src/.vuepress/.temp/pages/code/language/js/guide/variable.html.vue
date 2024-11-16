@@ -36,7 +36,7 @@
 <span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">let</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Answer</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> true</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// Answer 是一个布尔值 true</span></span>
 <span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">let</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> t</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> null</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// t的值是 null</span></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">const</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> person</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Mr.Hope"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 声明了一个常量 person，值为 Mr.Hope</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">const</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> person</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Mister.Duan"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 声明了一个常量 person，值为 Mister.Duan</span></span>
 <span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">const</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> score</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 500</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 声明了一个常量 score，值为 500</span></span></code></pre>
 </div><div class="hint-container warning">
 <p class="hint-container-title">注意</p>
@@ -84,7 +84,7 @@
 <p>不用 <code v-pre>var</code> 声明的变量会被视为全局变量，为了避免这一缺陷，所有的 JavaScript 代码都应该使用 <code v-pre>strict</code> 模式。我们在后面编写的 JavaScript 代码将全部采用 <code v-pre>strict</code> 模式。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>微信小程序默认执行 <code v-pre>use strict</code>。而且 Mr.Hope 所有的项目都是在严格环境下执行。大家在学习时也强烈建议开启该环境模式。</p>
+<p>微信小程序默认执行 <code v-pre>use strict</code>。而且 Mister.Duan 所有的项目都是在严格环境下执行。大家在学习时也强烈建议开启该环境模式。</p>
 </div>
 <hr class="footnotes-sep">
 <section class="footnotes">

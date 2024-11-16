@@ -15,7 +15,7 @@
 </div><div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>由于 HTML 语言的属性值使用双引号，所以很多项目约定 JavaScript 语言的字符串只使用单引号，故本教程遵守这个约定。当然，只使用双引号也完全可以。重要的是坚持使用一种风格，不要一会使用单引号表示字符串，一会又使用双引号表示。</p>
-<p>Mr.Hope 的所有项目均强制字符串为单引号。</p>
+<p>Mister.Duan 的所有项目均强制字符串为单引号。</p>
 </div>
 <p>字符串默认只能写在一行内，分成多行将会报错。</p>
 <div class="language-js" data-highlighter="shiki" data-ext="js" data-title="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">a</span></span>

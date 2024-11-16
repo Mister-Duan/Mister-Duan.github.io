@@ -73,7 +73,7 @@
 <h2 id="vs-code" tabindex="-1"><a class="header-anchor" href="#vs-code"><span>VS Code</span></a></h2>
 <p>在 VS Code 中安装 C/C++ 插件以启用两者支持时会自动安装 clang-format，因此无需进行任何操作，即可在 C/C++ 文件中对代码进行格式化。</p>
 <h2 id="推荐样式" tabindex="-1"><a class="header-anchor" href="#推荐样式"><span>推荐样式</span></a></h2>
-<p>Mr.Hope 推荐使用 Google 预设，所以在个人与工作室的每个项目中，都会使用 Google 编码风格。</p>
+<p>Mister.Duan 推荐使用 Google 预设，所以在个人与工作室的每个项目中，都会使用 Google 编码风格。</p>
 <p>建议在 VS Code 中配置默认格式风格:</p>
 <div class="language-json" data-highlighter="shiki" data-ext="json" data-title="json" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
 <span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "C_Cpp.clang_format_fallbackStyle"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"Google"</span></span>

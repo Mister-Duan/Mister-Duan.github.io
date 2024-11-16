@@ -31,7 +31,7 @@
 </div>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>Mr.Hope <strong>不推荐</strong> 新手直接使用 <code v-pre>vite</code> 或者 <code v-pre>webpack</code> 之类的 Bundler 进行上手，尤其是在您不熟悉基于 Node.js 的构建工具的情况下。</p>
+<p>Mister.Duan <strong>不推荐</strong> 新手直接使用 <code v-pre>vite</code> 或者 <code v-pre>webpack</code> 之类的 Bundler 进行上手，尤其是在您不熟悉基于 Node.js 的构建工具的情况下。</p>
 <p>请使用 CDN 的方式引入 Vue，并充分熟悉 Vue 的基础知识后再引入 Bundler。</p>
 </div>
 </div></template>

@@ -10,7 +10,7 @@
 </ul>
 </div>
 <p>如果您的电脑上已经安装了<strong>Sublime Text</strong>，或者<strong>Notepad++</strong>，也可以用来编写 JavaScript 代码，注意用 UTF-8 格式保存。</p>
-<p>最方便的，当然是 Mr.Hope 强力安利的 VS Code 了。</p>
+<p>最方便的，当然是 Mister.Duan 强力安利的 VS Code 了。</p>
 <p>输入以下代码:</p>
 <div class="language-js" data-highlighter="shiki" data-ext="js" data-title="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"use strict"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
 <span class="line"></span>

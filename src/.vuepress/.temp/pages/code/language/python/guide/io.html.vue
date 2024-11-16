@@ -19,11 +19,11 @@
 <h2 id="输入" tabindex="-1"><a class="header-anchor" href="#输入"><span>输入</span></a></h2>
 <p>如果需要用户从电脑输入一些字符，Python 提供了一个 <code v-pre>input()</code>，可以让用户输入字符串，并存放到一个变量里。比如输入用户的名字:</p>
 <div class="language-py" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">>>></span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> name </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> input</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Mr.Hope</span></span></code></pre>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Mister.Duan</span></span></code></pre>
 </div><p>当您输入 <code v-pre>name = input()</code> 并按下回车后，Python 交互式命令行就在等待您的输入了。这时，您可以输入任意字符，然后按回车后完成输入。</p>
 <p>输入完成后，不会有任何提示，Python 交互式命令行又回到 <code v-pre>&gt;&gt;&gt;</code> 状态了。那我们刚才输入的内容到哪去了? 答案是存放到 <code v-pre>name</code> 变量里了。可以直接输入 <code v-pre>name</code> 查看变量内容:</p>
 <div class="language-py" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">>>></span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> name</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Mr.Hope'</span></span></code></pre>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Mister.Duan'</span></span></code></pre>
 </div><div class="hint-container tip">
 <p class="hint-container-title">变量</p>
 <p>请回忆初中数学所学的代数基础知识:</p>
@@ -33,22 +33,22 @@
 <p>在计算机程序中，变量不仅可以为整数或浮点数，还可以是字符串，因此，<code v-pre>name</code> 作为一个变量就是一个字符串。</p>
 <p>要打印出 <code v-pre>name</code> 变量的内容，除了直接写 <code v-pre>name</code> 然后按回车外，还可以用 <code v-pre>print()</code> 函数:</p>
 <div class="language-py" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">>>></span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(name)</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Mr.Hope</span></span></code></pre>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Mister.Duan</span></span></code></pre>
 </div></div>
 <p>有了输入和输出，我们就可以把上次打印 <code v-pre>'hello, world'</code> 的程序改成有点意义的程序了:</p>
 <div class="language-py" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">name </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> input</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
 <span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'hello,'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, name)</span></span></code></pre>
-</div><p>运行上面的程序，第一行代码会让用户输入任意字符作为自己的名字，然后存入 <code v-pre>name</code> 变量中；第二行代码会根据用户的名字向用户说 <code v-pre>hello</code>，比如输入 <code v-pre>Mr.Hope</code></p>
+</div><p>运行上面的程序，第一行代码会让用户输入任意字符作为自己的名字，然后存入 <code v-pre>name</code> 变量中；第二行代码会根据用户的名字向用户说 <code v-pre>hello</code>，比如输入 <code v-pre>Mister.Duan</code></p>
 <div class="language-sh" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">C:/Workspace</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">> </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">python</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> hello.py</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Mr.Hope</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">hello,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mr.Hope</span></span></code></pre>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Mister.Duan</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">hello,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mister.Duan</span></span></code></pre>
 </div><p>但是程序运行的时候，没有任何提示信息告诉用户:“嘿，赶紧输入您的名字”，这样显得很不友好。所以 <code v-pre>input()</code> 可以让您显示一个字符串来提示用户，于是我们把代码改成:</p>
 <div class="language-py" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">name </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> input</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'please enter your name: '</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
 <span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'hello,'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, name)</span></span></code></pre>
 </div><p>再次运行这个程序，您会发现，程序一运行，会首先打印出 <code v-pre>please enter your name:</code>，这样，用户就可以根据提示，输入名字后，得到 <code v-pre>hello, xxx</code> 的输出:</p>
 <div class="language-sh" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">C:/Workspace</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">> </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">python</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> hello.py</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">please</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> enter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> your</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> name:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mr.Hope</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">hello,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mr.Hope</span></span></code></pre>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">please</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> enter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> your</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> name:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mister.Duan</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">hello,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mister.Duan</span></span></code></pre>
 </div><p>每次运行该程序，根据用户输入的不同，输出结果也会不同。</p>
 <p>在命令行下，输入和输出就是这么简单。</p>
 <h2 id="小结" tabindex="-1"><a class="header-anchor" href="#小结"><span>小结</span></a></h2>

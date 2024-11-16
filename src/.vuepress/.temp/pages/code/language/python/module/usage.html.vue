@@ -6,7 +6,7 @@
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' a test module '</span></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">__author__ </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'Mr.Hope'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">__author__ </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'Mister.Duan'</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> sys</span></span>
 <span class="line"></span>
@@ -31,7 +31,7 @@
 </div><p>导入 sys 模块后，我们就有了变量 sys 指向该模块，利用 sys 这个变量，就可以访问 sys 模块的所有功能。</p>
 <p>sys 模块有一个 <code v-pre>argv</code> 变量，用 list 存储了命令行的所有参数。<code v-pre>argv</code> 至少有一个元素，因为第一个参数永远是该.py 文件的名称，例如:</p>
 <p>运行 <code v-pre>python3 hello.py</code> 获得的 <code v-pre>sys.argv</code> 就是 <code v-pre>['hello.py']</code>；</p>
-<p>运行 <code v-pre>python3 hello.py Mr.Hope</code> 获得的 <code v-pre>sys.argv</code> 就是 <code v-pre>['hello.py', 'Mr.Hope']</code>。</p>
+<p>运行 <code v-pre>python3 hello.py Mister.Duan</code> 获得的 <code v-pre>sys.argv</code> 就是 <code v-pre>['hello.py', 'Mister.Duan']</code>。</p>
 <p>最后，注意到这两行代码:</p>
 <div class="language-py" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">if</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> __name__</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'__main__'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">    test</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span></code></pre>

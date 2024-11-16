@@ -10,7 +10,7 @@
 </ol>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>对于初学者，Mr.Hope 建议使用模型向导。</p>
+<p>对于初学者，Mister.Duan 建议使用模型向导。</p>
 </div>
 <h2 id="创建空模型" tabindex="-1"><a class="header-anchor" href="#创建空模型"><span>创建空模型</span></a></h2>
 <p>空模型选项将打开不含任何组件或研究的 COMSOL Desktop 界面。可以右键单击模型树，添加特定空间维度的组件、物理场接口或研究。</p>

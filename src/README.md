@@ -5,7 +5,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo.svg
-heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
+heroText: 𝓜𝓻. Duan
 tagline: Where there is light, there is hope
 head:
   - - meta

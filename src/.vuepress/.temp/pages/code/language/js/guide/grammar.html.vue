@@ -17,7 +17,7 @@
 <p class="hint-container-title">注意</p>
 <p>JavaScript 并不强制要求在每个语句的结尾加 <code v-pre>;</code> ，浏览器中负责执行 JavaScript 代码的引擎会自动在每个语句的结尾补上 <code v-pre>;</code>。</p>
 <p>让 JavaScript 引擎自动加分号在某些情况下会改变程序的语义，导致运行结果与期望不一致。在本教程中，所有语句都会添加 <code v-pre>;</code> 不会省略。</p>
-<p>在 Mr.Hope 的所有项目中，都强制要求在行末添加分号。</p>
+<p>在 Mister.Duan 的所有项目中，都强制要求在行末添加分号。</p>
 </div>
 <h2 id="区块" tabindex="-1"><a class="header-anchor" href="#区块"><span>区块</span></a></h2>
 <p>JavaScript 使用大括号，将多个相关的语句组合在一起，称为“区块”(block)。</p>
@@ -31,7 +31,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">缩进</p>
 <p>缩进也可以是一个 tab (四个空格宽)。</p>
-<p>Mr.Hope 的个人喜好是设置两个空格，这样可以减少缩进量，即减少代码右移。</p>
+<p>Mister.Duan 的个人喜好是设置两个空格，这样可以减少缩进量，即减少代码右移。</p>
 </div>
 <p>对于 <code v-pre>var</code> 命令来说，JavaScript 的区块不构成单独的作用域(scope)。</p>
 <div class="language-js" data-highlighter="shiki" data-ext="js" data-title="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>

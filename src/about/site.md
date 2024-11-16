@@ -11,7 +11,7 @@ breadcrumb: false
 
 ## 仓库链接
 
-- [**Mr.Hope 的个人博客**](https://github.com/Mister-Hope/Mister-Hope.github.io)
+- [**Mister.Duan 的个人博客**](https://github.com/Mister-Hope/Mister-Hope.github.io)
 
 ## 版权声明
 

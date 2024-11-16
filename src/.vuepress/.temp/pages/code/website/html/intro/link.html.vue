@@ -33,7 +33,7 @@
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  /></span></span>
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&#x3C;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">></span></span></code></pre>
 </div><h2 id="统一资源定位符-url" tabindex="-1"><a class="header-anchor" href="#统一资源定位符-url"><span>统一资源定位符 (URL)</span></a></h2>
-<p>统一资源定位符(英文: Uniform Resource Locator，简写: URL)是一个定义了在网络上的位置的一个文本字符串。例如我的博客主页定位在 <code v-pre>https://mister-hope.com</code>.</p>
+<p>统一资源定位符(英文: Uniform Resource Locator，简写: URL)是一个定义了在网络上的位置的一个文本字符串。例如我的博客主页定位在 <code v-pre>https://mister-duan.github.io</code>.</p>
 <p>URL 使用路径查找文件。路径指定文件系统中您感兴趣的文件所在的位置。</p>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>

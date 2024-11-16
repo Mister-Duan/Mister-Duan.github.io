@@ -41,7 +41,7 @@
 <p>JSON 字符串需要用双括号 <code v-pre>&quot;</code> 包含，如果内部含有英文引号 <code v-pre>&quot;</code>，需要使用 <code v-pre>\</code> 转义。</p>
 <p><strong>例:</strong></p>
 <ul>
-<li><code v-pre>&quot;Mr.Hope is handsome&quot;</code></li>
+<li><code v-pre>&quot;Mister.Duan is handsome&quot;</code></li>
 <li><code v-pre>&quot;春眠不觉晓，处处闻啼鸟&quot;</code></li>
 <li><code v-pre>&quot;A saying goes: \&quot;Great hopes make great man.\&quot;&quot;</code></li>
 </ul>

@@ -157,7 +157,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>由于换算采用的浮点数运算，所以运算结果会和预期结果有一点点偏差。</p>
-<p>所以 Mr.Hope 并不建议使用 rpx 单位。</p>
+<p>所以 Mister.Duan 并不建议使用 rpx 单位。</p>
 </div>
 </li>
 <li>

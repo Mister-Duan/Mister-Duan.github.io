@@ -164,7 +164,7 @@
 <ul>
 <li><a href="https://github.com/Hope-Studio/wxminiappdemo" target="_blank" rel="noopener noreferrer">GitHub repository</a></li>
 </ul>
-<h2 id="mr-hope-框架说明" tabindex="-1"><a class="header-anchor" href="#mr-hope-框架说明"><span>Mr.Hope 框架说明</span></a></h2>
+<h2 id="mister-duan-框架说明" tabindex="-1"><a class="header-anchor" href="#mister-duan-框架说明"><span>Mister.Duan 框架说明</span></a></h2>
 <ul>
 <li>
 <p><RouteLink to="/code/mini-app/framework/">小程序框架使用说明</RouteLink></p>

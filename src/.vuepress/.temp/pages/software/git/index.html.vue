@@ -2,7 +2,7 @@
 <div class="hint-container info">
 <p class="hint-container-title">交互式学习</p>
 <p>如果您觉得本文太枯燥，这里有一个 <a href="http://learngitbranching.js.org/" target="_blank" rel="noopener noreferrer">交互式的分支演示与学习网站</a>。您可以在这里领略 Git 的魅力。</p>
-<p>但 Mr.Hope 仍建议您操作完再系统的学习并阅读以下内容。</p>
+<p>但 Mister.Duan 仍建议您操作完再系统的学习并阅读以下内容。</p>
 </div>
 <!-- more -->
 <h2 id="git-安装" tabindex="-1"><a class="header-anchor" href="#git-安装"><span>Git 安装</span></a></h2>
@@ -69,10 +69,10 @@
 <p><a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer">官方文档</a></p>
 </li>
 <li>
-<p><a href="https://mister-hope.com/file/git/gitCheatSheet.pdf" target="_blank" rel="noopener noreferrer">Git-cheatSheet</a> (PDF)</p>
+<p><a href="https://mister-duan.github.io/file/git/gitCheatSheet.pdf" target="_blank" rel="noopener noreferrer">Git-cheatSheet</a> (PDF)</p>
 </li>
 <li>
-<p><a href="https://mister-hope.com/file/git/progit_v2.1.45.pdf" target="_blank" rel="noopener noreferrer">Pro Git</a> (PDF)</p>
+<p><a href="https://mister-duan.github.io/file/git/progit_v2.1.45.pdf" target="_blank" rel="noopener noreferrer">Pro Git</a> (PDF)</p>
 </li>
 </ul>
 <div class="hint-container tip">

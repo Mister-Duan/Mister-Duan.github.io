@@ -60,7 +60,7 @@
 </div>
 <h2 id="启用-corepack" tabindex="-1"><a class="header-anchor" href="#启用-corepack"><span>启用 Corepack</span></a></h2>
 <p>Node.js 自带的包管理工具 npm 并不是那么的强大，其安装速度也很慢，所以社区开发了一些其他的包管理工具如 <code v-pre>yarn</code> 和 <code v-pre>pnpm</code>，它们有自己的优势。</p>
-<p>Mr.Hope 推荐使用 pnpm 进行包管理，因为它使用硬链接索引包文件，安装速度更快而且节省磁盘空间。</p>
+<p>Mister.Duan 推荐使用 pnpm 进行包管理，因为它使用硬链接索引包文件，安装速度更快而且节省磁盘空间。</p>
 <p>从 v16 开始，Node.js 引入了 Corepack 工具，并在 package.json 支持了 <code v-pre>packageManager</code> 选项以支持第三方管理工具。</p>
 <p>你需要通过下方命令启用 Corepack:</p>
 <div class="language-bash" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">corepack</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> enable</span></span></code></pre>

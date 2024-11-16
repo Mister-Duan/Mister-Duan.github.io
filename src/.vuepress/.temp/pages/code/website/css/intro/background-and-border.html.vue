@@ -184,7 +184,7 @@
 <p>全部规则请见 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/background" target="_blank" rel="noopener noreferrer">MDN</a></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>Mr.Hope 极其不建议使用这个简写，因为它比较复杂，很容易导致预期之外的结果。</p>
+<p>Mister.Duan 极其不建议使用这个简写，因为它比较复杂，很容易导致预期之外的结果。</p>
 </div>
 <h3 id="背景的可访问性考虑" tabindex="-1"><a class="header-anchor" href="#背景的可访问性考虑"><span>背景的可访问性考虑</span></a></h3>
 <p>当您把文字放在背景图片或颜色上面时，需要保持足够的对比度让文字清晰易读。如果指定了一个图像，并且文本将被放置在该图像的顶部，您还应该指定一个 <code v-pre>background-color</code> ，以便在图像未加载时文本也足够清晰。</p>

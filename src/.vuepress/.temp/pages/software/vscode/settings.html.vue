@@ -1,4 +1,4 @@
-<template><div><p>这是 Mr.Hope 个人使用的 VS Code 设置，部分设置是<RouteLink to="/software/vscode/extension.html">这里</RouteLink>的插件配置</p>
+<template><div><p>这是 Mister.Duan 个人使用的 VS Code 设置，部分设置是<RouteLink to="/software/vscode/extension.html">这里</RouteLink>的插件配置</p>
 <p>将下面内容拷贝至 setting.json 以更改 VS Code 设置</p>
 <div class="language-json line-numbers-mode" data-highlighter="shiki" data-ext="json" data-title="json" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
 <span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  // 编辑器配置</span></span>

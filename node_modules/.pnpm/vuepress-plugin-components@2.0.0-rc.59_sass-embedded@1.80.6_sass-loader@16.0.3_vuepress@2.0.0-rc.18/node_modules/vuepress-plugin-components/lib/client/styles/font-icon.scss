@@ -1,0 +1,7 @@
+.font-icon {
+  display: inline-block;
+
+  [vp-content] & {
+    vertical-align: middle;
+  }
+}

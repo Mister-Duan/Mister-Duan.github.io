@@ -88,7 +88,7 @@
 <p class="hint-container-title">栅格素材</p>
 <p>此处有一套现成的栅格素材，包含 16、24、28、32、36、48 等六个尺寸。</p>
 <ul>
-<li><a href="https://mister-hope.com/file/design/tool-grid.ai" target="_blank" rel="noopener noreferrer">工具栅格下载</a></li>
+<li><a href="https://mister-duan.github.io/file/design/tool-grid.ai" target="_blank" rel="noopener noreferrer">工具栅格下载</a></li>
 </ul>
 </div>
 <h2 id="像素对齐" tabindex="-1"><a class="header-anchor" href="#像素对齐"><span>像素对齐</span></a></h2>

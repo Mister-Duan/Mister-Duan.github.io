@@ -12,7 +12,7 @@
 <p>此外，您可以安装和更改文件图标主题。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>Mr.Hope 个人推荐 <code v-pre>One Dark Pro</code> 主题和 <code v-pre>Material Icon Theme</code> 文件图标主题。</p>
+<p>Mister.Duan 个人推荐 <code v-pre>One Dark Pro</code> 主题和 <code v-pre>Material Icon Theme</code> 文件图标主题。</p>
 <p>您需要从扩展应用应用商店中安装它们。</p>
 </div>
 <h2 id="自定义键盘快捷键" tabindex="-1"><a class="header-anchor" href="#自定义键盘快捷键"><span>自定义键盘快捷键</span></a></h2>
@@ -46,7 +46,7 @@
 </div><div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这需要安装支持字体连字的字体。FiraCode 是 VS Code 团队中流行的字体。</p>
-<p>Mr.Hope 也强力推荐安装并使用这一字体 (字体详见云文档共享文件)</p>
+<p>Mister.Duan 也强力推荐安装并使用这一字体 (字体详见云文档共享文件)</p>
 </div>
 </li>
 <li>
