@@ -6,8 +6,8 @@
     <link>https://mister-duan.github.io/en/</link>
     <description>Mister.Duan personal blog</description>
     <language>en-US</language>
-    <pubDate>Sat, 16 Nov 2024 04:28:32 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Nov 2024 04:28:32 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Nov 2024 06:13:32 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Nov 2024 06:13:32 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed, © 2019-present Mister.Duan</copyright>
@@ -32,7 +32,7 @@
 </div>
 <h2>Repository Link</h2>
 <ul>
-<li><a href="https://github.com/Mister-Hope/blog" target="_blank" rel="noopener noreferrer"><strong>Mister.Duan’s Personal Blog</strong></a></li>
+<li><a href="https://github.com/Mister-Duan" target="_blank" rel="noopener noreferrer"><strong>Mister.Duan’s Personal Blog</strong></a></li>
 </ul>
 <h2>Disclamer</h2>
 <p>This blog contains books &amp; blogs from <a href="https://github.com/ruanyf" target="_blank" rel="noopener noreferrer">ruanyf</a> and <a href="https://weibo.com/liaoxuefeng" target="_blank" rel="noopener noreferrer">廖雪峰</a>.</p>
