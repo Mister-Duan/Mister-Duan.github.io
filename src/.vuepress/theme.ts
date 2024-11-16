@@ -84,17 +84,16 @@ export default hopeTheme(
         excerptLength: 0,
       },
 
+      
       comment: {
         provider: "Waline",
-        serverURL: "https://comment.mister-hope.com",
+        serverURL: "https://waline-red-zeta-10.vercel.app",
       },
-
-      docsearch: {
-        appId: "92EXITUA7H",
-        apiKey: "33b44aab931cbbd821d1cf25727c68aa",
-        indexName: "mister-hope",
-      },
-
+      // docsearch: {
+      //   appId: "92EXITUA7H",
+      //   apiKey: "33b44aab931cbbd821d1cf25727c68aa",
+      //   indexName: "mister-hope",
+      // },
       feed: {
         atom: true,
         json: true,

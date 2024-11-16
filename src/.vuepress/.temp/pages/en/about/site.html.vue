@@ -5,7 +5,7 @@
 </div>
 <h2 id="repository-link" tabindex="-1"><a class="header-anchor" href="#repository-link"><span>Repository Link</span></a></h2>
 <ul>
-<li><a href="https://github.com/Mister-Hope/blog" target="_blank" rel="noopener noreferrer"><strong>Mister.Duan’s Personal Blog</strong></a></li>
+<li><a href="https://github.com/Mister-Duan" target="_blank" rel="noopener noreferrer"><strong>Mister.Duan’s Personal Blog</strong></a></li>
 </ul>
 <h2 id="disclamer" tabindex="-1"><a class="header-anchor" href="#disclamer"><span>Disclamer</span></a></h2>
 <p>This blog contains books &amp; blogs from <a href="https://github.com/ruanyf" target="_blank" rel="noopener noreferrer">ruanyf</a> and <a href="https://weibo.com/liaoxuefeng" target="_blank" rel="noopener noreferrer">廖雪峰</a>.</p>

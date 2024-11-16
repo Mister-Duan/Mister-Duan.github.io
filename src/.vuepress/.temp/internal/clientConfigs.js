@@ -15,11 +15,10 @@ import * as clientConfig13 from '/Users/carson/Desktop/work/cms/src/.vuepress/.t
 import * as clientConfig14 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/md-enhance/config.js'
 import * as clientConfig15 from '/Users/carson/Desktop/work/cms/node_modules/.pnpm/@vuepress+plugin-photo-swipe@2.0.0-rc.56_vuepress@2.0.0-rc.18/node_modules/@vuepress/plugin-photo-swipe/lib/client/config.js'
 import * as clientConfig16 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/pwa/config.js'
-import * as clientConfig17 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/docsearch/config.js'
-import * as clientConfig18 from '/Users/carson/Desktop/work/cms/node_modules/.pnpm/@vuepress+plugin-redirect@2.0.0-rc.56_vuepress@2.0.0-rc.18/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
-import * as clientConfig19 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/revealjs/config.js'
-import * as clientConfig20 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/theme-hope/config.js'
-import * as clientConfig21 from '/Users/carson/Desktop/work/cms/src/.vuepress/client.ts'
+import * as clientConfig17 from '/Users/carson/Desktop/work/cms/node_modules/.pnpm/@vuepress+plugin-redirect@2.0.0-rc.56_vuepress@2.0.0-rc.18/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
+import * as clientConfig18 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/revealjs/config.js'
+import * as clientConfig19 from '/Users/carson/Desktop/work/cms/src/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig20 from '/Users/carson/Desktop/work/cms/src/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -43,5 +42,4 @@ export const clientConfigs = [
   clientConfig18,
   clientConfig19,
   clientConfig20,
-  clientConfig21,
 ].map((m) => m.default).filter(Boolean)

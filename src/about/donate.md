@@ -1,5 +1,5 @@
 ---
-date: 2022-03-13
+date: 2024-11-16
 title: 捐赠
 icon: support
 article: false
@@ -8,7 +8,7 @@ timeline: false
 
 如果你喜欢我的开源项目，并愿意给予支持的话，欢迎进行捐赠赞赏。
 
-以下是我的二维码:
+以下是主题作者[Mr.Hope](https://github.com/Mister-Hope)的二维码:
 
 ![支付宝](./assets/alipay.jpg)
 
