@@ -13,6 +13,6 @@ tag:
 - Age: 32
 - Marital status: married
 - Single: No
-- Hobbies: programming
+- Hobbies: programming  running
 
 @slideend
