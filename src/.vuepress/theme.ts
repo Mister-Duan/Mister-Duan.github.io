@@ -132,10 +132,10 @@ export default hopeTheme(
           icon: "/assets/icon/apple-touch-icon.png",
           statusBarColor: "white",
         },
-        msTile: {
-          image: "/assets/icon/ms-icon-144.png",
-          color: "#ffffff",
-        },
+        // msTile: {
+        //   image: "/assets/icon/ms-icon-144.png",
+        //   color: "#ffffff",
+        // },
         manifest: {
           name: "Mister.Duan 的个人博客",
           short_name: "Mister.Duan Blog",
@@ -153,13 +153,13 @@ export default hopeTheme(
               type: "image/png",
             },
             {
-              src: "/assets/icon/chrome-mask-192.png",
+              src: "/assets/icon/chrome-192.png",
               sizes: "192x192",
               purpose: "maskable",
               type: "image/png",
             },
             {
-              src: "/assets/icon/chrome-mask-512.png",
+              src: "/assets/icon/chrome-512.png",
               sizes: "512x512",
               purpose: "maskable",
               type: "image/png",
