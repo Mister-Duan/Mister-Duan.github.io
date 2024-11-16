@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://mister-hope.com/en/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://mister-duan.github.io/en/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://mister-hope.com/en/rss.xml" rel="self" type="application/rss+xml"/>
-    <title>My name is Mr.Hope</title>
-    <link>https://mister-hope.com/en/</link>
-    <description>Mr.Hope personal blog</description>
+    <atom:link href="https://mister-duan.github.io/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>My name is Mister.Duan</title>
+    <link>https://mister-duan.github.io/en/</link>
+    <description>Mister.Duan personal blog</description>
     <language>en-US</language>
-    <pubDate>Sat, 16 Nov 2024 03:25:17 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Nov 2024 03:25:17 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Nov 2024 04:28:32 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Nov 2024 04:28:32 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <copyright>MIT Licensed, © 2019-present Mr.Hope</copyright>
+    <copyright>MIT Licensed, © 2019-present Mister.Duan</copyright>
     <item>
-      <title>Mr.Hope Intro</title>
-      <link>https://mister-hope.com/en/about/</link>
-      <guid>https://mister-hope.com/en/about/</guid>
-      <source url="https://mister-hope.com/en/rss.xml">Mr.Hope Intro</source>
+      <title>Mister.Duan Intro</title>
+      <link>https://mister-duan.github.io/en/about/</link>
+      <guid>https://mister-duan.github.io/en/about/</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">Mister.Duan Intro</source>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>About site</title>
-      <link>https://mister-hope.com/en/about/site.html</link>
-      <guid>https://mister-hope.com/en/about/site.html</guid>
-      <source url="https://mister-hope.com/en/rss.xml">About site</source>
-      <description>About site building This site is built with VuePress. Repository Link Mr.Hope’s Personal Blog Disclamer This blog contains books &amp; blogs from ruanyf and 廖雪峰. Great thanks to them.</description>
+      <link>https://mister-duan.github.io/en/about/site.html</link>
+      <guid>https://mister-duan.github.io/en/about/site.html</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">About site</source>
+      <description>About site building This site is built with VuePress. Repository Link Mister.Duan’s Personal Blog Disclamer This blog contains books &amp; blogs from ruanyf and 廖雪峰. Great thanks to...</description>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <div class="hint-container tip">
@@ -32,7 +32,7 @@
 </div>
 <h2>Repository Link</h2>
 <ul>
-<li><a href="https://github.com/Mister-Hope/blog" target="_blank" rel="noopener noreferrer"><strong>Mr.Hope’s Personal Blog</strong></a></li>
+<li><a href="https://github.com/Mister-Hope/blog" target="_blank" rel="noopener noreferrer"><strong>Mister.Duan’s Personal Blog</strong></a></li>
 </ul>
 <h2>Disclamer</h2>
 <p>This blog contains books &amp; blogs from <a href="https://github.com/ruanyf" target="_blank" rel="noopener noreferrer">ruanyf</a> and <a href="https://weibo.com/liaoxuefeng" target="_blank" rel="noopener noreferrer">廖雪峰</a>.</p>
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>Code Note</title>
-      <link>https://mister-hope.com/en/code/</link>
-      <guid>https://mister-hope.com/en/code/</guid>
-      <source url="https://mister-hope.com/en/rss.xml">Code Note</source>
+      <link>https://mister-duan.github.io/en/code/</link>
+      <guid>https://mister-duan.github.io/en/code/</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">Code Note</source>
       <description>Info Code notes only contains Chinese version.</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container info">
@@ -54,9 +54,9 @@
     </item>
     <item>
       <title>Notes</title>
-      <link>https://mister-hope.com/en/note/</link>
-      <guid>https://mister-hope.com/en/note/</guid>
-      <source url="https://mister-hope.com/en/rss.xml">Notes</source>
+      <link>https://mister-duan.github.io/en/note/</link>
+      <guid>https://mister-duan.github.io/en/note/</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">Notes</source>
       <description>Tips Note, all the notes only contains Chinese version. Seasons Introduction This is a collection of prose poems I wrote in Senior 1, originally published in the qzone dairy. La...</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
@@ -110,9 +110,9 @@
     </item>
     <item>
       <title>Software</title>
-      <link>https://mister-hope.com/en/software/</link>
-      <guid>https://mister-hope.com/en/software/</guid>
-      <source url="https://mister-hope.com/en/rss.xml">Software</source>
+      <link>https://mister-duan.github.io/en/software/</link>
+      <guid>https://mister-duan.github.io/en/software/</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">Software</source>
       <description>Info Most of the software guide only contains Chinese version. Http Server</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container info">
@@ -127,9 +127,9 @@
     </item>
     <item>
       <title>Nginx</title>
-      <link>https://mister-hope.com/en/software/nginx.html</link>
-      <guid>https://mister-hope.com/en/software/nginx.html</guid>
-      <source url="https://mister-hope.com/en/rss.xml">Nginx</source>
+      <link>https://mister-duan.github.io/en/software/nginx.html</link>
+      <guid>https://mister-duan.github.io/en/software/nginx.html</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">Nginx</source>
       <description>Nginx Intro Nginx is a high performance HTTP and reverse proxy server and an IMAP / POP3 / SMTP proxy server. It features low memory, high concurrency, high stability, and Nginx...</description>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
