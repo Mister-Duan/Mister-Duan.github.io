@@ -10,11 +10,14 @@ jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
+          
+      - run: cd /app/cms
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -26,9 +29,7 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-
-      - run: cd /app/cms
-      
+  
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
