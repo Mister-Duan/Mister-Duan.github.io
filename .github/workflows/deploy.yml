@@ -17,23 +17,21 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - run: cd ./app/cms
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: true
+      - uses: pnpm/action-setup@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
+
+      - name: Install pnpm
+        run: pnpm install
   
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run build:vite
+        run: cd ./app/cms && pnpm run build:vite
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
