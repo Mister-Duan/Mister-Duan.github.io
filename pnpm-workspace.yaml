@@ -1,0 +1,6 @@
+packages:
+  # packages/ 下所有子包，但是不包括子包下面的包
+  - 'packages/**'
+  # components/ 下所有的包，包含子包下面的子包
+  - 'components/**'
+  - 'app/**'

@@ -27,6 +27,8 @@ jobs:
           node-version: 20
           cache: pnpm
 
+      - run: cd /app/cms
+      
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
@@ -36,4 +38,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist
+          folder: app/cms/dist
