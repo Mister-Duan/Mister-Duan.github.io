@@ -11,12 +11,27 @@
     "personal-blog"
   ],
   "dependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^25.0.0",
+    "rollup": "^4.21.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "sass-embedded": "^1.77.8",
+    "typescript": "^5.5.4",
     "vite": "5.4.10",
+    "vitest": "^2.0.5",
     "vue": "3.5.12"
   },
   "devDependencies": {
     "cross-env": "7.0.3",
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "vite-plugin-windicss": "^1.9.3",
+    "windicss": "^3.5.6"
   },
   "packageManager": "pnpm@9.12.3"
 }
