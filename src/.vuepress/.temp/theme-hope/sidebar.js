@@ -1,1 +1,0 @@
-export const sidebarData = {"/software/git/":[],"/code/windows/":[],"/code/website/html/":[],"/code/website/css/":[],"/code/node-js/":[],"/code/github/":[],"/code/basic/":[],"/code/android/":[],"/about/":["","site","donate"]};

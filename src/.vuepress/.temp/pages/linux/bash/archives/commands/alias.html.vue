@@ -1,6 +1,0 @@
-<template><div><h1 id="alias" tabindex="-1"><a class="header-anchor" href="#alias"><span>alias</span></a></h1>
-<p><code v-pre>alias</code> 命令用于设置别名。通常用于在 Bash 设置文件中，设置别名。</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre v-pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">alias</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> dockerlogin</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'ssh www-data@adnan.local -p2222'</span></span></code></pre>
-</div></div></template>
-
-
