@@ -103,11 +103,9 @@ export default hopeTheme(
         mark: true,
         size: true,
       },
-
       markdownMath: {
         type: "mathjax",
       },
-
       markdownTab: true,
 
       mdEnhance: {
