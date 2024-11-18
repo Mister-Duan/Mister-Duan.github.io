@@ -16,10 +16,10 @@ export const zhNavbarConfig = navbar([
       //   text: "产品设计",
       //   children: ["/design/"],
       // },
-      // {
-      //   text: "后端运维",
-      //   children: ["/linux/"],
-      // },
+      {
+        text: "后端运维",
+        children: ["/linux/"],
+      },
     ],
   },
   // {
