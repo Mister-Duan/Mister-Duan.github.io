@@ -16,8 +16,8 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-          
-      - run: cd /app/cms
+
+      - run: cd ./app/cms
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -39,4 +39,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: app/cms/dist
+          folder: dist
