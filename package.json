@@ -17,18 +17,22 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@vue/test-utils": "^2.4.6",
+    "d3": "^7.8.5",
     "jsdom": "^25.0.0",
     "rollup": "^4.21.1",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "sass-embedded": "^1.77.8",
+    "three": "^0.170.0",
     "typescript": "^5.5.4",
     "vite": "5.4.10",
     "vitest": "^2.0.5",
     "vue": "3.5.12"
   },
   "devDependencies": {
+    "@vueuse/core": "^11.2.0",
     "cross-env": "7.0.3",
+    "lodash-es": "^4.17.21",
     "prettier": "3.3.3",
     "vite-plugin-windicss": "^1.9.3",
     "windicss": "^3.5.6"

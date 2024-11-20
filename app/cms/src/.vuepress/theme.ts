@@ -13,7 +13,7 @@ export default hopeTheme(
     },
     favicon: "/favicon.ico",
 
-    iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
+    // iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
 
     logo: "/logo.svg",
 
@@ -231,5 +231,5 @@ export default hopeTheme(
       revealjs: true,
     },
   },
-  false,
+  false
 );

@@ -26,6 +26,9 @@ importers:
       '@vue/test-utils':
         specifier: ^2.4.6
         version: 2.4.6
+      d3:
+        specifier: ^7.8.5
+        version: 7.9.0
       jsdom:
         specifier: ^25.0.0
         version: 25.0.1
@@ -41,6 +44,9 @@ importers:
       sass-embedded:
         specifier: ^1.77.8
         version: 1.80.6
+      three:
+        specifier: ^0.170.0
+        version: 0.170.0
       typescript:
         specifier: ^5.5.4
         version: 5.6.3
@@ -54,9 +60,15 @@ importers:
         specifier: 3.5.12
         version: 3.5.12(typescript@5.6.3)
     devDependencies:
+      '@vueuse/core':
+        specifier: ^11.2.0
+        version: 11.2.0(vue@3.5.12)
       cross-env:
         specifier: 7.0.3
         version: 7.0.3
+      lodash-es:
+        specifier: ^4.17.21
+        version: 4.17.21
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -3202,7 +3214,6 @@ packages:
 
   /@types/web-bluetooth@0.0.20:
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==, tarball: https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz}
-    dev: false
 
   /@types/webpack-env@1.18.5:
     resolution: {integrity: sha512-wz7kjjRRj8/Lty4B+Kr0LN6Ypc/3SymeCCGSbaXp2leH0ZVg/PriNiOwNj4bD4uphI7A8NXS4b6Gl373sfO5mA==, tarball: https://registry.npmmirror.com/@types/webpack-env/-/webpack-env-1.18.5.tgz}
@@ -4395,11 +4406,9 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-    dev: false
 
   /@vueuse/metadata@11.2.0:
     resolution: {integrity: sha512-L0ZmtRmNx+ZW95DmrgD6vn484gSpVeRbgpWevFKXwqqQxW9hnSi2Ppuh2BzMjnbv4aJRiIw8tQatXT9uOB23dQ==, tarball: https://registry.npmmirror.com/@vueuse/metadata/-/metadata-11.2.0.tgz}
-    dev: false
 
   /@vueuse/shared@11.2.0(vue@3.5.12):
     resolution: {integrity: sha512-VxFjie0EanOudYSgMErxXfq6fo8vhr5ICI+BuE3I9FnX7ePllEsVrRQ7O6Q1TLgApeLuPKcHQxAXpP+KnlrJsg==, tarball: https://registry.npmmirror.com/@vueuse/shared/-/shared-11.2.0.tgz}
@@ -4408,7 +4417,6 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-    dev: false
 
   /@waline/api@1.0.0-alpha.8:
     resolution: {integrity: sha512-S6pgUUfv+gcXU3hiW3PNUwiUvPy7bXmmLB/bwdU3hN5YVT5Q7CxyVSLA3oJkrNO5lcisKK1GBPv0H2W1uB0eGA==, tarball: https://registry.npmmirror.com/@waline/api/-/api-1.0.0-alpha.8.tgz}
@@ -8115,7 +8123,6 @@ packages:
 
   /lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, tarball: https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz}
-    dev: false
 
   /lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==, tarball: https://registry.npmmirror.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz}
@@ -10642,6 +10649,10 @@ packages:
       tslib: 2.8.1
     dev: false
 
+  /three@0.170.0:
+    resolution: {integrity: sha512-FQK+LEpYc0fBD+J8g6oSEyyNzjp+Q7Ks1C568WWaoMRLW+TkNNWmenWeGgJjV105Gd+p/2ql1ZcjYvNiPZBhuQ==, tarball: https://registry.npmmirror.com/three/-/three-0.170.0.tgz}
+    dev: false
+
   /thunky@1.1.0:
     resolution: {integrity: sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==, tarball: https://registry.npmmirror.com/thunky/-/thunky-1.1.0.tgz}
     dev: false
@@ -11261,7 +11272,6 @@ packages:
         optional: true
     dependencies:
       vue: 3.5.12(typescript@5.6.3)
-    dev: false
 
   /vue-eslint-parser@9.4.3(eslint@8.57.1):
     resolution: {integrity: sha512-2rYRLWlIpaiN8xbPiDyXZXRgLGOtWxERV7ND5fFAv5qo1D2N9Fu9MNajBNc6o13lZ+24DAWCkQCvj4klgmcITg==, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.4.3.tgz}
