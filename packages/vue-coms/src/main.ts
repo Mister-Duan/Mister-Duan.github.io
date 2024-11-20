@@ -1,9 +1,9 @@
+// 引入自定义组件
+import TextFold from './components/Text/src/Fold.vue'
 import 'virtual:windi.css'
+import 'virtual:windi-utilities.css'
 import { createApp } from 'vue'
 import App from './App.vue'
-
-// 引入自定义组件
-import TextFold from './components/Text/Fold.vue'
 
 const app = createApp(App)
 

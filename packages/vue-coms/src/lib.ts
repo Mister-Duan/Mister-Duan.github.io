@@ -1,9 +1,12 @@
 // 库的入口文件
 // 核心就是导出一个 install 方法
-
 import type { App, Plugin } from 'vue'
+// import 'virtual:windi.css'
+// import 'virtual:windi-base.css'
+// import 'virtual:windi-components.css'
+import 'virtual:windi-utilities.css'
 // 引入组件
-import TextFold from './components/Text/Fold.vue'
+import TextFold from './components/Text/src/Fold.vue'
 
 const components = [TextFold]
 
@@ -20,4 +23,5 @@ const vuecoms: Plugin = {
 }
 
 export default vuecoms
+
 export { TextFold }

@@ -69,6 +69,9 @@ importers:
 
   app/cms:
     dependencies:
+      '@dss/vuecoms':
+        specifier: workspace:^
+        version: link:../../packages/vue-coms
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.18
         version: 2.0.0-rc.18(sass-embedded@1.80.6)(typescript@5.6.3)

@@ -4,11 +4,9 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
-
 import path from 'path'
 import typescript from 'rollup-plugin-typescript2'
 import copy from 'rollup-plugin-copy'
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), vueJsx(), vueDevTools(), windiCSS()],

@@ -1,15 +1,15 @@
 import { onMounted } from "vue";
 import { defineClientConfig } from "vuepress/client";
-import MyComponent from './components/MyComponent.vue'
+import TextFoldExample from "../components/VueComs/TextFold.vue";
+// import "virtual:windi-base.css";
+// import "virtual:windi-components.css";
+import "virtual:windi-utilities.css";
+
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
-    console.log(MyComponent);
-    console.log('MyComponent');
-    
-    app.component('MyComponent', MyComponent)
+    app.component("TextFoldExample", TextFoldExample);
   },
   setup() {
-
     onMounted(() => {
       console.log(String.raw`
 

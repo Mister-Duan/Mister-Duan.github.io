@@ -1,5 +1,5 @@
 {
-  "name": "vue-coms",
+  "name": "@dss/vuecoms",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,9 +10,25 @@
       "import": "./dist/vuecoms-lib.es.ts",
       "types": "./dist/types/lib.d.ts"
     },
-    "./assets/style.css": "./dist/assets/style.css",
-    "./assets/font.scss": "./dist/assets/fonts/font.scss"
+    "./assets/style.css": "./dist/assets/style.css"
   },
+  "keywords": [
+    "text",
+    "fold",
+    "unfold",
+    "expand",
+    "vue",
+    "vue3",
+    "vueComponent",
+    "component",
+    "components",
+    "ui",
+    "framework",
+    "frontend"
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "test:unit": "vitest",
