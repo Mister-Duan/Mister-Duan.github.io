@@ -3,6 +3,8 @@ import { defineClientConfig } from "vuepress/client";
 import TextFoldExample from "../components/VueComs/TextFold.vue";
 import ThreeBasic from "../components/3d/threejs/Basic.vue";
 import CameraRectBasic from "../components/3d/threejs/CameraRectBasic.vue";
+import HighLight from "../components/3d/threejs/HighLight.vue";
+import HighLightAntialias from "../components/3d/threejs/HighLightAntialias.vue";
 
 // import "virtual:windi-base.css";
 // import "virtual:windi-components.css";
@@ -13,6 +15,8 @@ export default defineClientConfig({
     app.component("TextFoldExample", TextFoldExample);
     app.component("ThreeBasic", ThreeBasic);
     app.component("CameraRectBasic", CameraRectBasic);
+    app.component("HighLight", HighLight);
+    app.component("HighLightAntialias", HighLightAntialias);
   },
   setup() {
     onMounted(() => {

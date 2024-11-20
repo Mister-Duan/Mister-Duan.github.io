@@ -15,6 +15,14 @@ head:
 
 <ThreeBasic/>
 
-## 相机近大远小
+## 阵列立方体+相机适配
 
 <CameraRectBasic/>
+
+## 高光(平行光+环境光)
+
+<HighLight />
+
+## 渲染模糊或锯齿问题
+
+<HighLightAntialias/>
