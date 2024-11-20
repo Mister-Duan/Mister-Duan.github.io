@@ -1,15 +1,28 @@
 import { onMounted } from "vue";
 import { defineClientConfig } from "vuepress/client";
-import MyComponent from './components/MyComponent.vue'
+import TextFoldExample from "../components/VueComs/TextFold.vue";
+import TimeLine from "../components/VueComs/TimeLine/index.vue";
+import ThreeBasic from "../components/3d/threejs/Basic.vue";
+import CameraRectBasic from "../components/3d/threejs/CameraRectBasic.vue";
+import HighLight from "../components/3d/threejs/HighLight.vue";
+import HighLightAntialias from "../components/3d/threejs/HighLightAntialias.vue";
+import GuiExample from "../components/3d/threejs/GuiExample.vue";
+
+// import "virtual:windi-base.css";
+// import "virtual:windi-components.css";
+import "virtual:windi-utilities.css";
+
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
-    console.log(MyComponent);
-    console.log('MyComponent');
-    
-    app.component('MyComponent', MyComponent)
+    app.component("TextFoldExample", TextFoldExample);
+    app.component("ThreeBasic", ThreeBasic);
+    app.component("CameraRectBasic", CameraRectBasic);
+    app.component("HighLight", HighLight);
+    app.component("HighLightAntialias", HighLightAntialias);
+    app.component("GuiExample", GuiExample);
+    app.component("TimeLine", TimeLine);
   },
   setup() {
-
     onMounted(() => {
       console.log(String.raw`
 

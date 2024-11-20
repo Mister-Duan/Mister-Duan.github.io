@@ -2,8 +2,25 @@ import { appendDatePlugin } from "@vuepress/plugin-append-date";
 import { cachePlugin } from "@vuepress/plugin-cache";
 import type { UserConfig } from "vuepress";
 import { defineUserConfig } from "vuepress";
-
+import windicss from "vite-plugin-windicss";
 import theme from "./theme.js";
+
+const windicssPlugin = {
+  name: "windicss-plugin",
+  extendsBundlerOptions: (bundlerOptions, app) => {
+    bundlerOptions.viteOptions.plugins.push(
+      windicss({
+        // config: join(resolve(), "windi.config.js"),
+        // prefix: "c-",
+        scan: {
+          dirs: ["."], // all files in the cwd
+          // dirs: [join(resolve(), "./src")], // all files in the cwd
+          fileExtensions: ["vue", "html", "jsx", "tsx", "js", "ts", "md"], // also enabled scanning for js/ts
+        },
+      })
+    );
+  },
+};
 
 export default <UserConfig>defineUserConfig({
   dest: "../../dist",
@@ -17,7 +34,6 @@ export default <UserConfig>defineUserConfig({
       },
     ],
   ],
-
   locales: {
     "/": {
       lang: "zh-CN",
@@ -33,8 +49,10 @@ export default <UserConfig>defineUserConfig({
   },
 
   theme,
-
-  plugins: [appendDatePlugin(), cachePlugin({ type: "filesystem" })],
-
+  plugins: [
+    windicssPlugin,
+    appendDatePlugin(),
+    cachePlugin({ type: "filesystem" }),
+  ],
   shouldPrefetch: false,
 });
