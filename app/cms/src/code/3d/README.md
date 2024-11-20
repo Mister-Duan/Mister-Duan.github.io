@@ -26,3 +26,7 @@ head:
 ## 渲染模糊或锯齿问题
 
 <HighLightAntialias/>
+
+## Gui
+
+<GuiExample/>

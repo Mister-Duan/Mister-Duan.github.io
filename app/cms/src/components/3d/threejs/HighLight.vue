@@ -80,8 +80,6 @@ camera.lookAt(0, 0, 0); //相机观察目标指向Three.js坐标系原点
  * 创建渲染器对象
  */
 const renderer = new THREE.WebGLRenderer();
-// renderer.setSize(width, height); //设置three.js渲染区域的尺寸(像素px)
-// renderer.render(scene, camera); //执行渲染操作
 
 const setSize = () => {
   let size = webglBoxRef.value.getBoundingClientRect();
@@ -103,6 +101,7 @@ onMounted(() => {
   //Stats.domElement:web页面上输出计算结果,一个div元素
   webglBoxRef.value.appendChild(stats.domElement);
   stats.domElement.style.position = "absolute";
+  stats.domElement.style.zIndex = 0;
 
   // 设置相机控件轨道控制器OrbitControls
   const controls = new OrbitControls(camera, renderer.domElement);

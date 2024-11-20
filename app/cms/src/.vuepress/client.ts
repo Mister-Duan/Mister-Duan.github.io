@@ -5,6 +5,7 @@ import ThreeBasic from "../components/3d/threejs/Basic.vue";
 import CameraRectBasic from "../components/3d/threejs/CameraRectBasic.vue";
 import HighLight from "../components/3d/threejs/HighLight.vue";
 import HighLightAntialias from "../components/3d/threejs/HighLightAntialias.vue";
+import GuiExample from "../components/3d/threejs/GuiExample.vue";
 
 // import "virtual:windi-base.css";
 // import "virtual:windi-components.css";
@@ -17,6 +18,7 @@ export default defineClientConfig({
     app.component("CameraRectBasic", CameraRectBasic);
     app.component("HighLight", HighLight);
     app.component("HighLightAntialias", HighLightAntialias);
+    app.component("GuiExample", GuiExample);
   },
   setup() {
     onMounted(() => {

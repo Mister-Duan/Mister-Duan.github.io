@@ -66,8 +66,6 @@ pointLight.decay = 0.0; //设置光源不随距离衰减
 pointLight.position.set(400, 200, 300); //偏移光源位置，观察渲染效果变化
 scene.add(pointLight); //点光源添加到场景中
 
-console.log(pointLight);
-
 // width和height用来设置渲染后，输出的画布宽高度。
 // const width = 800; //宽度
 // const height = 500; //高度
@@ -106,7 +104,7 @@ onMounted(() => {
   //Stats.domElement:web页面上输出计算结果,一个div元素
   webglBoxRef.value.appendChild(stats.domElement);
   stats.domElement.style.position = "absolute";
-  console.log(stats.domElement.style);
+  stats.domElement.style.zIndex = 0;
 
   // 设置相机控件轨道控制器OrbitControls
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -121,16 +119,16 @@ onMounted(() => {
     //
   }); //监听鼠标、键盘事件
   // const clock = new THREE.Clock();
-  function render() {
-    stats.update();
-    // const spt = clock.getDelta() * 1000; //毫秒
-    // console.log("两帧渲染时间间隔(毫秒)", spt);
-    // console.log("帧率FPS", 1000 / spt);
-    renderer.render(scene, camera); //执行渲染操作
-    // mesh.rotateY(0.01); //每次绕y轴旋转0.01弧度
-    requestAnimationFrame(render); //请求再次执行渲染函数render，渲染下一帧
-  }
-  render();
+  // function render() {
+  //   stats.update();
+  //   // const spt = clock.getDelta() * 1000; //毫秒
+  //   // console.log("两帧渲染时间间隔(毫秒)", spt);
+  //   // console.log("帧率FPS", 1000 / spt);
+  renderer.render(scene, camera); //执行渲染操作
+  //   // mesh.rotateY(0.01); //每次绕y轴旋转0.01弧度
+  //   requestAnimationFrame(render); //请求再次执行渲染函数render，渲染下一帧
+  // }
+  // render();
 
   // onresize 事件会在窗口被调整大小时发生
   window.onresize = setSize;
