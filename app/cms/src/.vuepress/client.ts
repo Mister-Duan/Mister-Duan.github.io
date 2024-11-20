@@ -1,6 +1,9 @@
 import { onMounted } from "vue";
 import { defineClientConfig } from "vuepress/client";
 import TextFoldExample from "../components/VueComs/TextFold.vue";
+import ThreeBasic from "../components/3d/threejs/Basic.vue";
+import CameraRectBasic from "../components/3d/threejs/CameraRectBasic.vue";
+
 // import "virtual:windi-base.css";
 // import "virtual:windi-components.css";
 import "virtual:windi-utilities.css";
@@ -8,6 +11,8 @@ import "virtual:windi-utilities.css";
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
     app.component("TextFoldExample", TextFoldExample);
+    app.component("ThreeBasic", ThreeBasic);
+    app.component("CameraRectBasic", CameraRectBasic);
   },
   setup() {
     onMounted(() => {

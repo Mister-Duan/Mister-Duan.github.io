@@ -117,8 +117,4 @@ import { ref } from "vue";
 const fold = ref(true);
 </script>
 
-<style>
-.my-component h1 {
-  color: #34495e;
-}
-</style>
+<style></style>

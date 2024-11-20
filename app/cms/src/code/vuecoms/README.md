@@ -9,6 +9,4 @@ head:
       content: vue3|文本折叠|组件
 ---
 
-# 文本折叠组件
-
 <TextFoldExample />

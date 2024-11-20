@@ -12,6 +12,7 @@ export const code = arraySidebar([
     icon: "code",
     children: [
       "vuecoms/",
+      "3d/",
       // "node-js/",
       // "vue/",
       // "angular/",

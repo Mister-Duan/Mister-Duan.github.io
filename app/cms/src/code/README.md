@@ -12,3 +12,4 @@ category: code
 ### 前端开发
 
 - [vue组件库](vuecoms/)
+- [3d可视化](3d/)
