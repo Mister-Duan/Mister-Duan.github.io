@@ -8,6 +8,9 @@ import theme from "./theme.js";
 const windicssPlugin = {
   name: "windicss-plugin",
   extendsBundlerOptions: (bundlerOptions, app) => {
+    if (!bundlerOptions.viteOptions.plugins) {
+      bundlerOptions.viteOptions.plugins = [];
+    }
     bundlerOptions.viteOptions.plugins.push(
       windicss({
         // config: join(resolve(), "windi.config.js"),
@@ -50,9 +53,9 @@ export default <UserConfig>defineUserConfig({
 
   theme,
   plugins: [
-    windicssPlugin,
     appendDatePlugin(),
     cachePlugin({ type: "filesystem" }),
+    windicssPlugin,
   ],
   shouldPrefetch: false,
 });

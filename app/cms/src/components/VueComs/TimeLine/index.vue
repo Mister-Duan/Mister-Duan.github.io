@@ -187,22 +187,7 @@ const props = defineProps({
       ];
     },
   },
-  tip: { type: String, default: "" },
-  getScrollContainer: {
-    type: Array,
-    default: () => {
-      return {};
-    },
-  },
-  anchorLink: {
-    type: Object,
-    default: () => {
-      return [];
-    },
-  },
 });
-// const route = useRoute();
-
 const windowSize = useWindowSize();
 const boxRef = ref(null);
 const expand = ref(false); // 展开状态
