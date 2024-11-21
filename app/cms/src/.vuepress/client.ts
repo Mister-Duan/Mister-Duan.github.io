@@ -11,6 +11,7 @@ export default defineClientConfig({
       const TextFoldExample = await import(
         "../components/VueComs/TextFold.vue"
       );
+      console.log(TextFoldExample);
       const TimeLine = await import("../components/VueComs/TimeLine/index.vue");
       const ThreeBasic = await import("../components/3d/threejs/Basic.vue");
       const CameraRectBasic = await import(
@@ -23,13 +24,13 @@ export default defineClientConfig({
       const GuiExample = await import(
         "../components/3d/threejs/GuiExample.vue"
       );
-      app.component("TextFoldExample", TextFoldExample);
-      app.component("ThreeBasic", ThreeBasic);
-      app.component("CameraRectBasic", CameraRectBasic);
-      app.component("HighLight", HighLight);
-      app.component("HighLightAntialias", HighLightAntialias);
-      app.component("GuiExample", GuiExample);
-      app.component("TimeLine", TimeLine);
+      app.component("TextFoldExample", TextFoldExample.default);
+      app.component("ThreeBasic", ThreeBasic.default);
+      app.component("CameraRectBasic", CameraRectBasic.default);
+      app.component("HighLight", HighLight.default);
+      app.component("HighLightAntialias", HighLightAntialias.default);
+      app.component("GuiExample", GuiExample.default);
+      app.component("TimeLine", TimeLine.default);
     }
   },
   setup() {

@@ -1,6 +1,6 @@
 ---
 title: 前端组件
-icon: square-check
+icon: web
 date: 2024-11-19
 category: 前端组件
 ---
@@ -9,7 +9,7 @@ category: 前端组件
 
 ## 目录
 
-### 前端组件
+### 组件
 
 - [折叠组件](TextFold)
 - [‘转向’的时光轴](TimeLine)

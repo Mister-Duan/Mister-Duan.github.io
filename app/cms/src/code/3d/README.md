@@ -1,6 +1,6 @@
 ---
 title: 3d可视化
-icon: square-check
+icon: Dxuanzhuan
 date: 2024-11-19
 category: 3d
 head:

@@ -8,8 +8,8 @@ export const code = arraySidebar([
   //   children: ["basic/", "windows/", "github/"],
   // },
   {
-    text: "前端开发",
-    icon: "code",
+    text: "前端",
+    icon: "qianduankaifa",
     children: [
       "vuecoms/",
       "3d/",
