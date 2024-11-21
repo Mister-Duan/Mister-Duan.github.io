@@ -24,6 +24,8 @@ export default defineClientConfig({
       const GuiExample = await import(
         "../components/3d/threejs/GuiExample.vue"
       );
+      const PlaneExample = await import("../components/3d/threejs/Plane.vue");
+
       app.component("TextFoldExample", TextFoldExample.default);
       app.component("ThreeBasic", ThreeBasic.default);
       app.component("CameraRectBasic", CameraRectBasic.default);
@@ -31,6 +33,7 @@ export default defineClientConfig({
       app.component("HighLightAntialias", HighLightAntialias.default);
       app.component("GuiExample", GuiExample.default);
       app.component("TimeLine", TimeLine.default);
+      app.component("PlaneExample", PlaneExample.default);
     }
   },
   setup() {
