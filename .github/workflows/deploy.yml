@@ -29,7 +29,7 @@ jobs:
       - name: Install pnpm && Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: cd ./app/cms && pnpm install &&  && pnpm run build:vite
+        run: cd ./app/cms && pnpm install && pnpm run build:vite
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
