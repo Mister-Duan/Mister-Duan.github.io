@@ -1,7 +1,6 @@
 {
   "name": "@dss/vuecoms",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
   "type": "module",
   "module": "./dist/vuecoms-lib.es.ts",
   "types": "./dist/types/lib.d.ts",
@@ -12,20 +11,7 @@
     },
     "./assets/style.css": "./dist/assets/style.css"
   },
-  "keywords": [
-    "text",
-    "fold",
-    "unfold",
-    "expand",
-    "vue",
-    "vue3",
-    "vueComponent",
-    "component",
-    "components",
-    "ui",
-    "framework",
-    "frontend"
-  ],
+  "homepage": "https://github.com/Mister-Duan/Mister-Duan.github.io#readme",
   "files": [
     "dist"
   ],
@@ -61,5 +47,30 @@
     "vite": "^5.3.1",
     "vite-plugin-vue-devtools": "^7.3.1",
     "vue-tsc": "^2.0.21"
-  }
+  },
+  "keywords": [
+    "text",
+    "fold",
+    "unfold",
+    "expand",
+    "vue",
+    "vue3",
+    "vueComponent",
+    "component",
+    "components",
+    "ui",
+    "framework",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mister-Duan/Mister-Duan.github.io.git"
+  },
+  "author": "DSS",
+  "license": "MIT",
+  "description": "vue3 组件库",
+  "bugs": {
+    "url": "https://github.com/Mister-Duan/Mister-Duan.github.io/issues"
+  },
+  "main": "postbuild.js"
 }
