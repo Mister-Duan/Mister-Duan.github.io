@@ -29,3 +29,7 @@ head:
 ## 矩形
 
 <BufferGeometryRect />
+
+## 层级模型
+
+<GroupGeometryExample/>
