@@ -1,5 +1,5 @@
 ---
-title: 3d可视化
+title: threejs
 icon: Dxuanzhuan
 date: 2024-11-19
 category: 3d
@@ -13,4 +13,5 @@ head:
 
 ## 目录
 
-- [threejs](threejs/)
+- [入门](basic)
+- [BufferGeometry](geometry)

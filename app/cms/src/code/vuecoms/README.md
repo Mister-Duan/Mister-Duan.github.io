@@ -9,7 +9,5 @@ category: 前端组件
 
 ## 目录
 
-### 组件
-
 - [折叠组件](TextFold)
 - [‘转向’的时光轴](TimeLine)
