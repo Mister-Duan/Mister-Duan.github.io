@@ -33,3 +33,13 @@ head:
 ## 层级模型
 
 <GroupGeometryExample/>
+
+## 纹理贴图
+
+### 地球
+
+<CircleTextureExample/>
+
+### 地板
+
+<PlaneTextureExample/>
