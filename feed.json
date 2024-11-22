@@ -7,6 +7,32 @@
   "favicon": "https://mister-duan.github.io/favicon.ico",
   "items": [
     {
+      "title": "threejs",
+      "url": "https://mister-duan.github.io/code/3d/threejs/",
+      "id": "https://mister-duan.github.io/code/3d/threejs/",
+      "summary": "此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry",
+      "content_html": "<p>此处是 Mr.Duan 存放的一些代码笔记。</p>\n<h2>目录</h2>\n<ul>\n<li><a href=\"basic\">入门</a></li>\n<li><a href=\"geometry\">BufferGeometry</a></li>\n</ul>\n",
+      "date_published": "2024-11-19T00:00:00.000Z",
+      "date_modified": "2024-11-22T13:34:17.000Z",
+      "authors": [],
+      "tags": [
+        "3d"
+      ]
+    },
+    {
+      "title": "BufferGeometry",
+      "url": "https://mister-duan.github.io/code/3d/threejs/geometry.html",
+      "id": "https://mister-duan.github.io/code/3d/threejs/geometry.html",
+      "summary": "BufferGeometry 点",
+      "content_html": "\n<h2>点</h2>\n",
+      "date_published": "2024-11-19T00:00:00.000Z",
+      "date_modified": "2024-11-22T13:34:17.000Z",
+      "authors": [],
+      "tags": [
+        "3d"
+      ]
+    },
+    {
       "title": "‘转向’的时光轴",
       "url": "https://mister-duan.github.io/code/vuecoms/TimeLine.html",
       "id": "https://mister-duan.github.io/code/vuecoms/TimeLine.html",
@@ -22,10 +48,23 @@
       "title": "3d可视化",
       "url": "https://mister-duan.github.io/code/3d/",
       "id": "https://mister-duan.github.io/code/3d/",
-      "summary": "3d可视化 基础",
-      "content_html": "\n<h2>基础</h2>\n",
+      "summary": "此处是 Mr.Duan 存放的一些代码笔记。 目录",
+      "content_html": "<p>此处是 Mr.Duan 存放的一些代码笔记。</p>\n<h2>目录</h2>\n<ul>\n<li><a href=\"/code/3d/threejs/\" target=\"_blank\">threejs</a></li>\n</ul>\n",
       "date_published": "2024-11-19T00:00:00.000Z",
-      "date_modified": "2024-11-21T09:58:30.000Z",
+      "date_modified": "2024-11-22T13:34:17.000Z",
+      "authors": [],
+      "tags": [
+        "3d"
+      ]
+    },
+    {
+      "title": "threejs简单上手",
+      "url": "https://mister-duan.github.io/code/3d/threejs/basic.html",
+      "id": "https://mister-duan.github.io/code/3d/threejs/basic.html",
+      "summary": "3d可视化 定义 模型对象（mesh）=几何体（geometry）+材质（material） 基础",
+      "content_html": "\n<h2>定义</h2>\n<p>模型对象（mesh）=几何体（geometry）+材质（material）</p>\n<h2>基础</h2>\n",
+      "date_published": "2024-11-19T00:00:00.000Z",
+      "date_modified": "2024-11-22T13:34:17.000Z",
       "authors": [],
       "tags": [
         "3d"
@@ -48,10 +87,10 @@
       "title": "前端组件",
       "url": "https://mister-duan.github.io/code/vuecoms/",
       "id": "https://mister-duan.github.io/code/vuecoms/",
-      "summary": "此处是 Mr.Duan 存放的一些代码笔记。 目录 组件 折叠组件 ‘转向’的时光轴",
-      "content_html": "<p>此处是 Mr.Duan 存放的一些代码笔记。</p>\n<h2>目录</h2>\n<h3>组件</h3>\n<ul>\n<li><a href=\"TextFold\">折叠组件</a></li>\n<li><a href=\"TimeLine\">‘转向’的时光轴</a></li>\n</ul>\n",
+      "summary": "此处是 Mr.Duan 存放的一些代码笔记。 目录 折叠组件 ‘转向’的时光轴",
+      "content_html": "<p>此处是 Mr.Duan 存放的一些代码笔记。</p>\n<h2>目录</h2>\n<ul>\n<li><a href=\"TextFold\">折叠组件</a></li>\n<li><a href=\"TimeLine\">‘转向’的时光轴</a></li>\n</ul>\n",
       "date_published": "2024-11-19T00:00:00.000Z",
-      "date_modified": "2024-11-21T06:11:18.000Z",
+      "date_modified": "2024-11-22T13:34:17.000Z",
       "authors": [],
       "tags": [
         "前端组件"

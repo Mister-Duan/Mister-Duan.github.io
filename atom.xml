@@ -5,13 +5,49 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-11-21T13:16:00.508Z</updated>
+  <updated>2024-11-22T13:35:21.953Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
-  <category term="前端组件"/>
   <category term="3d"/>
+  <category term="前端组件"/>
   <category term="qianduankaifa"/>
+  <entry>
+    <title type="text">threejs</title>
+    <id>https://mister-duan.github.io/code/3d/threejs/</id>
+    <link href="https://mister-duan.github.io/code/3d/threejs/"/>
+    <updated>2024-11-22T13:34:17.000Z</updated>
+    <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<ul>
+<li><a href="basic">入门</a></li>
+<li><a href="geometry">BufferGeometry</a></li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<ul>
+<li><a href="basic">入门</a></li>
+<li><a href="geometry">BufferGeometry</a></li>
+</ul>
+]]></content>
+    <category term="3d"/>
+    <published>2024-11-19T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">BufferGeometry</title>
+    <id>https://mister-duan.github.io/code/3d/threejs/geometry.html</id>
+    <link href="https://mister-duan.github.io/code/3d/threejs/geometry.html"/>
+    <updated>2024-11-22T13:34:17.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>点</h2>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>点</h2>
+]]></content>
+    <category term="3d"/>
+    <published>2024-11-19T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">‘转向’的时光轴</title>
     <id>https://mister-duan.github.io/code/vuecoms/TimeLine.html</id>
@@ -24,11 +60,35 @@
     <title type="text">3d可视化</title>
     <id>https://mister-duan.github.io/code/3d/</id>
     <link href="https://mister-duan.github.io/code/3d/"/>
-    <updated>2024-11-21T09:58:30.000Z</updated>
+    <updated>2024-11-22T13:34:17.000Z</updated>
+    <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<ul>
+<li><a href="/code/3d/threejs/" target="_blank">threejs</a></li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<ul>
+<li><a href="/code/3d/threejs/" target="_blank">threejs</a></li>
+</ul>
+]]></content>
+    <category term="3d"/>
+    <published>2024-11-19T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">threejs简单上手</title>
+    <id>https://mister-duan.github.io/code/3d/threejs/basic.html</id>
+    <link href="https://mister-duan.github.io/code/3d/threejs/basic.html"/>
+    <updated>2024-11-22T13:34:17.000Z</updated>
     <summary type="html"><![CDATA[
+<h2>定义</h2>
+<p>模型对象（mesh）=几何体（geometry）+材质（material）</p>
 <h2>基础</h2>
 ]]></summary>
     <content type="html"><![CDATA[
+<h2>定义</h2>
+<p>模型对象（mesh）=几何体（geometry）+材质（material）</p>
 <h2>基础</h2>
 ]]></content>
     <category term="3d"/>
@@ -62,10 +122,9 @@
     <title type="text">前端组件</title>
     <id>https://mister-duan.github.io/code/vuecoms/</id>
     <link href="https://mister-duan.github.io/code/vuecoms/"/>
-    <updated>2024-11-21T06:11:18.000Z</updated>
+    <updated>2024-11-22T13:34:17.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
-<h3>组件</h3>
 <ul>
 <li><a href="TextFold">折叠组件</a></li>
 <li><a href="TimeLine">‘转向’的时光轴</a></li>
@@ -73,7 +132,6 @@
 ]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
-<h3>组件</h3>
 <ul>
 <li><a href="TextFold">折叠组件</a></li>
 <li><a href="TimeLine">‘转向’的时光轴</a></li>
