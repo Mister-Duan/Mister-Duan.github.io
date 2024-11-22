@@ -2,7 +2,7 @@
   <div ref="webglBoxRef" class="relative"></div>
 </template>
 <script setup>
-import plane from "../images/plane.jpg";
+import csd from "../images/csd.jpg";
 import * as THREE from "three";
 import { onMounted, ref } from "vue";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
@@ -17,42 +17,47 @@ const webglBoxRef = ref();
  */
 const scene = new THREE.Scene();
 
-const geometry = new THREE.PlaneGeometry(2000, 2000);
+// 一个矩形平面几何体用来表示传送带
+const geometry = new THREE.PlaneGeometry(400, 20);
+//纹理贴图加载器TextureLoader
 const texLoader = new THREE.TextureLoader();
 // .load()方法加载图像，返回一个纹理对象Texture
-const texture = texLoader.load(plane);
-
-// 设置阵列
+const texture = texLoader.load(csd);
 texture.wrapS = THREE.RepeatWrapping;
-texture.wrapT = THREE.RepeatWrapping;
 // uv两个方向纹理重复数量
-texture.repeat.set(30, 30); //注意选择合适的阵列数量
-
+texture.repeat.x = 50; //注意选择合适的阵列数量
+// 设置阵列
+// texture.wrapS = THREE.RepeatWrapping;
+// // uv两个方向纹理重复数量
+// texture.repeat.x = 50; //注意选择合适的阵列数量
 const material = new THREE.MeshLambertMaterial({
-  color: 0x00ffff,
-  // 设置纹理贴图：Texture对象作为材质map属性的属性值
+  // color: 0xffffff,
+  side: THREE.DoubleSide,
   map: texture, //map表示材质的颜色贴图属性
 });
-const mesh = new THREE.Mesh(geometry, material);
-mesh.rotateX(-Math.PI / 2);
-scene.add(mesh);
-const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-directionalLight.position.set(100, 60, 50);
-scene.add(directionalLight);
-const ambient = new THREE.AmbientLight(0xffffff, 2);
-scene.add(ambient);
 
-// AxesHelper：辅助观察的坐标系
+const mesh = new THREE.Mesh(geometry, material);
+mesh.rotateX(Math.PI / 2);
+scene.add(mesh);
 
 const axesHelper = new THREE.AxesHelper(100);
 scene.add(axesHelper);
 
+//光源设置
+const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+directionalLight.position.set(1000, 1200, 1300);
+scene.add(directionalLight);
+//环境光
+const ambient = new THREE.AmbientLight(0xffffff, 0.05);
+scene.add(ambient);
+
 const aspect = 4 / 3;
 
 const camera = new THREE.PerspectiveCamera(20, aspect, 1, 3000);
-camera.position.set(300, 300, 300); //相机在Three.js三维坐标系中的位置
+camera.position.set(500, 500, 500); //相机在Three.js三维坐标系中的位置
 camera.lookAt(0, 0, 0); //相机观察目标指向Three.js坐标系原点
-const renderer = new THREE.WebGLRenderer();
+
+const renderer = new THREE.WebGLRenderer({ alpha: 0.5 });
 const setSize = () => {
   let size = webglBoxRef.value.getBoundingClientRect();
   let width = size.width;
@@ -82,6 +87,7 @@ onMounted(() => {
 
   //   const clock = new THREE.Clock();
   function render() {
+    texture.offset.x += 0.05; //设置纹理动画
     stats.update();
     renderer.render(scene, camera); //执行渲染操作
     requestAnimationFrame(render); //请求再次执行渲染函数render，渲染下一帧

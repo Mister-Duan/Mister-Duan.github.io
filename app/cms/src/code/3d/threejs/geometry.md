@@ -43,3 +43,11 @@ head:
 ### 地板
 
 <PlaneTextureExample/>
+
+### 透明贴图
+
+<TrPlaneTextureExample/>
+
+### 传动带+纹理动画
+
+<CsdTextureExample />

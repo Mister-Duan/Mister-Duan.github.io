@@ -6,6 +6,8 @@ export const register3dBufferGeometry = async (app) => {
   const GroupGeometryExample = await import("./Group.vue");
   const CircleTextureExample = await import("./Circle.vue");
   const PlaneTextureExample = await import("./Plane.vue");
+  const TrPlaneTextureExample = await import("./TrPlane.vue");
+  const CsdTextureExample = await import("./Csd.vue");
 
   app.component("BufferGeometryPoint", BufferGeometryPoint.default);
   app.component("BufferGeometryLine", BufferGeometryLine.default);
@@ -14,4 +16,6 @@ export const register3dBufferGeometry = async (app) => {
   app.component("GroupGeometryExample", GroupGeometryExample.default);
   app.component("CircleTextureExample", CircleTextureExample.default);
   app.component("PlaneTextureExample", PlaneTextureExample.default);
+  app.component("TrPlaneTextureExample", TrPlaneTextureExample.default);
+  app.component("CsdTextureExample", CsdTextureExample.default);
 };
