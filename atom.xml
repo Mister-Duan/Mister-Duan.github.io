@@ -5,7 +5,7 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-11-22T15:35:08.638Z</updated>
+  <updated>2024-11-23T13:52:35.396Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
@@ -13,15 +13,104 @@
   <category term="前端组件"/>
   <category term="qianduankaifa"/>
   <entry>
+    <title type="text">外部三维模型加载</title>
+    <id>https://mister-duan.github.io/code/3d/threejs/blender.html</id>
+    <link href="https://mister-duan.github.io/code/3d/threejs/blender.html"/>
+    <updated>2024-11-23T13:50:05.000Z</updated>
+    <summary type="html"><![CDATA[<ul>
+<li>使用三维建模软件(3D美术常用的三维建模软件，比如Blender、3dmax、C4D、maya等等)绘制3D模型，导出gltf等常见格式</li>
+<li>gltf格式的重要性
+<ul>
+<li>GLTF格式是新2015发布的三维模型格式，随着物联网、WebGL、5G的进一步发展，会有越来越多的互联网项目Web端引入3D元素，你可以把GLTF格式的三维模型理解为.jpg、.png格式的图片一样，现在的网站，图片基本是标配，对于以后的网站来说如果需要展示一个场景，使用3D来替换图片表达也是很正常的事情。图片有很多格式，对于三维模型自然也是如此，Web开发的时候图片会有常用格式，对于Web3D开发也一样，肯定会根据需要选择一个常见的大家都熟悉的格式，随时时间的发展，GLTF必然称为一个极为重要的标准格式。</li>
+<li>不仅three.js，其它的WebGL三维引擎cesium、babylonjs都对gltf格式有良好的的支持。</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<ul>
+<li>使用三维建模软件(3D美术常用的三维建模软件，比如Blender、3dmax、C4D、maya等等)绘制3D模型，导出gltf等常见格式</li>
+<li>gltf格式的重要性
+<ul>
+<li>GLTF格式是新2015发布的三维模型格式，随着物联网、WebGL、5G的进一步发展，会有越来越多的互联网项目Web端引入3D元素，你可以把GLTF格式的三维模型理解为.jpg、.png格式的图片一样，现在的网站，图片基本是标配，对于以后的网站来说如果需要展示一个场景，使用3D来替换图片表达也是很正常的事情。图片有很多格式，对于三维模型自然也是如此，Web开发的时候图片会有常用格式，对于Web3D开发也一样，肯定会根据需要选择一个常见的大家都熟悉的格式，随时时间的发展，GLTF必然称为一个极为重要的标准格式。</li>
+<li>不仅three.js，其它的WebGL三维引擎cesium、babylonjs都对gltf格式有良好的的支持。</li>
+</ul>
+</li>
+</ul>
+<h3>gltf不同文件形式(.glb)</h3>
+<p>.gltf格式模型文件，有不同的组织形式。</p>
+<ul>
+<li>单独.gltf文件</li>
+<li>单独.glb文件</li>
+<li>.gltf + .bin + 贴图文件
+这些不同形式的gltf模型，加载代码其实没啥区别。</li>
+</ul>
+<div class="language-javascript" data-highlighter="shiki" data-ext="javascript" data-title="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 单独.gltf文件</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">loader</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">load</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"../../工厂.gltf"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">gltf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">  scene</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">gltf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">scene</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">});</span></span></code></pre>
+</div><h3>.getObjectByName()根据.name获取模型节点</h3>
+<p>一般三维建模软件的目录树，都有模型的名称，three.js加载外部模型，外部模型的名称体现为three.js对象的.name属性,three.js可以通过.getObjectByName()方法，把模型节点的名字.name作为改函数参数，快速查找某个模型对象。</p>
+<div class="language-javascript" data-highlighter="shiki" data-ext="javascript" data-title="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 返回名.name为"1号楼"对应的对象</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">const</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> nameNode</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> gltf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">scene</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">getObjectByName</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1号楼"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">nameNode</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">material</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">color</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">set</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0xff0000</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//改变1号楼Mesh材质颜色</span></span></code></pre>
+</div><h3>纹理贴图颜色偏差解决</h3>
+<p>three.js加载gltf模型的时候，可能会遇到three.js渲染结果颜色偏差，对于这种情况，你只需要修改WebGL渲染器默认的编码方式.outputEncoding即可</p>
+<div class="language-js" data-highlighter="shiki" data-ext="js" data-title="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//解决加载gltf格式模型纹理贴图和原图不一样问题</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">renderer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">outputEncoding</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> THREE</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sRGBEncoding</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
+</div><p>注意！！！！！！！最新版本属性名字有改变。渲染器属性名.outputEncoding已经变更为.outputColorSpace。
+查WebGL渲染器文档，你可以看到.outputColorSpace的默认值就是SRGB颜色空间THREE.SRGBColorSpace，意味着新版本代码中，加载gltf，没有特殊需要，不设置.outputColorSpace也不会引起色差。</p>
+<div class="language-javascript" data-highlighter="shiki" data-ext="javascript" data-title="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//新版本，加载gltf，不需要执行下面代码解决颜色偏差</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">renderer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">outputColorSpace</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> THREE</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">SRGBColorSpace</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//设置为SRGB颜色空间</span></span></code></pre>
+</div><div class="language-json line-numbers-mode" data-highlighter="shiki" data-ext="json" data-title="json" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "asset"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "version"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"2.0"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="--shiki-light:white;--shiki-dark:#FFFFFF">...</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 模型材质信息</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "materials"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: [</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "pbrMetallicRoughness"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//PBR材质</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">        "baseColorFactor"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">],</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">        "metallicFactor"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//金属度</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">        "roughnessFactor"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//粗糙度</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">      }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  ],</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  // 网格模型数据</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  "meshes"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">...</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  // 纹理贴图</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  "images"</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">:</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        {</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">            // uri指向外部图像文件</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">            "uri"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"贴图名称.png"</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//图像数据也可以直接存储在.gltf文件中</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">   ],</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">     "buffers"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: [</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // 一个buffer对应一个二进制数据块，可能是顶点位置 、顶点索引等数据</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "byteLength"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">840</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">     //这里面的顶点数据，也快成单独以.bin文件的形式存在</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      "uri"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"data:application/octet-stream;base64,AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAC/.......</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    }</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  ],</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1></h1>
+<h1>外部三维模型</h1>
+<h2>工厂</h2>
+]]></content>
+    <category term="3d"/>
+    <published>2024-11-19T00:00:00.000Z</published>
+  </entry>
+  <entry>
     <title type="text">threejs</title>
     <id>https://mister-duan.github.io/code/3d/threejs/</id>
     <link href="https://mister-duan.github.io/code/3d/threejs/"/>
-    <updated>2024-11-22T13:34:17.000Z</updated>
+    <updated>2024-11-23T13:50:05.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
 <li><a href="basic">入门</a></li>
 <li><a href="geometry">BufferGeometry</a></li>
+<li><a href="blender">外部三维模型</a></li>
 </ul>
 ]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
@@ -29,6 +118,7 @@
 <ul>
 <li><a href="basic">入门</a></li>
 <li><a href="geometry">BufferGeometry</a></li>
+<li><a href="blender">外部三维模型</a></li>
 </ul>
 ]]></content>
     <category term="3d"/>
