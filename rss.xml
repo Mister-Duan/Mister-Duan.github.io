@@ -6,14 +6,25 @@
     <link>https://mister-duan.github.io/</link>
     <description>Where there is light, there is hope.</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 25 Nov 2024 13:36:26 GMT</pubDate>
-    <lastBuildDate>Mon, 25 Nov 2024 13:36:26 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Nov 2024 14:23:29 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Nov 2024 14:23:29 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>基于 MIT 协议，© 2019-至今 Mister.Duan</copyright>
     <category>3d</category>
     <category>前端组件</category>
     <category>qianduankaifa</category>
+    <item>
+      <title>曲线几何体</title>
+      <link>https://mister-duan.github.io/code/3d/threejs/line.html</link>
+      <guid>https://mister-duan.github.io/code/3d/threejs/line.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">曲线几何体</source>
+      <description>线模型</description>
+      <category>3d</category>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>线模型</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>PBR</title>
       <link>https://mister-duan.github.io/code/3d/threejs/pbr.html</link>
@@ -110,7 +121,7 @@
       <link>https://mister-duan.github.io/code/3d/threejs/</link>
       <guid>https://mister-duan.github.io/code/3d/threejs/</guid>
       <source url="https://mister-duan.github.io/rss.xml">threejs</source>
-      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry 外部三维模型 物理渲染模型</description>
+      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry 外部三维模型 物理渲染模型 曲线几何体</description>
       <category>3d</category>
       <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
@@ -120,6 +131,7 @@
 <li><a href="geometry">BufferGeometry</a></li>
 <li><a href="blender">外部三维模型</a></li>
 <li><a href="pbr">物理渲染模型</a></li>
+<li><a href="line">曲线几何体</a></li>
 </ul>
 ]]></content:encoded>
     </item>

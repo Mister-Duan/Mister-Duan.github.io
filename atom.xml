@@ -5,13 +5,25 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-11-25T13:36:26.681Z</updated>
+  <updated>2024-11-25T14:23:29.885Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
   <category term="3d"/>
   <category term="前端组件"/>
   <category term="qianduankaifa"/>
+  <entry>
+    <title type="text">曲线几何体</title>
+    <id>https://mister-duan.github.io/code/3d/threejs/line.html</id>
+    <link href="https://mister-duan.github.io/code/3d/threejs/line.html"/>
+    <updated>2024-11-25T14:22:14.000Z</updated>
+    <summary type="html"><![CDATA[<h2>线模型</h2>
+]]></summary>
+    <content type="html"><![CDATA[<h2>线模型</h2>
+]]></content>
+    <category term="3d"/>
+    <published>2024-11-25T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">PBR</title>
     <id>https://mister-duan.github.io/code/3d/threejs/pbr.html</id>
@@ -116,7 +128,7 @@
     <title type="text">threejs</title>
     <id>https://mister-duan.github.io/code/3d/threejs/</id>
     <link href="https://mister-duan.github.io/code/3d/threejs/"/>
-    <updated>2024-11-25T13:34:49.000Z</updated>
+    <updated>2024-11-25T14:22:14.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
@@ -124,6 +136,7 @@
 <li><a href="geometry">BufferGeometry</a></li>
 <li><a href="blender">外部三维模型</a></li>
 <li><a href="pbr">物理渲染模型</a></li>
+<li><a href="line">曲线几何体</a></li>
 </ul>
 ]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
@@ -133,6 +146,7 @@
 <li><a href="geometry">BufferGeometry</a></li>
 <li><a href="blender">外部三维模型</a></li>
 <li><a href="pbr">物理渲染模型</a></li>
+<li><a href="line">曲线几何体</a></li>
 </ul>
 ]]></content>
     <category term="3d"/>
