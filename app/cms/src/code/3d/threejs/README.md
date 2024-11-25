@@ -16,3 +16,4 @@ head:
 - [入门](basic)
 - [BufferGeometry](geometry)
 - [外部三维模型](blender)
+- [物理渲染模型](pbr)
