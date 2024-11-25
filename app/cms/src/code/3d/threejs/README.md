@@ -17,3 +17,4 @@ head:
 - [BufferGeometry](geometry)
 - [外部三维模型](blender)
 - [物理渲染模型](pbr)
+- [曲线几何体](line)
