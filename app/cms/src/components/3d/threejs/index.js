@@ -5,6 +5,7 @@ import { register3dPbrGeometry } from "./pbr";
 import { register3dLine } from "./line";
 import { register3dCamera } from "./camera";
 import { register3dShadowExample } from "./shadow";
+import { register3dSpriteExample } from "./sprite";
 export const register3dComponents = async (app) => {
   await register3dThreeJsBasic(app);
   await register3dBufferGeometry(app);
@@ -13,4 +14,5 @@ export const register3dComponents = async (app) => {
   await register3dLine(app);
   await register3dCamera(app);
   await register3dShadowExample(app);
+  await register3dSpriteExample(app);
 };

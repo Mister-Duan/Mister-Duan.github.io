@@ -20,3 +20,4 @@ head:
 - [曲线几何体](line)
 - [相机](camera)
 - [阴影](shadow)
+- [精灵模型](sprite)
