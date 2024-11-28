@@ -7,13 +7,26 @@
   "favicon": "https://mister-duan.github.io/favicon.ico",
   "items": [
     {
+      "title": "点光源与阴影",
+      "url": "https://mister-duan.github.io/code/3d/threejs/shadow.html",
+      "id": "https://mister-duan.github.io/code/3d/threejs/shadow.html",
+      "summary": "点光源",
+      "content_html": "<h2>点光源</h2>\n",
+      "date_published": "2024-11-28T00:00:00.000Z",
+      "date_modified": "2024-11-28T14:23:27.000Z",
+      "authors": [],
+      "tags": [
+        "3d"
+      ]
+    },
+    {
       "title": "相机",
       "url": "https://mister-duan.github.io/code/3d/threejs/camera.html",
       "id": "https://mister-duan.github.io/code/3d/threejs/camera.html",
       "summary": "正投影相机",
       "content_html": "<h2>正投影相机</h2>\n",
       "date_published": "2024-11-25T00:00:00.000Z",
-      "date_modified": "2024-11-27T15:43:37.000Z",
+      "date_modified": "2024-11-28T06:52:17.000Z",
       "authors": [],
       "tags": [
         "3d"
@@ -62,10 +75,10 @@
       "title": "threejs",
       "url": "https://mister-duan.github.io/code/3d/threejs/",
       "id": "https://mister-duan.github.io/code/3d/threejs/",
-      "summary": "此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry 外部三维模型 物理渲染模型 曲线几何体 相机",
-      "content_html": "<p>此处是 Mr.Duan 存放的一些代码笔记。</p>\n<h2>目录</h2>\n<ul>\n<li><a href=\"basic\">入门</a></li>\n<li><a href=\"geometry\">BufferGeometry</a></li>\n<li><a href=\"blender\">外部三维模型</a></li>\n<li><a href=\"pbr\">物理渲染模型</a></li>\n<li><a href=\"line\">曲线几何体</a></li>\n<li><a href=\"camera\">相机</a></li>\n</ul>\n",
+      "summary": "此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry 外部三维模型 物理渲染模型 曲线几何体 相机 阴影",
+      "content_html": "<p>此处是 Mr.Duan 存放的一些代码笔记。</p>\n<h2>目录</h2>\n<ul>\n<li><a href=\"basic\">入门</a></li>\n<li><a href=\"geometry\">BufferGeometry</a></li>\n<li><a href=\"blender\">外部三维模型</a></li>\n<li><a href=\"pbr\">物理渲染模型</a></li>\n<li><a href=\"line\">曲线几何体</a></li>\n<li><a href=\"camera\">相机</a></li>\n<li><a href=\"shadow\">阴影</a></li>\n</ul>\n",
       "date_published": "2024-11-19T00:00:00.000Z",
-      "date_modified": "2024-11-27T15:43:37.000Z",
+      "date_modified": "2024-11-28T09:58:48.000Z",
       "authors": [],
       "tags": [
         "3d"
