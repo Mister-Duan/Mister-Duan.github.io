@@ -4,7 +4,7 @@ import { registerWaibuMoXing } from "./WaibuMoXing";
 import { register3dPbrGeometry } from "./pbr";
 import { register3dLine } from "./line";
 import { register3dCamera } from "./camera";
-
+import { register3dShadowExample } from "./shadow";
 export const register3dComponents = async (app) => {
   await register3dThreeJsBasic(app);
   await register3dBufferGeometry(app);
@@ -12,4 +12,5 @@ export const register3dComponents = async (app) => {
   await register3dPbrGeometry(app);
   await register3dLine(app);
   await register3dCamera(app);
+  await register3dShadowExample(app);
 };
