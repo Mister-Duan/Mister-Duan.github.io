@@ -104,6 +104,7 @@ onMounted(() => {
   controls.addEventListener("change", function () {
     renderer.render(scene, camera); //执行渲染操作
   });
+
   //监听鼠标、键盘事件
   function render() {
     renderer.render(scene, camera); //执行渲染操作

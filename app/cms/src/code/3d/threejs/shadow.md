@@ -15,4 +15,6 @@ head:
 
 ## 平行光阴影
 
-<ShadowExample2 />
+- mapSize 清晰度/效果
+- radius 过渡半径
+  <ShadowExample2 />
