@@ -12,3 +12,7 @@ head:
 ## 点光源
 
 <ShadowExample1/>
+
+## 平行光阴影
+
+<ShadowExample2 />
