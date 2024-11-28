@@ -6,14 +6,25 @@
     <link>https://mister-duan.github.io/</link>
     <description>Where there is light, there is hope.</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Nov 2024 14:24:50 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Nov 2024 14:24:50 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Nov 2024 15:05:05 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Nov 2024 15:05:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>基于 MIT 协议，© 2019-至今 Mister.Duan</copyright>
     <category>3d</category>
     <category>前端组件</category>
     <category>qianduankaifa</category>
+    <item>
+      <title>精灵模型</title>
+      <link>https://mister-duan.github.io/code/3d/threejs/sprite.html</link>
+      <guid>https://mister-duan.github.io/code/3d/threejs/sprite.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">精灵模型</source>
+      <description>对比相同尺寸Sprite和矩形Mesh</description>
+      <category>3d</category>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>对比相同尺寸Sprite和矩形Mesh</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>点光源与阴影</title>
       <link>https://mister-duan.github.io/code/3d/threejs/shadow.html</link>
@@ -143,7 +154,7 @@
       <link>https://mister-duan.github.io/code/3d/threejs/</link>
       <guid>https://mister-duan.github.io/code/3d/threejs/</guid>
       <source url="https://mister-duan.github.io/rss.xml">threejs</source>
-      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry 外部三维模型 物理渲染模型 曲线几何体 相机 阴影</description>
+      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 入门 BufferGeometry 外部三维模型 物理渲染模型 曲线几何体 相机 阴影 精灵模型</description>
       <category>3d</category>
       <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
@@ -156,6 +167,7 @@
 <li><a href="line">曲线几何体</a></li>
 <li><a href="camera">相机</a></li>
 <li><a href="shadow">阴影</a></li>
+<li><a href="sprite">精灵模型</a></li>
 </ul>
 ]]></content:encoded>
     </item>

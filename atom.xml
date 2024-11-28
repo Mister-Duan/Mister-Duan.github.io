@@ -5,13 +5,25 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-11-28T14:24:50.320Z</updated>
+  <updated>2024-11-28T15:05:05.254Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
   <category term="3d"/>
   <category term="前端组件"/>
   <category term="qianduankaifa"/>
+  <entry>
+    <title type="text">精灵模型</title>
+    <id>https://mister-duan.github.io/code/3d/threejs/sprite.html</id>
+    <link href="https://mister-duan.github.io/code/3d/threejs/sprite.html"/>
+    <updated>2024-11-28T15:03:53.000Z</updated>
+    <summary type="html"><![CDATA[<h2>对比相同尺寸Sprite和矩形Mesh</h2>
+]]></summary>
+    <content type="html"><![CDATA[<h2>对比相同尺寸Sprite和矩形Mesh</h2>
+]]></content>
+    <category term="3d"/>
+    <published>2024-11-28T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">点光源与阴影</title>
     <id>https://mister-duan.github.io/code/3d/threejs/shadow.html</id>
@@ -152,7 +164,7 @@
     <title type="text">threejs</title>
     <id>https://mister-duan.github.io/code/3d/threejs/</id>
     <link href="https://mister-duan.github.io/code/3d/threejs/"/>
-    <updated>2024-11-28T09:58:48.000Z</updated>
+    <updated>2024-11-28T15:03:53.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
@@ -163,6 +175,7 @@
 <li><a href="line">曲线几何体</a></li>
 <li><a href="camera">相机</a></li>
 <li><a href="shadow">阴影</a></li>
+<li><a href="sprite">精灵模型</a></li>
 </ul>]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
@@ -174,6 +187,7 @@
 <li><a href="line">曲线几何体</a></li>
 <li><a href="camera">相机</a></li>
 <li><a href="shadow">阴影</a></li>
+<li><a href="sprite">精灵模型</a></li>
 </ul>
 ]]></content>
     <category term="3d"/>
