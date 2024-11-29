@@ -21,3 +21,5 @@ head:
 - [相机](camera)
 - [阴影](shadow)
 - [精灵模型](sprite)
+- [精灵模型](sprite)
+- [后处理](composer)
