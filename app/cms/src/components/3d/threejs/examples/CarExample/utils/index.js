@@ -11,13 +11,16 @@ export const init = (el) => {
   resizeByWindow({ renderer, camera, aspect, el });
   el.appendChild(renderer.domElement);
   renderer.outputColorSpace = THREE.SRGBColorSpace; //设置为SRGB颜色空间
-  renderer.outputEncoding = THREE.sRGBEncoding;
+
+  // 背景颜色
+  renderer.setClearColor(0xcccccc, 1);
   // 设置相机控件轨道控制器OrbitControls
   const controls = new OrbitControls(camera, renderer.domElement);
   // 如果OrbitControls改变了相机参数，重新调用渲染器渲染三维场景
   controls.addEventListener("change", function () {
     renderer.render(scene, camera); //执行渲染操作
   }); //监听鼠标、键盘事件
+
   function render() {
     renderer.render(scene, camera); //执行渲染操作
     requestAnimationFrame(render); //请求再次执行渲染函数render，渲染下一帧

@@ -32,13 +32,8 @@ var geometry = new THREE.PlaneGeometry(6000, 6000); //矩形平面
 console.log(BottomGround);
 
 var texture = new THREE.TextureLoader().load(BottomGround);
-texture.encoding = THREE.sRGBEncoding;
-// texture.encoding = THREE.sRGBEncoding; //设置纹理贴图编码方式和WebGL渲染器一致 要不然色差
-// texture.colorSpace = THREE.sRGBEncoding;
-// texture.colorSpace = THREE.sRGBEncoding;
+texture.colorSpace = THREE.SRGBColorSpace;
 
-// THREE.sRGBEncoding; //设置纹理贴图编码方式和WebGL渲染器一致 要不然色差
-// THREE.SRGBColorSpace
 // 设置阵列
 texture.wrapS = THREE.RepeatWrapping;
 texture.wrapT = THREE.RepeatWrapping;
@@ -46,14 +41,13 @@ texture.wrapT = THREE.RepeatWrapping;
 texture.repeat.set(12, 12); //注意选择合适的阵列数量
 
 var material = new THREE.MeshLambertMaterial({
-  color: 0x222222,
+  color: 0x999999,
   map: texture,
 });
 //   创建地面网格模型；
 var ground = new THREE.Mesh(geometry, material); //网格模型对象Mesh
 ground.rotateX(-Math.PI / 2);
 scene.add(ground);
-
 // var sphereGroup = new THREE.Group();
 // var R = 550;
 // // 创建一个圆柱表示隧道
