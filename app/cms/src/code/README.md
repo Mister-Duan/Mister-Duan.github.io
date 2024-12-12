@@ -13,3 +13,8 @@ category: qianduankaifa
 
 - [vue组件库](vuecoms/)
 - [3d可视化](3d/)
+  - [threejs](3d/threejs/)
+    - 实战样例
+      - [手机](3d/threejs/examples/phone)
+      - [汽车](3d/threejs/examples/car)
+    - [注意](3d/threejs/notice)

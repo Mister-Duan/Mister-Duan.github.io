@@ -15,6 +15,6 @@ head:
 
 - [threejs](threejs/)
   - 实战样例
-    - [手机](examples/phone)
-    - [汽车](examples/car)
+    - [手机](threejs/examples/phone)
+    - [汽车](threejs/examples/car)
   - [注意](threejs/notice)
