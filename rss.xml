@@ -6,8 +6,8 @@
     <link>https://mister-duan.github.io/</link>
     <description>Where there is light, there is hope.</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Dec 2024 13:05:04 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Dec 2024 13:05:04 GMT</lastBuildDate>
+    <pubDate>Thu, 12 Dec 2024 15:01:51 GMT</pubDate>
+    <lastBuildDate>Thu, 12 Dec 2024 15:01:51 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>基于 MIT 协议，© 2019-至今 Mister.Duan</copyright>
@@ -149,8 +149,8 @@
 <ul>
 <li>实战样例
 <ul>
-<li><a href="examples/phone">手机</a></li>
-<li><a href="examples/car">汽车</a></li>
+<li><a href="threejs/examples/phone">手机</a></li>
+<li><a href="threejs/examples/car">汽车</a></li>
 </ul>
 </li>
 <li><a href="threejs/notice">注意</a></li>
@@ -180,7 +180,7 @@
       <link>https://mister-duan.github.io/code/</link>
       <guid>https://mister-duan.github.io/code/</guid>
       <source url="https://mister-duan.github.io/rss.xml">代码笔记</source>
-      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 前端</description>
+      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 前端 实战样例 手机 汽车 注意</description>
       <category>qianduankaifa</category>
       <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
@@ -188,7 +188,21 @@
 <h3>前端</h3>
 <ul>
 <li><a href="/code/vuecoms/" target="_blank">vue组件库</a></li>
-<li><a href="/code/3d/" target="_blank">3d可视化</a></li>
+<li><a href="/code/3d/" target="_blank">3d可视化</a>
+<ul>
+<li><a href="/code/3d/threejs/" target="_blank">threejs</a>
+<ul>
+<li>实战样例
+<ul>
+<li><a href="3d/threejs/examples/phone">手机</a></li>
+<li><a href="3d/threejs/examples/car">汽车</a></li>
+</ul>
+</li>
+<li><a href="3d/threejs/notice">注意</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
