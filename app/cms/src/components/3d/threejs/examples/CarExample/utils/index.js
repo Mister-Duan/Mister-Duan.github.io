@@ -3,6 +3,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { resizeByWindow } from "./resize";
 import { scene } from "./scene";
 import { aspect, camera } from "./camera";
+import * as TWEEN from "@tweenjs/tween.js";
 export const init = (el) => {
   const renderer = new THREE.WebGLRenderer({
     antialias: true, //开启锯齿
@@ -22,6 +23,7 @@ export const init = (el) => {
   }); //监听鼠标、键盘事件
 
   function render() {
+    TWEEN.update(); //tween更新(渲染时间相关,便于动画计算)
     renderer.render(scene, camera); //执行渲染操作
     requestAnimationFrame(render); //请求再次执行渲染函数render，渲染下一帧
   }
