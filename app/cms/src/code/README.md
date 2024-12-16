@@ -18,3 +18,5 @@ category: qianduankaifa
       - [手机](3d/threejs/examples/phone)
       - [汽车](3d/threejs/examples/car)
     - [注意](3d/threejs/notice)
+
+ <!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
