@@ -5,18 +5,107 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-12-12T15:01:51.513Z</updated>
+  <updated>2024-12-16T12:30:55.481Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
+  <category term="qianduankaifa"/>
   <category term="3d"/>
   <category term="前端组件"/>
-  <category term="qianduankaifa"/>
+  <entry>
+    <title type="text">代码笔记</title>
+    <id>https://mister-duan.github.io/code/ai/</id>
+    <link href="https://mister-duan.github.io/code/ai/"/>
+    <updated>2024-12-16T12:29:37.000Z</updated>
+    <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<h3>AI方向</h3>
+<ul>
+<li>数据挖掘</li>
+<li>计算机视觉</li>
+<li>自然语言处理
+<ul>
+<li>算法讲解</li>
+<li>论文分析</li>
+<li>源码解读</li>
+<li>项目实战</li>
+</ul>
+</li>
+</ul>
+<h3>计算机配置</h3>
+<ul>
+<li>
+<p>GPU</p>
+<ul>
+<li>笔记本 3080 8G 显存</li>
+<li>台式 4060 24G</li>
+</ul>
+</li>
+<li>
+<p>CPU</p>
+</li>
+<li>
+<p>深度学习必备核⼼算法(终点 基础 多看几遍)</p>
+</li>
+<li>
+<p>深度学习框架PyTorch</p>
+</li>
+<li>
+<p>Opencv图像处理框架实战(工具 框架 会用就行)</p>
+</li>
+<li>
+<p>综合项目-物体检测经典算法实战(必须要掌握 源码)</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<h3>AI方向</h3>
+<ul>
+<li>数据挖掘</li>
+<li>计算机视觉</li>
+<li>自然语言处理
+<ul>
+<li>算法讲解</li>
+<li>论文分析</li>
+<li>源码解读</li>
+<li>项目实战</li>
+</ul>
+</li>
+</ul>
+<h3>计算机配置</h3>
+<ul>
+<li>
+<p>GPU</p>
+<ul>
+<li>笔记本 3080 8G 显存</li>
+<li>台式 4060 24G</li>
+</ul>
+</li>
+<li>
+<p>CPU</p>
+</li>
+<li>
+<p>深度学习必备核⼼算法(终点 基础 多看几遍)</p>
+</li>
+<li>
+<p>深度学习框架PyTorch</p>
+</li>
+<li>
+<p>Opencv图像处理框架实战(工具 框架 会用就行)</p>
+</li>
+<li>
+<p>综合项目-物体检测经典算法实战(必须要掌握 源码)</p>
+</li>
+</ul>
+]]></content>
+    <category term="qianduankaifa"/>
+    <published>2024-11-19T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">注意点</title>
-    <id>https://mister-duan.github.io/code/3d/threejs/notice.html</id>
-    <link href="https://mister-duan.github.io/code/3d/threejs/notice.html"/>
-    <updated>2024-12-12T13:03:45.000Z</updated>
+    <id>https://mister-duan.github.io/code/3d/notice.html</id>
+    <link href="https://mister-duan.github.io/code/3d/notice.html"/>
+    <updated>2024-12-16T12:29:37.000Z</updated>
     <summary type="html"><![CDATA[<h2>问题</h2>
 <p>美术随意绘制产品模型，然后随意导出，对于经验不够丰富的程序员而言，直接套用本课程代码，不一定能够正常加载美术导出的模型。</p>
 <ol>
@@ -99,56 +188,6 @@
     <published>2024-12-11T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">案例模版</title>
-    <id>https://mister-duan.github.io/code/3d/threejs/examples/</id>
-    <link href="https://mister-duan.github.io/code/3d/threejs/examples/"/>
-    <updated>2024-12-11T13:36:39.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>定义</h2>
-<p>模型对象（mesh）=几何体（geometry）+材质（material）</p>
-<h2>基础</h2>
-<!-- CarExample -->
-]]></summary>
-    <content type="html"><![CDATA[
-<h2>定义</h2>
-<p>模型对象（mesh）=几何体（geometry）+材质（material）</p>
-<h2>基础</h2>
-<!-- CarExample -->
-]]></content>
-    <category term="3d"/>
-    <published>2024-11-19T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">threejs</title>
-    <id>https://mister-duan.github.io/code/3d/threejs/</id>
-    <link href="https://mister-duan.github.io/code/3d/threejs/"/>
-    <updated>2024-12-11T13:36:39.000Z</updated>
-    <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
-<h2>目录</h2>
-<ul>
-<li>实战样例
-<ul>
-<li><a href="examples/phone">手机</a></li>
-<li><a href="examples/car">汽车</a></li>
-</ul>
-</li>
-</ul>
-]]></summary>
-    <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
-<h2>目录</h2>
-<ul>
-<li>实战样例
-<ul>
-<li><a href="examples/phone">手机</a></li>
-<li><a href="examples/car">汽车</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-    <category term="3d"/>
-    <published>2024-11-19T00:00:00.000Z</published>
-  </entry>
-  <entry>
     <title type="text">‘转向’的时光轴</title>
     <id>https://mister-duan.github.io/code/vuecoms/TimeLine.html</id>
     <link href="https://mister-duan.github.io/code/vuecoms/TimeLine.html"/>
@@ -160,35 +199,48 @@
     <title type="text">3d可视化</title>
     <id>https://mister-duan.github.io/code/3d/</id>
     <link href="https://mister-duan.github.io/code/3d/"/>
-    <updated>2024-12-12T15:00:35.000Z</updated>
+    <updated>2024-12-16T12:29:37.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
-<li><a href="/code/3d/threejs/" target="_blank">threejs</a>
+<li>ThreeJS
 <ul>
-<li>实战样例
+<li>地球
 <ul>
-<li><a href="threejs/examples/phone">手机</a></li>
-<li><a href="threejs/examples/car">汽车</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/1.%E5%9C%B0%E7%90%83%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%92%8C%E7%90%83%E9%9D%A2%E5%9D%90%E6%A0%87/index.html" target="_blank" rel="noopener noreferrer">地球经纬度和球面坐标</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/2.%E7%82%B9%E6%95%B0%E6%8D%AE/index.html" target="_blank" rel="noopener noreferrer">点数据</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/3.%E8%BD%A8%E8%BF%B9%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">轨迹线</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/4.%E7%83%AD%E7%82%B9%E6%A0%87%E6%B3%A8/index.html" target="_blank" rel="noopener noreferrer">热点标注</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/5.%E6%8B%BE%E5%8F%96%E5%9B%BD%E5%AE%B6/index.html" target="_blank" rel="noopener noreferrer">拾取国家</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/6.%E9%A2%9C%E8%89%B2%E5%8F%AF%E8%A7%86%E5%8C%96/index.html" target="_blank" rel="noopener noreferrer">颜色可视化</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/7.%E7%82%B9%E9%98%B5/index.html" target="_blank" rel="noopener noreferrer">点阵</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/8.%E4%BA%BA%E5%8F%A3%E5%AF%86%E5%BA%A6/index.html" target="_blank" rel="noopener noreferrer">人口密度</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/9.%E9%A3%9E%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">飞线</a></li>
 </ul>
 </li>
-<li><a href="threejs/notice">注意</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E6%A8%A1%E5%85%B7/index.html" target="_blank" rel="noopener noreferrer">模具</a></li>
 </ul>
 </li>
-</ul>
-]]></summary>
+</ul>]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
-<li><a href="/code/3d/threejs/" target="_blank">threejs</a>
+<li>ThreeJS
 <ul>
-<li>实战样例
+<li>地球
 <ul>
-<li><a href="threejs/examples/phone">手机</a></li>
-<li><a href="threejs/examples/car">汽车</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/1.%E5%9C%B0%E7%90%83%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%92%8C%E7%90%83%E9%9D%A2%E5%9D%90%E6%A0%87/index.html" target="_blank" rel="noopener noreferrer">地球经纬度和球面坐标</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/2.%E7%82%B9%E6%95%B0%E6%8D%AE/index.html" target="_blank" rel="noopener noreferrer">点数据</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/3.%E8%BD%A8%E8%BF%B9%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">轨迹线</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/4.%E7%83%AD%E7%82%B9%E6%A0%87%E6%B3%A8/index.html" target="_blank" rel="noopener noreferrer">热点标注</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/5.%E6%8B%BE%E5%8F%96%E5%9B%BD%E5%AE%B6/index.html" target="_blank" rel="noopener noreferrer">拾取国家</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/6.%E9%A2%9C%E8%89%B2%E5%8F%AF%E8%A7%86%E5%8C%96/index.html" target="_blank" rel="noopener noreferrer">颜色可视化</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/7.%E7%82%B9%E9%98%B5/index.html" target="_blank" rel="noopener noreferrer">点阵</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/8.%E4%BA%BA%E5%8F%A3%E5%AF%86%E5%BA%A6/index.html" target="_blank" rel="noopener noreferrer">人口密度</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/9.%E9%A3%9E%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">飞线</a></li>
 </ul>
 </li>
-<li><a href="threejs/notice">注意</a></li>
+<li><a href="https://mister-duan.github.io/3d/src/%E6%A8%A1%E5%85%B7/index.html" target="_blank" rel="noopener noreferrer">模具</a></li>
 </ul>
 </li>
 </ul>
@@ -197,26 +249,10 @@
     <published>2024-11-19T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">手机模型展示</title>
-    <id>https://mister-duan.github.io/code/3d/threejs/examples/car.html</id>
-    <link href="https://mister-duan.github.io/code/3d/threejs/examples/car.html"/>
-    <updated>2024-12-11T13:36:39.000Z</updated>
-    <category term="3d"/>
-    <published>2024-11-19T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">手机模型展示</title>
-    <id>https://mister-duan.github.io/code/3d/threejs/examples/phone.html</id>
-    <link href="https://mister-duan.github.io/code/3d/threejs/examples/phone.html"/>
-    <updated>2024-12-11T13:36:39.000Z</updated>
-    <category term="3d"/>
-    <published>2024-11-19T00:00:00.000Z</published>
-  </entry>
-  <entry>
     <title type="text">代码笔记</title>
     <id>https://mister-duan.github.io/code/</id>
     <link href="https://mister-duan.github.io/code/"/>
-    <updated>2024-12-12T15:00:35.000Z</updated>
+    <updated>2024-12-16T12:29:37.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <h3>前端</h3>
@@ -259,6 +295,7 @@
 </ul>
 </li>
 </ul>
+ <!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
 ]]></content>
     <category term="qianduankaifa"/>
     <published>2024-11-19T00:00:00.000Z</published>
