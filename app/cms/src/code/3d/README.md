@@ -25,3 +25,4 @@ head:
     - [人口密度](https://mister-duan.github.io/3d/src/地球/8.人口密度/index.html)
     - [飞线](https://mister-duan.github.io/3d/src/地球/9.飞线/index.html)
   - [模具](https://mister-duan.github.io/3d/src/模具/index.html)
+  - [注意点](/notice)
