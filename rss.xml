@@ -6,8 +6,8 @@
     <link>https://mister-duan.github.io/</link>
     <description>Where there is light, there is hope.</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 19 Dec 2024 12:44:59 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Dec 2024 12:44:59 GMT</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2024 15:37:58 GMT</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2024 15:37:58 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>基于 MIT 协议，© 2019-至今 Mister.Duan</copyright>
@@ -17,8 +17,8 @@
     <category>前端组件</category>
     <item>
       <title>多窗口管理</title>
-      <link>https://mister-duan.github.io/code/electron/09.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86.html</link>
-      <guid>https://mister-duan.github.io/code/electron/09.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86.html</guid>
+      <link>https://mister-duan.github.io/code/electron/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86.html</link>
+      <guid>https://mister-duan.github.io/code/electron/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86.html</guid>
       <source url="https://mister-duan.github.io/rss.xml">多窗口管理</source>
       <description>多窗口管理 实际上要对多窗口进行管理，原理是非常简单的，主要就是将所有的窗口的引用存储到一个 map 里面，之后要对哪一个窗口进行操作，直接从 map 里面取出对应的窗口引用即可。 很多时候，我们的窗口不仅是多个，还需要对这多个窗口进行一个分组。这个时候简单的更改一下 map 的结构即可。 首先在窗口配置方面，新增一个 group 属性，表明该窗口是哪...</description>
       <category>Electron</category>
@@ -76,8 +76,8 @@
     </item>
     <item>
       <title>应用常见设置</title>
-      <link>https://mister-duan.github.io/code/electron/10.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE.html</link>
-      <guid>https://mister-duan.github.io/code/electron/10.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE.html</guid>
+      <link>https://mister-duan.github.io/code/electron/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE.html</link>
+      <guid>https://mister-duan.github.io/code/electron/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE.html</guid>
       <source url="https://mister-duan.github.io/rss.xml">应用常见设置</source>
       <description>应用常见设置 快捷键 托盘图标 剪切板 系统通知 快捷键 在 Electron 中，页面级别的快捷键直接使用 DOM 技术就可以实现。 例如，我们在渲染进程对应的 JS 中书写如下的代码： 有些时候我们还有注册全局快捷键的需求。所谓全局快捷键，指的是操作系统级别的快捷键，也就是说，即便当前的应用并非处于焦点状态，这些快捷键也能够触发相应的动作。 在 E...</description>
       <category>Electron</category>
@@ -212,8 +212,8 @@
     </item>
     <item>
       <title>窗口基础知识</title>
-      <link>https://mister-duan.github.io/code/electron/08.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</link>
-      <guid>https://mister-duan.github.io/code/electron/08.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</guid>
+      <link>https://mister-duan.github.io/code/electron/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</link>
+      <guid>https://mister-duan.github.io/code/electron/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</guid>
       <source url="https://mister-duan.github.io/rss.xml">窗口基础知识</source>
       <description>窗口 几乎所有包含图形界面的操作系统都是以窗口为基础构建各自的用户界面的。系统内小到一个计算器，大到一个复杂的业务系统，都是基于窗口而创建的。如果开发人员要开发一个有良好用户体验的 GUI 应用，势必会在窗口的控制上下足功夫。 Electron 中的窗口由 BrowserWindow 对象来创建，可以配置的属性多达几十个，这里我们将介绍一些比较常用的属...</description>
       <category>Electron</category>
@@ -748,7 +748,7 @@
       <link>https://mister-duan.github.io/code/electron/</link>
       <guid>https://mister-duan.github.io/code/electron/</guid>
       <source url="https://mister-duan.github.io/rss.xml">Electron</source>
-      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 01.Electron基本介绍 02.关于meta标签安全策略 03.进程与线程 04.主进程和渲染进程通信 05.渲染进程之间通信 06.使用消息端口通信</description>
+      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 01.Electron基本介绍 02.关于meta标签安全策略 03.进程与线程 04.主进程和渲染进程通信 05.渲染进程之间通信 06.使用消息端口通信 07.窗口基础知识 08.多窗口管理 09.应用常见设置</description>
       <category>qianduankaifa</category>
       <pubDate>Tue, 17 Dec 2024 14:47:36 GMT</pubDate>
       <content:encoded><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
@@ -760,6 +760,9 @@
 <li><a href="/04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
 <li><a href="/05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
 <li><a href="/06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
+<li><a href="/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
+<li><a href="/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
+<li><a href="/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
 </ul>
  <!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
 ]]></content:encoded>
