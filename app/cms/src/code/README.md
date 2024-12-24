@@ -33,5 +33,21 @@ category: qianduankaifa
   - [04.主进程和渲染进程通信](electron/04.主进程和渲染进程通信)
   - [05.渲染进程之间通信](electron/05.渲染进程之间通信)
   - [06.使用消息端口通信](electron/06.使用消息端口通信)
+  - [07.窗口基础知识](electron/07.窗口基础知识)
+  - [08.多窗口管理](electron/08.多窗口管理)
+  - [09.应用常见设置](electron/09.应用常见设置)
+  - [10.markdown](electron/10.markdown)
+  - [11.打包应用](electron/11.打包应用)
+  - [12.asar](electron/12.asar)
+  - [13.应用更新](electron/13.应用更新)
+  - [14.进度条案例](electron/14.进度条案例)
+  - [15.数据持久化](electron/15.数据持久化)
+  - [16.生命周期与remote模块](electron/16.生命周期与remote模块)
+  - [17.预加载脚本与上下文隔离](electron/17.预加载脚本与上下文隔离)
+  - [18.应用的安全性](electron/18.应用的安全性)
 
- <!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
+### AI
+
+- [01.学习计划](ai/01.学习计划)
+- [02.python基础](ai/02.python基础)
+<!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
