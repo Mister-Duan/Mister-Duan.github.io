@@ -5,7 +5,7 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-12-24T14:42:44.989Z</updated>
+  <updated>2024-12-24T14:51:01.215Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
@@ -3553,7 +3553,7 @@
     <title type="text">代码笔记</title>
     <id>https://mister-duan.github.io/code/</id>
     <link href="https://mister-duan.github.io/code/"/>
-    <updated>2024-12-24T14:41:33.000Z</updated>
+    <updated>2024-12-24T14:49:50.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <h3>前端</h3>
@@ -3565,18 +3565,18 @@
 <ul>
 <li>地球
 <ul>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/1.%E5%9C%B0%E7%90%83%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%92%8C%E7%90%83%E9%9D%A2%E5%9D%90%E6%A0%87/index.html" target="_blank" rel="noopener noreferrer">地球经纬度和球面坐标</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/2.%E7%82%B9%E6%95%B0%E6%8D%AE/index.html" target="_blank" rel="noopener noreferrer">点数据</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/3.%E8%BD%A8%E8%BF%B9%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">轨迹线</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/4.%E7%83%AD%E7%82%B9%E6%A0%87%E6%B3%A8/index.html" target="_blank" rel="noopener noreferrer">热点标注</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/5.%E6%8B%BE%E5%8F%96%E5%9B%BD%E5%AE%B6/index.html" target="_blank" rel="noopener noreferrer">拾取国家</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/6.%E9%A2%9C%E8%89%B2%E5%8F%AF%E8%A7%86%E5%8C%96/index.html" target="_blank" rel="noopener noreferrer">颜色可视化</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/7.%E7%82%B9%E9%98%B5/index.html" target="_blank" rel="noopener noreferrer">点阵</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/8.%E4%BA%BA%E5%8F%A3%E5%AF%86%E5%BA%A6/index.html" target="_blank" rel="noopener noreferrer">人口密度</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/9.%E9%A3%9E%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">飞线</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/1.%E5%9C%B0%E7%90%83%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%92%8C%E7%90%83%E9%9D%A2%E5%9D%90%E6%A0%87/index.html" target="_blank" rel="noopener noreferrer">地球经纬度和球面坐标</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/2.%E7%82%B9%E6%95%B0%E6%8D%AE/index.html" target="_blank" rel="noopener noreferrer">点数据</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/3.%E8%BD%A8%E8%BF%B9%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">轨迹线</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/4.%E7%83%AD%E7%82%B9%E6%A0%87%E6%B3%A8/index.html" target="_blank" rel="noopener noreferrer">热点标注</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/5.%E6%8B%BE%E5%8F%96%E5%9B%BD%E5%AE%B6/index.html" target="_blank" rel="noopener noreferrer">拾取国家</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/6.%E9%A2%9C%E8%89%B2%E5%8F%AF%E8%A7%86%E5%8C%96/index.html" target="_blank" rel="noopener noreferrer">颜色可视化</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/7.%E7%82%B9%E9%98%B5/index.html" target="_blank" rel="noopener noreferrer">点阵</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/8.%E4%BA%BA%E5%8F%A3%E5%AF%86%E5%BA%A6/index.html" target="_blank" rel="noopener noreferrer">人口密度</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/9.%E9%A3%9E%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">飞线</a></li>
 </ul>
 </li>
-<li><a href="https://mister-duan.github.io/3d/src/%E6%A8%A1%E5%85%B7/index.html" target="_blank" rel="noopener noreferrer">模具</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E6%A8%A1%E5%85%B7/index.html" target="_blank" rel="noopener noreferrer">模具</a></li>
 <li><a href="3d/notice">注意点</a></li>
 </ul>
 </li>
@@ -3616,18 +3616,18 @@
 <ul>
 <li>地球
 <ul>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/1.%E5%9C%B0%E7%90%83%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%92%8C%E7%90%83%E9%9D%A2%E5%9D%90%E6%A0%87/index.html" target="_blank" rel="noopener noreferrer">地球经纬度和球面坐标</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/2.%E7%82%B9%E6%95%B0%E6%8D%AE/index.html" target="_blank" rel="noopener noreferrer">点数据</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/3.%E8%BD%A8%E8%BF%B9%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">轨迹线</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/4.%E7%83%AD%E7%82%B9%E6%A0%87%E6%B3%A8/index.html" target="_blank" rel="noopener noreferrer">热点标注</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/5.%E6%8B%BE%E5%8F%96%E5%9B%BD%E5%AE%B6/index.html" target="_blank" rel="noopener noreferrer">拾取国家</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/6.%E9%A2%9C%E8%89%B2%E5%8F%AF%E8%A7%86%E5%8C%96/index.html" target="_blank" rel="noopener noreferrer">颜色可视化</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/7.%E7%82%B9%E9%98%B5/index.html" target="_blank" rel="noopener noreferrer">点阵</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/8.%E4%BA%BA%E5%8F%A3%E5%AF%86%E5%BA%A6/index.html" target="_blank" rel="noopener noreferrer">人口密度</a></li>
-<li><a href="https://mister-duan.github.io/3d/src/%E5%9C%B0%E7%90%83/9.%E9%A3%9E%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">飞线</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/1.%E5%9C%B0%E7%90%83%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%92%8C%E7%90%83%E9%9D%A2%E5%9D%90%E6%A0%87/index.html" target="_blank" rel="noopener noreferrer">地球经纬度和球面坐标</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/2.%E7%82%B9%E6%95%B0%E6%8D%AE/index.html" target="_blank" rel="noopener noreferrer">点数据</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/3.%E8%BD%A8%E8%BF%B9%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">轨迹线</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/4.%E7%83%AD%E7%82%B9%E6%A0%87%E6%B3%A8/index.html" target="_blank" rel="noopener noreferrer">热点标注</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/5.%E6%8B%BE%E5%8F%96%E5%9B%BD%E5%AE%B6/index.html" target="_blank" rel="noopener noreferrer">拾取国家</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/6.%E9%A2%9C%E8%89%B2%E5%8F%AF%E8%A7%86%E5%8C%96/index.html" target="_blank" rel="noopener noreferrer">颜色可视化</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/7.%E7%82%B9%E9%98%B5/index.html" target="_blank" rel="noopener noreferrer">点阵</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/8.%E4%BA%BA%E5%8F%A3%E5%AF%86%E5%BA%A6/index.html" target="_blank" rel="noopener noreferrer">人口密度</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E5%9C%B0%E7%90%83/9.%E9%A3%9E%E7%BA%BF/index.html" target="_blank" rel="noopener noreferrer">飞线</a></li>
 </ul>
 </li>
-<li><a href="https://mister-duan.github.io/3d/src/%E6%A8%A1%E5%85%B7/index.html" target="_blank" rel="noopener noreferrer">模具</a></li>
+<li><a href="https://mister-duan.github.io/demos/src/3d/%E6%A8%A1%E5%85%B7/index.html" target="_blank" rel="noopener noreferrer">模具</a></li>
 <li><a href="3d/notice">注意点</a></li>
 </ul>
 </li>
