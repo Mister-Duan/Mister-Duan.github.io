@@ -6,19 +6,126 @@
     <link>https://mister-duan.github.io/</link>
     <description>Where there is light, there is hope.</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 23 Dec 2024 13:02:37 GMT</pubDate>
-    <lastBuildDate>Mon, 23 Dec 2024 13:02:37 GMT</lastBuildDate>
+    <pubDate>Tue, 24 Dec 2024 14:09:48 GMT</pubDate>
+    <lastBuildDate>Tue, 24 Dec 2024 14:09:48 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>基于 MIT 协议，© 2019-至今 Mister.Duan</copyright>
+    <category>AI</category>
     <category>Electron</category>
     <category>qianduankaifa</category>
     <category>3d</category>
     <category>前端组件</category>
     <item>
+      <title>Python基础</title>
+      <link>https://mister-duan.github.io/code/ai/python/</link>
+      <guid>https://mister-duan.github.io/code/ai/python/</guid>
+      <source url="https://mister-duan.github.io/rss.xml">Python基础</source>
+      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 版本 v2.7.14 老项目依赖的比较多 v3.x.x 一直在更新 大多的库依赖这个版本 安装 python 提供的安装包 按步骤安装 开发环境要配置 复杂上手慢 Anaconda 优势 python大礼包(全套环境 必备的库pip 环境问题) 开发环境 提供了可安装的资源 装起来简单 用起来也简单 ...</description>
+      <category>AI</category>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
+<h2>目录</h2>
+<h1>版本</h1>
+<ul>
+<li>v2.7.14
+<ul>
+<li>老项目依赖的比较多</li>
+</ul>
+</li>
+<li>v3.x.x 一直在更新
+<ul>
+<li>大多的库依赖这个版本</li>
+</ul>
+</li>
+</ul>
+<h1>安装</h1>
+<ul>
+<li>
+<p><a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">python</a></p>
+<ul>
+<li>提供的安装包</li>
+<li>按步骤安装</li>
+<li>开发环境要配置</li>
+<li>复杂上手慢</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.anaconda.com/" target="_blank" rel="noopener noreferrer">Anaconda</a></p>
+<ul>
+<li>
+<p>优势</p>
+<ul>
+<li>python大礼包(全套环境 必备的库pip 环境问题)</li>
+<li>开发环境</li>
+<li>提供了可安装的资源</li>
+<li>装起来简单 用起来也简单</li>
+</ul>
+</li>
+<li>
+<p>基础命令</p>
+<ul>
+<li>conda list 列出已经装好的库 numpy/pandas
+<ul>
+<li>pip pip安装的</li>
+<li>py35_0 python 自带的</li>
+</ul>
+</li>
+<li>安装
+<ul>
+<li>pip install xgboost
+<ul>
+<li>如果远程下载出现问题
+<ul>
+<li>可以先下载whl文件（https://www.lfd.uci.edu/~gohlke/pythonlibs/ 三方库地址）</li>
+<li>然后执行 pip install xxxx.whl 文件安装</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>conda install numpy</li>
+<li>推荐pip</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1>编辑器</h1>
+<h2>Jupyter Notebook</h2>
+<p>Jupyter Notebook是以网页的形式打开，可以在网页页面中直接编写代码和运行代码，代码的运行结果也会直接在代码块下显示的程序。如在编程过程中需要编写说明文档，可在同一个页面中直接编写，便于作及时的说明和解释。</p>
+<h3>主要特点</h3>
+<ul>
+<li>编程时具有语法高亮、缩进、tab补全的功能。</li>
+<li>可直接通过浏览器运行代码，同时在代码块下方展示运行结果。</li>
+<li>以富媒体格式展示计算结果。富媒体格式包括：HTML，LaTeX，PNG，SVG等。</li>
+<li>对代码编写说明文档或语句时，支持Markdown语法。</li>
+<li>支持使用LaTeX编写数学性说明。</li>
+</ul>
+<h1>Python</h1>
+<ul>
+<li>1991年 pyton 编译器诞生</li>
+<li>2000年 version2.0 稳定版本2.7</li>
+<li>2008年 version3.0 破坏性升级 不兼容2.7</li>
+</ul>
+<h2>可以干什么</h2>
+<ul>
+<li>基础编程开发</li>
+<li>Web开发</li>
+<li>运维</li>
+<li>机器学习</li>
+<li>运维学习</li>
+<li>计算机视觉与自然语言处理</li>
+<li>数据挖掘</li>
+<li>Spark大数</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title></title>
-      <link>https://mister-duan.github.io/ai/01.%E8%A7%84%E5%88%92%E7%9B%B8%E5%85%B3.html</link>
-      <guid>https://mister-duan.github.io/ai/01.%E8%A7%84%E5%88%92%E7%9B%B8%E5%85%B3.html</guid>
+      <link>https://mister-duan.github.io/code/ai/01.%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92.html</link>
+      <guid>https://mister-duan.github.io/code/ai/01.%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92.html</guid>
       <source url="https://mister-duan.github.io/rss.xml"></source>
       <description>AI的三个方向 深度学习 计算机视觉 自然语言处理 内容 算法讲解 论文分析 源码解读 经典的源码（万变不离其宗） 项目实战 路线图/优先级 第一个模块 AI必备基础与机器学习 第一章 python/数学基础(2天) 边用边学 现用现查 第二章 机器学习算法精讲及其案例应用 没有太多的应用地方,已经是transfer的的天下了 面试的时候的看一遍,只是...</description>
       <pubDate>Mon, 23 Dec 2024 13:01:24 GMT</pubDate>
@@ -2697,51 +2804,23 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>代码笔记</title>
+      <title>AI</title>
       <link>https://mister-duan.github.io/code/ai/</link>
       <guid>https://mister-duan.github.io/code/ai/</guid>
-      <source url="https://mister-duan.github.io/rss.xml">代码笔记</source>
-      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 AI方向 数据挖掘 计算机视觉 自然语言处理 算法讲解 论文分析 源码解读 项目实战 计算机配置 GPU 笔记本 3080 8G 显存 台式 4060 24G CPU 深度学习必备核⼼算法(终点 基础 多看几遍) 深度学习框架PyTorch Opencv图像处理框架实战(工具 框架 会用就行) 综合项...</description>
-      <category>qianduankaifa</category>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
+      <source url="https://mister-duan.github.io/rss.xml">AI</source>
+      <description>此处是 Mr.Duan 存放的一些代码笔记。 目录 前端 01.学习计划 基础 Python Math</description>
+      <category>AI</category>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
-<h3>AI方向</h3>
+<h3>前端</h3>
 <ul>
-<li>数据挖掘</li>
-<li>计算机视觉</li>
-<li>自然语言处理
+<li><a href="01.%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92">01.学习计划</a></li>
+<li>基础
 <ul>
-<li>算法讲解</li>
-<li>论文分析</li>
-<li>源码解读</li>
-<li>项目实战</li>
+<li>Python</li>
+<li>Math</li>
 </ul>
-</li>
-</ul>
-<h3>计算机配置</h3>
-<ul>
-<li>
-<p>GPU</p>
-<ul>
-<li>笔记本 3080 8G 显存</li>
-<li>台式 4060 24G</li>
-</ul>
-</li>
-<li>
-<p>CPU</p>
-</li>
-<li>
-<p>深度学习必备核⼼算法(终点 基础 多看几遍)</p>
-</li>
-<li>
-<p>深度学习框架PyTorch</p>
-</li>
-<li>
-<p>Opencv图像处理框架实战(工具 框架 会用就行)</p>
-</li>
-<li>
-<p>综合项目-物体检测经典算法实战(必须要掌握 源码)</p>
 </li>
 </ul>
 ]]></content:encoded>
