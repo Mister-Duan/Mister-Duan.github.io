@@ -5,7 +5,7 @@
   <subtitle>Where there is light, there is hope.</subtitle>
   <icon>https://mister-duan.github.io/favicon.ico</icon>
   <rights>基于 MIT 协议，© 2019-至今 Mister.Duan</rights>
-  <updated>2024-12-24T14:09:48.962Z</updated>
+  <updated>2024-12-24T14:42:44.989Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-duan.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-duan.github.io/"/>
@@ -16,9 +16,9 @@
   <category term="前端组件"/>
   <entry>
     <title type="text">Python基础</title>
-    <id>https://mister-duan.github.io/code/ai/python/</id>
-    <link href="https://mister-duan.github.io/code/ai/python/"/>
-    <updated>2024-12-24T14:08:42.000Z</updated>
+    <id>https://mister-duan.github.io/code/ai/02.python%E5%9F%BA%E7%A1%80.html</id>
+    <link href="https://mister-duan.github.io/code/ai/02.python%E5%9F%BA%E7%A1%80.html"/>
+    <updated>2024-12-24T14:41:33.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <h1>版本</h1>
@@ -183,6 +183,7 @@
 <li>数据挖掘</li>
 <li>Spark大数</li>
 </ul>
+<h2><a class="header-anchor" href="#入门教程"><span></span></a><a href="https://docs.python.org/zh-cn/3.13/tutorial/index.html" target="_blank" rel="noopener noreferrer">入门教程</a></h2>
 ]]></content>
     <category term="AI"/>
     <published>2024-12-24T00:00:00.000Z</published>
@@ -3317,32 +3318,48 @@
     <title type="text">Electron</title>
     <id>https://mister-duan.github.io/code/electron/</id>
     <link href="https://mister-duan.github.io/code/electron/"/>
-    <updated>2024-12-20T15:36:43.000Z</updated>
+    <updated>2024-12-24T14:41:33.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
-<li><a href="/01.Electron%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D">01.Electron基本介绍</a></li>
-<li><a href="/02.%E5%85%B3%E4%BA%8Emeta%E6%A0%87%E7%AD%BE%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5">02.关于meta标签安全策略</a></li>
-<li><a href="/03.%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B">03.进程与线程</a></li>
-<li><a href="/04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
-<li><a href="/05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
-<li><a href="/06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
-<li><a href="/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
-<li><a href="/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
-<li><a href="/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
+<li><a href="01.Electron%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D">01.Electron基本介绍</a></li>
+<li><a href="02.%E5%85%B3%E4%BA%8Emeta%E6%A0%87%E7%AD%BE%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5">02.关于meta标签安全策略</a></li>
+<li><a href="03.%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B">03.进程与线程</a></li>
+<li><a href="04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
+<li><a href="05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
+<li><a href="06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
+<li><a href="07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
+<li><a href="08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
+<li><a href="09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
+<li><a href="10.markdown">10.markdown</a></li>
+<li><a href="11.%E6%89%93%E5%8C%85%E5%BA%94%E7%94%A8">11.打包应用</a></li>
+<li><a href="12.asar">12.asar</a></li>
+<li><a href="13.%E5%BA%94%E7%94%A8%E6%9B%B4%E6%96%B0">13.应用更新</a></li>
+<li><a href="14.%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%A1%88%E4%BE%8B">14.进度条案例</a></li>
+<li><a href="15.%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96">15.数据持久化</a></li>
+<li><a href="16.%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8Eremote%E6%A8%A1%E5%9D%97">16.生命周期与remote模块</a></li>
+<li><a href="17.%E9%A2%84%E5%8A%A0%E8%BD%BD%E8%84%9A%E6%9C%AC%E4%B8%8E%E4%B8%8A%E4%B8%8B%E6%96%87%E9%9A%94%E7%A6%BB">17.预加载脚本与上下文隔离</a></li>
 </ul>]]></summary>
     <content type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <ul>
-<li><a href="/01.Electron%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D">01.Electron基本介绍</a></li>
-<li><a href="/02.%E5%85%B3%E4%BA%8Emeta%E6%A0%87%E7%AD%BE%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5">02.关于meta标签安全策略</a></li>
-<li><a href="/03.%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B">03.进程与线程</a></li>
-<li><a href="/04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
-<li><a href="/05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
-<li><a href="/06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
-<li><a href="/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
-<li><a href="/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
-<li><a href="/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
+<li><a href="01.Electron%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D">01.Electron基本介绍</a></li>
+<li><a href="02.%E5%85%B3%E4%BA%8Emeta%E6%A0%87%E7%AD%BE%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5">02.关于meta标签安全策略</a></li>
+<li><a href="03.%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B">03.进程与线程</a></li>
+<li><a href="04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
+<li><a href="05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
+<li><a href="06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
+<li><a href="07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
+<li><a href="08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
+<li><a href="09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
+<li><a href="10.markdown">10.markdown</a></li>
+<li><a href="11.%E6%89%93%E5%8C%85%E5%BA%94%E7%94%A8">11.打包应用</a></li>
+<li><a href="12.asar">12.asar</a></li>
+<li><a href="13.%E5%BA%94%E7%94%A8%E6%9B%B4%E6%96%B0">13.应用更新</a></li>
+<li><a href="14.%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%A1%88%E4%BE%8B">14.进度条案例</a></li>
+<li><a href="15.%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96">15.数据持久化</a></li>
+<li><a href="16.%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8Eremote%E6%A8%A1%E5%9D%97">16.生命周期与remote模块</a></li>
+<li><a href="17.%E9%A2%84%E5%8A%A0%E8%BD%BD%E8%84%9A%E6%9C%AC%E4%B8%8E%E4%B8%8A%E4%B8%8B%E6%96%87%E9%9A%94%E7%A6%BB">17.预加载脚本与上下文隔离</a></li>
 </ul>
  <!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
 ]]></content>
@@ -3536,7 +3553,7 @@
     <title type="text">代码笔记</title>
     <id>https://mister-duan.github.io/code/</id>
     <link href="https://mister-duan.github.io/code/"/>
-    <updated>2024-12-17T14:47:36.000Z</updated>
+    <updated>2024-12-24T14:41:33.000Z</updated>
     <summary type="html"><![CDATA[<p>此处是 Mr.Duan 存放的一些代码笔记。</p>
 <h2>目录</h2>
 <h3>前端</h3>
@@ -3573,6 +3590,18 @@
 <li><a href="electron/04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
 <li><a href="electron/05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
 <li><a href="electron/06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
+<li><a href="electron/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
+<li><a href="electron/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
+<li><a href="electron/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
+<li><a href="electron/10.markdown">10.markdown</a></li>
+<li><a href="electron/11.%E6%89%93%E5%8C%85%E5%BA%94%E7%94%A8">11.打包应用</a></li>
+<li><a href="electron/12.asar">12.asar</a></li>
+<li><a href="electron/13.%E5%BA%94%E7%94%A8%E6%9B%B4%E6%96%B0">13.应用更新</a></li>
+<li><a href="electron/14.%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%A1%88%E4%BE%8B">14.进度条案例</a></li>
+<li><a href="electron/15.%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96">15.数据持久化</a></li>
+<li><a href="electron/16.%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8Eremote%E6%A8%A1%E5%9D%97">16.生命周期与remote模块</a></li>
+<li><a href="electron/17.%E9%A2%84%E5%8A%A0%E8%BD%BD%E8%84%9A%E6%9C%AC%E4%B8%8E%E4%B8%8A%E4%B8%8B%E6%96%87%E9%9A%94%E7%A6%BB">17.预加载脚本与上下文隔离</a></li>
+<li><a href="electron/18.%E5%BA%94%E7%94%A8%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7">18.应用的安全性</a></li>
 </ul>
 </li>
 </ul>]]></summary>
@@ -3612,10 +3641,27 @@
 <li><a href="electron/04.%E4%B8%BB%E8%BF%9B%E7%A8%8B%E5%92%8C%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1">04.主进程和渲染进程通信</a></li>
 <li><a href="electron/05.%E6%B8%B2%E6%9F%93%E8%BF%9B%E7%A8%8B%E4%B9%8B%E9%97%B4%E9%80%9A%E4%BF%A1">05.渲染进程之间通信</a></li>
 <li><a href="electron/06.%E4%BD%BF%E7%94%A8%E6%B6%88%E6%81%AF%E7%AB%AF%E5%8F%A3%E9%80%9A%E4%BF%A1">06.使用消息端口通信</a></li>
+<li><a href="electron/07.%E7%AA%97%E5%8F%A3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">07.窗口基础知识</a></li>
+<li><a href="electron/08.%E5%A4%9A%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86">08.多窗口管理</a></li>
+<li><a href="electron/09.%E5%BA%94%E7%94%A8%E5%B8%B8%E8%A7%81%E8%AE%BE%E7%BD%AE">09.应用常见设置</a></li>
+<li><a href="electron/10.markdown">10.markdown</a></li>
+<li><a href="electron/11.%E6%89%93%E5%8C%85%E5%BA%94%E7%94%A8">11.打包应用</a></li>
+<li><a href="electron/12.asar">12.asar</a></li>
+<li><a href="electron/13.%E5%BA%94%E7%94%A8%E6%9B%B4%E6%96%B0">13.应用更新</a></li>
+<li><a href="electron/14.%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%A1%88%E4%BE%8B">14.进度条案例</a></li>
+<li><a href="electron/15.%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96">15.数据持久化</a></li>
+<li><a href="electron/16.%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8Eremote%E6%A8%A1%E5%9D%97">16.生命周期与remote模块</a></li>
+<li><a href="electron/17.%E9%A2%84%E5%8A%A0%E8%BD%BD%E8%84%9A%E6%9C%AC%E4%B8%8E%E4%B8%8A%E4%B8%8B%E6%96%87%E9%9A%94%E7%A6%BB">17.预加载脚本与上下文隔离</a></li>
+<li><a href="electron/18.%E5%BA%94%E7%94%A8%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7">18.应用的安全性</a></li>
 </ul>
 </li>
 </ul>
- <!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
+<h3>AI</h3>
+<ul>
+<li><a href="ai/01.%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92">01.学习计划</a></li>
+<li><a href="ai/02.python%E5%9F%BA%E7%A1%80">02.python基础</a></li>
+</ul>
+<!-- cv就看yolo，资料多，教程多，nlp看bert，传统机器学习看rnn -->
 ]]></content>
     <category term="qianduankaifa"/>
     <published>2024-11-19T00:00:00.000Z</published>
