@@ -8,7 +8,9 @@
   "license": "MIT",
   "keywords": [
     "vuepress",
-    "personal-blog"
+    "personal-blog",
+    "ai",
+    "python"
   ],
   "dependencies": {
     "@babel/preset-env": "^7.25.4",
