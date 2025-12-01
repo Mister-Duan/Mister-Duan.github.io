@@ -1,3 +1,5 @@
-node_modules/
 dist/
-three.js-dev/
+node_modules/
+.cache/
+.temp/
+.npmrc

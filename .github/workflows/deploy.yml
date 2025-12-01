@@ -29,13 +29,13 @@ jobs:
       - name: Install pnpm && Build Blog
         run: pnpm install
 
-      - name: Build Dependencies
-        run: cd ./packages/vue-coms && pnpm run lib
+      # - name: Build Dependencies
+      #   run: cd ./packages/vue-coms && pnpm run lib
 
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: cd ./app/cms && pnpm run build:vite
+        run: pnpm run build:vite
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
