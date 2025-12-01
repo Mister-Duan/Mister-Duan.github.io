@@ -33,7 +33,7 @@ export default hopeTheme(
         copyright: "基于 MIT 协议，© 2019-至今 Mr.Duan",
 
         blog: {
-          description: "理论物理硕士，高中物理教师，前端开发者，开源项目贡献者",
+          description: "前端开发者，开源项目贡献者",
           intro: "/about/",
           medias: {
                   GitHub: "https://github.com/Mister-duan",
