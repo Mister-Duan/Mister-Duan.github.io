@@ -1,0 +1,17 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        env:
+          GREETING: "Hello, GitHub Actions!"
+        run: echo "$GREETING" ------- "$GREETING"
+
