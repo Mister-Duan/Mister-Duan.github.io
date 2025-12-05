@@ -6,8 +6,8 @@
     <link>https://mister-duan.github.io/en/</link>
     <description>Mr.Duan personal blog</description>
     <language>en-US</language>
-    <pubDate>Mon, 01 Dec 2025 05:51:07 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Dec 2025 05:51:07 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Dec 2025 06:03:12 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Dec 2025 06:03:12 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed, © 2019-present Mr.Duan</copyright>
@@ -37,19 +37,6 @@
 <h2>Disclamer</h2>
 <p>This blog contains books &amp; blogs from <a href="https://github.com/ruanyf" target="_blank" rel="noopener noreferrer">ruanyf</a> and <a href="https://weibo.com/liaoxuefeng" target="_blank" rel="noopener noreferrer">廖雪峰</a>.</p>
 <p>Great thanks to them.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Code Note</title>
-      <link>https://mister-duan.github.io/en/code/</link>
-      <guid>https://mister-duan.github.io/en/code/</guid>
-      <source url="https://mister-duan.github.io/en/rss.xml">Code Note</source>
-      <description>Info Code notes only contains Chinese version.</description>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<p>Code notes only contains <strong>Chinese</strong> version.</p>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -106,6 +93,19 @@
 <ul>
 <li><a href="/piece/poem/" target="_blank">Details</a></li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Code Note</title>
+      <link>https://mister-duan.github.io/en/code/</link>
+      <guid>https://mister-duan.github.io/en/code/</guid>
+      <source url="https://mister-duan.github.io/en/rss.xml">Code Note</source>
+      <description>Info Code notes only contains Chinese version.</description>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">Info</p>
+<p>Code notes only contains <strong>Chinese</strong> version.</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>
