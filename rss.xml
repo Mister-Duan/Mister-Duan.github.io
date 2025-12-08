@@ -6,8 +6,8 @@
     <link>https://mister-duan.github.io/</link>
     <description>Where there is light, there is hope.</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 05 Dec 2025 06:03:12 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Dec 2025 06:03:12 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2025 07:40:46 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2025 07:40:46 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>基于 MIT 协议，© 2019-至今 Mr.Duan</copyright>
@@ -318,109 +318,6 @@
 </div>]]></content:encoded>
     </item>
     <item>
-      <title>部署宝塔</title>
-      <link>https://mister-duan.github.io/note/server/bt.html</link>
-      <guid>https://mister-duan.github.io/note/server/bt.html</guid>
-      <source url="https://mister-duan.github.io/rss.xml">部署宝塔</source>
-      <description>前往 宝塔官网安装地址 下载安装宝塔。 安装之后： 修改用户名、密码、端口号和访问路径 设置告警 设置计划任务</description>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>前往 <a href="https://www.bt.cn/new/download.html" target="_blank" rel="noopener noreferrer">宝塔官网安装地址</a> 下载安装宝塔。</p>
-<p>安装之后：</p>
-<ul>
-<li>修改用户名、密码、端口号和访问路径</li>
-<li>设置告警</li>
-<li>设置计划任务</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>frp</title>
-      <link>https://mister-duan.github.io/note/server/frp.html</link>
-      <guid>https://mister-duan.github.io/note/server/frp.html</guid>
-      <source url="https://mister-duan.github.io/rss.xml">frp</source>
-      <description>frp 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。 frp 的文档可以参照 frp 文档 或 frp GitHub Linux 安装服务端 标准的做法，是将 frps 放置在 /usr/local/bin 目录下。 确保 systemd 已经安装： 创建 frpc 或 frps 服务： 写入服务配置： 进...</description>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p><a href="https://github.com/fatedier/frp" target="_blank" rel="noopener noreferrer">frp</a> 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。</p>
-<p>frp 的文档可以参照 <a href="https://gofrp.org/zh-cn/docs/" target="_blank" rel="noopener noreferrer">frp 文档</a> 或 <a href="https://github.com/fatedier/frp" target="_blank" rel="noopener noreferrer">frp GitHub</a></p>
-<h2>Linux 安装服务端</h2>
-<p>标准的做法，是将 frps 放置在 <code>/usr/local/bin</code> 目录下。</p>
-<p>确保 systemd 已经安装：</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">apt</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemd</span></span></code></pre>
-</div><p>创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vim</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /etc/systemd/system/frps.service</span></span></code></pre>
-</div><p>写入服务配置：</p>
-<div class="language-conf line-numbers-mode" data-highlighter="shiki" data-ext="conf" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-conf"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Unit]</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> FRP Server</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">After</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> network.target</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Service]</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> simple</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">ExecStart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">/usr/local/bin/frps -c /etc/frp/frps.toml</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Restart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> on-failure</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">RestartSec</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> 5s</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardOutput</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> file:/var/log/frp/frps.log</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardError</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">file:/var/log/frp/frps.error.log</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Install]</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">WantedBy</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> multi-user.target</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>进行其他配置，配置好后启用</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 启动</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 查看状态</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> status</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 开机启动</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> enable</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span></code></pre>
-</div><p>如果想要查看日志，可以使用 <code>journalctl</code> 命令：</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 查看日志</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> journalctl</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -u</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span></code></pre>
-</div><h2>Linux 安装客户端</h2>
-<p>标准的做法，是将 frpc 放置在 <code>/usr/local/bin</code> 目录下。</p>
-<p>创建 <code>frpc</code> 服务：</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vim</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /etc/systemd/system/frpc.service</span></span></code></pre>
-</div><p>写入服务配置：</p>
-<div class="language-conf line-numbers-mode" data-highlighter="shiki" data-ext="conf" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-conf"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Unit]</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> FRP Client</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">After</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> network.target</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Service]</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> simple</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">ExecStart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">/usr/local/bin/frpc -c /etc/frp/frpc.toml</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Restart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> on-failure</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">RestartSec</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> 5s</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardOutput</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> file:/var/log/frp/frpc.log</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardError</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> file:/var/log/frp/frpc.error.log</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Install]</span></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">WantedBy</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> multi-user.target</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Windows 安装</h2>
-<p>可以放置在 <code>C:\frp</code> 目录下。</p>
-<p>创建 Windows 服务模板:</p>
-<div class="code-block-with-title">
-  <div class="code-block-title-bar" data-title="frpc.xml">
-    <span>frpc.xml</span>
-  </div>
-  <div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-xml"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;?</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">xml</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1.0"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> ?&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">service</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;frpc&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;frpc.exe&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">executable</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;%BASE%\frpc.exe&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">executable</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">log</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> mode</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"roll-by-size"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">keepFiles</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;4&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">keepFiles</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sizeThreshold</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;262144&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sizeThreshold</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">log</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;frpc&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">onfailure</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"restart"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> delay</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1 sec"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">onfailure</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"restart"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> delay</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1 sec"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">onfailure</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"restart"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> delay</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1 sec"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">resetfailure</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;1 min&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">resetfailure</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">startarguments</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;-c frpc.toml&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">startarguments</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">service</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>
-</div><p>通过 <code>WinSW-x64.exe</code> 创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>
-<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">C:\frp\WinSW-x64.exe</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frpc.xml</span></span></code></pre>
-</div>]]></content:encoded>
-    </item>
-    <item>
       <title>Docker 的安装与设置</title>
       <link>https://mister-duan.github.io/note/ubuntu/docker.html</link>
       <guid>https://mister-duan.github.io/note/ubuntu/docker.html</guid>
@@ -654,6 +551,109 @@
 </div></li>
 </ol>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>部署宝塔</title>
+      <link>https://mister-duan.github.io/note/server/bt.html</link>
+      <guid>https://mister-duan.github.io/note/server/bt.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">部署宝塔</source>
+      <description>前往 宝塔官网安装地址 下载安装宝塔。 安装之后： 修改用户名、密码、端口号和访问路径 设置告警 设置计划任务</description>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>前往 <a href="https://www.bt.cn/new/download.html" target="_blank" rel="noopener noreferrer">宝塔官网安装地址</a> 下载安装宝塔。</p>
+<p>安装之后：</p>
+<ul>
+<li>修改用户名、密码、端口号和访问路径</li>
+<li>设置告警</li>
+<li>设置计划任务</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>frp</title>
+      <link>https://mister-duan.github.io/note/server/frp.html</link>
+      <guid>https://mister-duan.github.io/note/server/frp.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">frp</source>
+      <description>frp 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。 frp 的文档可以参照 frp 文档 或 frp GitHub Linux 安装服务端 标准的做法，是将 frps 放置在 /usr/local/bin 目录下。 确保 systemd 已经安装： 创建 frpc 或 frps 服务： 写入服务配置： 进...</description>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><a href="https://github.com/fatedier/frp" target="_blank" rel="noopener noreferrer">frp</a> 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。</p>
+<p>frp 的文档可以参照 <a href="https://gofrp.org/zh-cn/docs/" target="_blank" rel="noopener noreferrer">frp 文档</a> 或 <a href="https://github.com/fatedier/frp" target="_blank" rel="noopener noreferrer">frp GitHub</a></p>
+<h2>Linux 安装服务端</h2>
+<p>标准的做法，是将 frps 放置在 <code>/usr/local/bin</code> 目录下。</p>
+<p>确保 systemd 已经安装：</p>
+<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">apt</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemd</span></span></code></pre>
+</div><p>创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>
+<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vim</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /etc/systemd/system/frps.service</span></span></code></pre>
+</div><p>写入服务配置：</p>
+<div class="language-conf line-numbers-mode" data-highlighter="shiki" data-ext="conf" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-conf"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Unit]</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> FRP Server</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">After</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> network.target</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Service]</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> simple</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">ExecStart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">/usr/local/bin/frps -c /etc/frp/frps.toml</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Restart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> on-failure</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">RestartSec</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> 5s</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardOutput</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> file:/var/log/frp/frps.log</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardError</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">file:/var/log/frp/frps.error.log</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Install]</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">WantedBy</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> multi-user.target</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>进行其他配置，配置好后启用</p>
+<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 启动</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 查看状态</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> status</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 开机启动</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> systemctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> enable</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span></code></pre>
+</div><p>如果想要查看日志，可以使用 <code>journalctl</code> 命令：</p>
+<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 查看日志</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> journalctl</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -u</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frps</span></span></code></pre>
+</div><h2>Linux 安装客户端</h2>
+<p>标准的做法，是将 frpc 放置在 <code>/usr/local/bin</code> 目录下。</p>
+<p>创建 <code>frpc</code> 服务：</p>
+<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vim</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /etc/systemd/system/frpc.service</span></span></code></pre>
+</div><p>写入服务配置：</p>
+<div class="language-conf line-numbers-mode" data-highlighter="shiki" data-ext="conf" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-conf"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Unit]</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> FRP Client</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">After</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> network.target</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Service]</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> simple</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">ExecStart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379">/usr/local/bin/frpc -c /etc/frp/frpc.toml</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">Restart</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> on-failure</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">RestartSec</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> 5s</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardOutput</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> file:/var/log/frp/frpc.log</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">StandardError</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> file:/var/log/frp/frpc.error.log</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">[Install]</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#C678DD">WantedBy</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#98C379"> multi-user.target</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Windows 安装</h2>
+<p>可以放置在 <code>C:\frp</code> 目录下。</p>
+<p>创建 Windows 服务模板:</p>
+<div class="code-block-with-title">
+  <div class="code-block-title-bar" data-title="frpc.xml">
+    <span>frpc.xml</span>
+  </div>
+  <div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-xml"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;?</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">xml</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1.0"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> ?&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">service</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;frpc&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;frpc.exe&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">description</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">executable</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;%BASE%\frpc.exe&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">executable</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">log</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> mode</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"roll-by-size"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">keepFiles</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;4&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">keepFiles</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sizeThreshold</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;262144&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">sizeThreshold</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">log</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;frpc&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">onfailure</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"restart"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> delay</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1 sec"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">onfailure</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"restart"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> delay</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1 sec"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">onfailure</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"restart"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> delay</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1 sec"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">resetfailure</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;1 min&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">resetfailure</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">startarguments</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;-c frpc.toml&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">startarguments</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">service</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>
+</div><p>通过 <code>WinSW-x64.exe</code> 创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>
+<div class="language-bash" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">C:\frp\WinSW-x64.exe</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> frpc.xml</span></span></code></pre>
+</div>]]></content:encoded>
     </item>
     <item>
       <title>Docker</title>
@@ -2280,187 +2280,6 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>春之诗【一】</title>
-      <link>https://mister-duan.github.io/piece/spring/1.html</link>
-      <guid>https://mister-duan.github.io/piece/spring/1.html</guid>
-      <source url="https://mister-duan.github.io/rss.xml">春之诗【一】</source>
-      <description>春风送暖入屠苏， 一窗的明媚， 满心的期待， 已在不远处娉婷于陌上诗笺。 转眼， 冬已过， 春已来。 时间如白驹， 岁月如水逝， 冬日的雪韵，梅魂， 似乎还没赏够，品够，悟够， 春天的裙摆 已悄然拂过大地山川与河流。 万物正缓缓苏醒， 冰雪则日渐消融， 睡在轮回的春意， 缀满了岁月的枝头，活色生香。</description>
-      <category>随笔</category>
-      <pubDate>Sun, 12 Apr 2015 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div style="text-align:center">
-<p>春风送暖入屠苏，</p>
-<p>一窗的明媚，</p>
-<p>满心的期待，</p>
-<p>已在不远处娉婷于陌上诗笺。</p>
-<p>转眼，</p>
-<p>冬已过，</p>
-<p>春已来。</p>
-<p>时间如白驹，</p>
-<p>岁月如水逝，</p>
-<p>冬日的雪韵，梅魂，</p>
-<p>似乎还没赏够，品够，悟够，</p>
-<p>春天的裙摆</p>
-<p>已悄然拂过大地山川与河流。</p>
-<p>万物正缓缓苏醒，</p>
-<p>冰雪则日渐消融，</p>
-<p>睡在轮回的春意，</p>
-<p>缀满了岁月的枝头，活色生香。</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>春之诗【二】</title>
-      <link>https://mister-duan.github.io/piece/spring/2.html</link>
-      <guid>https://mister-duan.github.io/piece/spring/2.html</guid>
-      <source url="https://mister-duan.github.io/rss.xml">春之诗【二】</source>
-      <description>三月的春光，还在臼臼流淌; 四月的门楣，已露暖的端详。 南国一幕幕落花飘荡， 北国却仍在延续那一片片桃绛。 风起，丛丛嫩芽飘扬， 风落，一枝桃花馨香! ♢ 踏着晨曦，沐着夕阳， 指尖轻弹岁月的殇。 一枝桃花，开在心上， 摇曳着落寞时光， 让流年的瞳孔，染上诗意的花香。 ♢ 漫过岁月的廊坊， 那一抹沉香依然闪亮。 不知，清浅中有多少诗行， 延续着一枝桃花...</description>
-      <category>随笔</category>
-      <pubDate>Sun, 03 Apr 2016 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div style="text-align:center">
-<p>三月的春光，还在臼臼流淌;</p>
-<p>四月的门楣，已露暖的端详。</p>
-<p>南国一幕幕落花飘荡，</p>
-<p>北国却仍在延续那一片片桃绛。</p>
-<p>风起，丛丛嫩芽飘扬，</p>
-<p>风落，一枝桃花馨香!</p>
-<p>♢</p>
-<p>踏着晨曦，沐着夕阳，</p>
-<p>指尖轻弹岁月的殇。</p>
-<p>一枝桃花，开在心上，</p>
-<p>摇曳着落寞时光，</p>
-<p>让流年的瞳孔，染上诗意的花香。</p>
-<p>♢</p>
-<p>漫过岁月的廊坊，</p>
-<p>那一抹沉香依然闪亮。</p>
-<p>不知，清浅中有多少诗行，</p>
-<p>延续着一枝桃花的芬芳，</p>
-<p>而又遥寄于烟雨朦胧的远方?</p>
-<p>♢</p>
-<p>天青色等烟雨的怀想，</p>
-<p>褴褛于黑白相间的陌上。</p>
-<p>撒下一指千千心语，</p>
-<p>一笔一笔，凌乱成殇，</p>
-<p>任心潮跌宕，墨染心香。</p>
-<p>♢</p>
-<p>小心翼翼，数着时光——</p>
-<p>总有一些山高情长</p>
-<p>途径你的城，</p>
-<p>嫣然盛放。</p>
-<p>任思念成冢，</p>
-<p>拔节的希望，</p>
-<p>长满了岁月的长廊。</p>
-<p>♢</p>
-<p>抖落，岁月的惆怅，</p>
-<p>不再一路滋长爱的彷徨。</p>
-<p>储存执念的沧桑，</p>
-<p>滋润生命的诗行。</p>
-<p>让那一笔笔醉人的馨香，</p>
-<p>暖了心房，</p>
-<p>潮湿了眸光。</p>
-<p>♢</p>
-<p>悉数收藏，</p>
-<p>那些指尖上——</p>
-<p>我纵横的过往。</p>
-<p>任春风作恶，桃花乱雨坠窗。</p>
-<p>笔笔染香，</p>
-<p>字字清扬。</p>
-<p>一袭古旧平仄，琉璃了春的守望。</p>
-<p>♢</p>
-<p>倘若春风再度悠扬，</p>
-<p>一枝桃花妖娆陌上。</p>
-<p>若可再赐你我一场惊鸿，</p>
-<p>我定会在你来的路上。</p>
-<p>种下盈盈花香，</p>
-<p>研出悠悠墨香，</p>
-<p>作一曲千年霓裳。</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>春之诗【三】</title>
-      <link>https://mister-duan.github.io/piece/spring/3.html</link>
-      <guid>https://mister-duan.github.io/piece/spring/3.html</guid>
-      <source url="https://mister-duan.github.io/rss.xml">春之诗【三】</source>
-      <description>花初开， 桂花树下勇敢告白， 为那份悸动死去活来； 花惜败， 情感种子亲手掩埋， 蓦然回首却心潮澎湃。 当光阴不再， 当你我不爱， 唯有伤痛被遗留下来。 ♢ 时光沉淀情意， 暖阳锁上记忆， 只得暗自相思， 唯有追忆往昔。 时光悄然流逝， 只是， 你的样子还充满着回忆， 绵绵情思还遗留在心里。 ♢ 滚滚红尘碾梦碎， 烟雨朦胧缠人醉， 缱绻流年，何处花拾?...</description>
-      <category>随笔</category>
-      <pubDate>Thu, 26 May 2016 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div style="text-align:center">
-<p>花初开，</p>
-<p>桂花树下勇敢告白，</p>
-<p>为那份悸动死去活来；</p>
-<p>花惜败，</p>
-<p>情感种子亲手掩埋，</p>
-<p>蓦然回首却心潮澎湃。</p>
-<p>当光阴不再，</p>
-<p>当你我不爱，</p>
-<p>唯有伤痛被遗留下来。</p>
-<p>♢</p>
-<p>时光沉淀情意，</p>
-<p>暖阳锁上记忆，</p>
-<p>只得暗自相思，</p>
-<p>唯有追忆往昔。</p>
-<p>时光悄然流逝，</p>
-<p>只是，</p>
-<p>你的样子还充满着回忆，</p>
-<p>绵绵情思还遗留在心里。</p>
-<p>♢</p>
-<p>滚滚红尘碾梦碎，</p>
-<p>烟雨朦胧缠人醉，</p>
-<p>缱绻流年，何处花拾?</p>
-<p>隔岸楼台空相思，</p>
-<p>有缘人家今何地，</p>
-<p>儿女情长，登栏追忆。</p>
-<p>不堪回首过往事，</p>
-<p>待他朝邂逅相识，</p>
-<p>光阴流年，明媚春风里。</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>春之诗</title>
-      <link>https://mister-duan.github.io/piece/spring/</link>
-      <guid>https://mister-duan.github.io/piece/spring/</guid>
-      <source url="https://mister-duan.github.io/rss.xml">春之诗</source>
-      <description>介绍 这是我在高一写的第三篇散文诗集，最初发表在空间日志上。 近日将其作为少年回忆，整理在博客中。</description>
-      <category>随笔</category>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container tip">
-<p class="hint-container-title">介绍</p>
-<p>这是我在高一写的第三篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
-</div>
-<!-- more -->
-]]></content:encoded>
-    </item>
-    <item>
-      <title>春之诗【题记】</title>
-      <link>https://mister-duan.github.io/piece/spring/catalog.html</link>
-      <guid>https://mister-duan.github.io/piece/spring/catalog.html</guid>
-      <source url="https://mister-duan.github.io/rss.xml">春之诗【题记】</source>
-      <description>冬去春来， 化解思念。 岁月的轮回， 自然的碾转， 时光不觉间忽已远。 荒芜的季节 慢慢长出新绿， 相应了心灵的墨香花开， 于是， 收集阳光，清风与雨露， 精心煮制一壶春意， 聆听鸟语花香， 笑饮人世浮华。 —— 题记</description>
-      <category>随笔</category>
-      <pubDate>Sun, 12 Apr 2015 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div style="text-align:center">
-<p>冬去春来，</p>
-<p>化解思念。</p>
-<p>岁月的轮回，</p>
-<p>自然的碾转，</p>
-<p>时光不觉间忽已远。</p>
-<p>荒芜的季节</p>
-<p>慢慢长出新绿，</p>
-<p>相应了心灵的墨香花开，</p>
-<p>于是，</p>
-<p>收集阳光，清风与雨露，</p>
-<p>精心煮制一壶春意，</p>
-<p>聆听鸟语花香，</p>
-<p>笑饮人世浮华。</p>
-</div>
-<div style="text-align:right">
-<p>—— 题记</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
       <title>笑谈人生【一】</title>
       <link>https://mister-duan.github.io/piece/life/1.html</link>
       <guid>https://mister-duan.github.io/piece/life/1.html</guid>
@@ -3725,6 +3544,187 @@
 <p>厚谊更比苍天阔。</p>
 <p>忆追尘事徒萧索。</p>
 <p>辗转寻眠，愁溢又生惑。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>春之诗【一】</title>
+      <link>https://mister-duan.github.io/piece/spring/1.html</link>
+      <guid>https://mister-duan.github.io/piece/spring/1.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">春之诗【一】</source>
+      <description>春风送暖入屠苏， 一窗的明媚， 满心的期待， 已在不远处娉婷于陌上诗笺。 转眼， 冬已过， 春已来。 时间如白驹， 岁月如水逝， 冬日的雪韵，梅魂， 似乎还没赏够，品够，悟够， 春天的裙摆 已悄然拂过大地山川与河流。 万物正缓缓苏醒， 冰雪则日渐消融， 睡在轮回的春意， 缀满了岁月的枝头，活色生香。</description>
+      <category>随笔</category>
+      <pubDate>Sun, 12 Apr 2015 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div style="text-align:center">
+<p>春风送暖入屠苏，</p>
+<p>一窗的明媚，</p>
+<p>满心的期待，</p>
+<p>已在不远处娉婷于陌上诗笺。</p>
+<p>转眼，</p>
+<p>冬已过，</p>
+<p>春已来。</p>
+<p>时间如白驹，</p>
+<p>岁月如水逝，</p>
+<p>冬日的雪韵，梅魂，</p>
+<p>似乎还没赏够，品够，悟够，</p>
+<p>春天的裙摆</p>
+<p>已悄然拂过大地山川与河流。</p>
+<p>万物正缓缓苏醒，</p>
+<p>冰雪则日渐消融，</p>
+<p>睡在轮回的春意，</p>
+<p>缀满了岁月的枝头，活色生香。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>春之诗【二】</title>
+      <link>https://mister-duan.github.io/piece/spring/2.html</link>
+      <guid>https://mister-duan.github.io/piece/spring/2.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">春之诗【二】</source>
+      <description>三月的春光，还在臼臼流淌; 四月的门楣，已露暖的端详。 南国一幕幕落花飘荡， 北国却仍在延续那一片片桃绛。 风起，丛丛嫩芽飘扬， 风落，一枝桃花馨香! ♢ 踏着晨曦，沐着夕阳， 指尖轻弹岁月的殇。 一枝桃花，开在心上， 摇曳着落寞时光， 让流年的瞳孔，染上诗意的花香。 ♢ 漫过岁月的廊坊， 那一抹沉香依然闪亮。 不知，清浅中有多少诗行， 延续着一枝桃花...</description>
+      <category>随笔</category>
+      <pubDate>Sun, 03 Apr 2016 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div style="text-align:center">
+<p>三月的春光，还在臼臼流淌;</p>
+<p>四月的门楣，已露暖的端详。</p>
+<p>南国一幕幕落花飘荡，</p>
+<p>北国却仍在延续那一片片桃绛。</p>
+<p>风起，丛丛嫩芽飘扬，</p>
+<p>风落，一枝桃花馨香!</p>
+<p>♢</p>
+<p>踏着晨曦，沐着夕阳，</p>
+<p>指尖轻弹岁月的殇。</p>
+<p>一枝桃花，开在心上，</p>
+<p>摇曳着落寞时光，</p>
+<p>让流年的瞳孔，染上诗意的花香。</p>
+<p>♢</p>
+<p>漫过岁月的廊坊，</p>
+<p>那一抹沉香依然闪亮。</p>
+<p>不知，清浅中有多少诗行，</p>
+<p>延续着一枝桃花的芬芳，</p>
+<p>而又遥寄于烟雨朦胧的远方?</p>
+<p>♢</p>
+<p>天青色等烟雨的怀想，</p>
+<p>褴褛于黑白相间的陌上。</p>
+<p>撒下一指千千心语，</p>
+<p>一笔一笔，凌乱成殇，</p>
+<p>任心潮跌宕，墨染心香。</p>
+<p>♢</p>
+<p>小心翼翼，数着时光——</p>
+<p>总有一些山高情长</p>
+<p>途径你的城，</p>
+<p>嫣然盛放。</p>
+<p>任思念成冢，</p>
+<p>拔节的希望，</p>
+<p>长满了岁月的长廊。</p>
+<p>♢</p>
+<p>抖落，岁月的惆怅，</p>
+<p>不再一路滋长爱的彷徨。</p>
+<p>储存执念的沧桑，</p>
+<p>滋润生命的诗行。</p>
+<p>让那一笔笔醉人的馨香，</p>
+<p>暖了心房，</p>
+<p>潮湿了眸光。</p>
+<p>♢</p>
+<p>悉数收藏，</p>
+<p>那些指尖上——</p>
+<p>我纵横的过往。</p>
+<p>任春风作恶，桃花乱雨坠窗。</p>
+<p>笔笔染香，</p>
+<p>字字清扬。</p>
+<p>一袭古旧平仄，琉璃了春的守望。</p>
+<p>♢</p>
+<p>倘若春风再度悠扬，</p>
+<p>一枝桃花妖娆陌上。</p>
+<p>若可再赐你我一场惊鸿，</p>
+<p>我定会在你来的路上。</p>
+<p>种下盈盈花香，</p>
+<p>研出悠悠墨香，</p>
+<p>作一曲千年霓裳。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>春之诗【三】</title>
+      <link>https://mister-duan.github.io/piece/spring/3.html</link>
+      <guid>https://mister-duan.github.io/piece/spring/3.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">春之诗【三】</source>
+      <description>花初开， 桂花树下勇敢告白， 为那份悸动死去活来； 花惜败， 情感种子亲手掩埋， 蓦然回首却心潮澎湃。 当光阴不再， 当你我不爱， 唯有伤痛被遗留下来。 ♢ 时光沉淀情意， 暖阳锁上记忆， 只得暗自相思， 唯有追忆往昔。 时光悄然流逝， 只是， 你的样子还充满着回忆， 绵绵情思还遗留在心里。 ♢ 滚滚红尘碾梦碎， 烟雨朦胧缠人醉， 缱绻流年，何处花拾?...</description>
+      <category>随笔</category>
+      <pubDate>Thu, 26 May 2016 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div style="text-align:center">
+<p>花初开，</p>
+<p>桂花树下勇敢告白，</p>
+<p>为那份悸动死去活来；</p>
+<p>花惜败，</p>
+<p>情感种子亲手掩埋，</p>
+<p>蓦然回首却心潮澎湃。</p>
+<p>当光阴不再，</p>
+<p>当你我不爱，</p>
+<p>唯有伤痛被遗留下来。</p>
+<p>♢</p>
+<p>时光沉淀情意，</p>
+<p>暖阳锁上记忆，</p>
+<p>只得暗自相思，</p>
+<p>唯有追忆往昔。</p>
+<p>时光悄然流逝，</p>
+<p>只是，</p>
+<p>你的样子还充满着回忆，</p>
+<p>绵绵情思还遗留在心里。</p>
+<p>♢</p>
+<p>滚滚红尘碾梦碎，</p>
+<p>烟雨朦胧缠人醉，</p>
+<p>缱绻流年，何处花拾?</p>
+<p>隔岸楼台空相思，</p>
+<p>有缘人家今何地，</p>
+<p>儿女情长，登栏追忆。</p>
+<p>不堪回首过往事，</p>
+<p>待他朝邂逅相识，</p>
+<p>光阴流年，明媚春风里。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>春之诗</title>
+      <link>https://mister-duan.github.io/piece/spring/</link>
+      <guid>https://mister-duan.github.io/piece/spring/</guid>
+      <source url="https://mister-duan.github.io/rss.xml">春之诗</source>
+      <description>介绍 这是我在高一写的第三篇散文诗集，最初发表在空间日志上。 近日将其作为少年回忆，整理在博客中。</description>
+      <category>随笔</category>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container tip">
+<p class="hint-container-title">介绍</p>
+<p>这是我在高一写的第三篇散文诗集，最初发表在空间日志上。</p>
+<p>近日将其作为少年回忆，整理在博客中。</p>
+</div>
+<!-- more -->
+]]></content:encoded>
+    </item>
+    <item>
+      <title>春之诗【题记】</title>
+      <link>https://mister-duan.github.io/piece/spring/catalog.html</link>
+      <guid>https://mister-duan.github.io/piece/spring/catalog.html</guid>
+      <source url="https://mister-duan.github.io/rss.xml">春之诗【题记】</source>
+      <description>冬去春来， 化解思念。 岁月的轮回， 自然的碾转， 时光不觉间忽已远。 荒芜的季节 慢慢长出新绿， 相应了心灵的墨香花开， 于是， 收集阳光，清风与雨露， 精心煮制一壶春意， 聆听鸟语花香， 笑饮人世浮华。 —— 题记</description>
+      <category>随笔</category>
+      <pubDate>Sun, 12 Apr 2015 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div style="text-align:center">
+<p>冬去春来，</p>
+<p>化解思念。</p>
+<p>岁月的轮回，</p>
+<p>自然的碾转，</p>
+<p>时光不觉间忽已远。</p>
+<p>荒芜的季节</p>
+<p>慢慢长出新绿，</p>
+<p>相应了心灵的墨香花开，</p>
+<p>于是，</p>
+<p>收集阳光，清风与雨露，</p>
+<p>精心煮制一壶春意，</p>
+<p>聆听鸟语花香，</p>
+<p>笑饮人世浮华。</p>
+</div>
+<div style="text-align:right">
+<p>—— 题记</p>
 </div>
 ]]></content:encoded>
     </item>
