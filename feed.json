@@ -30,6 +30,28 @@
       "tags": []
     },
     {
+      "title": "光滑滑块斜坡问题",
+      "url": "https://mister-duan.github.io/physics/high-school/1.html",
+      "id": "https://mister-duan.github.io/physics/high-school/1.html",
+      "summary": "题目 一个质量为 、倾角为 的斜面静置于水平面上。一个质量为 的小物块从斜面上由静止开始释放。 假设所有接触面（包括水平面与斜面之间、小物块与斜面之间）均光滑，在小物块滑离斜面前，斜面和小物块的加速度是多少？ 解答 变量设置、参考系与坐标系选取 参考系：选取地面为惯性参考系，假设斜面为左上至右下。 坐标系：建立直角坐标系，水平向右为 x 轴正方向，竖直...",
+      "content_html": "<h2>题目</h2>\n<p>一个质量为 、倾角为  的斜面静置于水平面上。一个质量为  的小物块从斜面上由静止开始释放。</p>\n<p>假设所有接触面（包括水平面与斜面之间、小物块与斜面之间）均光滑，在小物块滑离斜面前，斜面和小物块的加速度是多少？</p>\n<h2>解答</h2>\n<h3><strong>变量设置、参考系与坐标系选取</strong></h3>\n<ol>\n<li><strong>参考系</strong>：选取地面为惯性参考系，假设斜面为左上至右下。</li>\n<li><strong>坐标系</strong>：建立直角坐标系，水平向右为 x 轴正方向，竖直向上为 y 轴正方向。</li>\n<li><strong>变量定义</strong>：\n<ul>\n<li>设斜面  相对于地面的加速度为 。由于斜面只受水平方向的净外力，其运动方向必在水平方向上。根据受力分析可知，斜面将向左加速，故设其加速度大小为 ，方向沿 x 轴负方向，即 。</li>\n<li>设小物块  相对于地面的加速度为 。根据物理情景，小物块将向右下方加速，因此 ，。</li>\n</ul>\n</li>\n</ol>\n",
+      "date_published": "2025-12-01T00:00:00.000Z",
+      "date_modified": "2025-12-01T05:33:30.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "斜抛最远距离问题",
+      "url": "https://mister-duan.github.io/physics/high-school/2.html",
+      "id": "https://mister-duan.github.io/physics/high-school/2.html",
+      "summary": "题目一：高台抛射的最远水平距离 一小球从距水平地面高度为 的平台边缘以大小为 的初速度抛出。若忽略空气阻力，重力加速度为 ，试求： 为使小球落地点与抛出点的水平距离 最大，小球抛出时速度方向与水平面的夹角 应满足什么条件？ 该最大的水平距离 是多少？ 答案 出手角度满足 。 最远水平距离 。 思路： 建立直角坐标系，原点 为抛出点，水平向右为 轴，竖直...",
+      "content_html": "<h2>题目一：高台抛射的最远水平距离</h2>\n<p>一小球从距水平地面高度为  的平台边缘以大小为  的初速度抛出。若忽略空气阻力，重力加速度为 ，试求：</p>\n<ol>\n<li>为使小球落地点与抛出点的水平距离  最大，小球抛出时速度方向与水平面的夹角  应满足什么条件？</li>\n<li>该最大的水平距离  是多少？</li>\n</ol>\n<details class=\"hint-container details\"><summary>答案</summary>\n<ol>\n<li>出手角度满足 。</li>\n<li>最远水平距离 。</li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>建立直角坐标系，原点  为抛出点，水平向右为  轴，竖直向上为  轴。</p>\n<p>小球的运动轨迹方程为（消去时间 ）：</p>\n<p>利用三角恒等式 ，轨迹方程变为关于  的方程：</p>\n<p>小球落在地面上，即 。代入并整理，得到一个关于  的一元二次方程：</p>\n<p>若要存在这样的抛射角  使小球能到达距离  处，则该关于  的方程必须有实数解，即判别式 ：</p>\n<p>化简不等式（约去 ，因为 ）：</p>\n<p>解得：</p>\n<p>此时 ，方程有唯一解：</p>\n<p>代入  可得：</p>\n</details>\n<h2>题目二：定高越障的最远后撤距离</h2>\n<p>在水平地面上投掷一物体，初速度大小恒为 。前方有一高度为  的竖直墙壁（）。为了使物体能够越过该墙壁，投掷点距离墙壁的水平距离  最大不能超过多少？此时投掷角  为多少？</p>\n<details class=\"hint-container details\"><summary>答案</summary>\n<ol>\n<li>最远后撤距离 。</li>\n<li>出手角度满足 。</li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>此题即求解：当轨迹经过点  时， 的最大值。</p>\n<p>沿用题目一中的轨迹方程，此时令 （注意正负号变化）：</p>\n<p>整理为关于  的一元二次方程：</p>\n<p>同理，利用判别式 ：</p>\n<p>化简得：</p>\n<p>解得：</p>\n<p>即最远距离：</p>\n<p>对应的角度同样由  时的根确定：</p>\n</details>\n<h2>题目三：斜面顶端抛射的最远射程</h2>\n<p>倾角为  的斜面，一物体从斜面顶端以大小为  的初速度抛出。求该物体在斜面上落点与抛出点的最大距离  以及此时初速度与水平方向的夹角 。（注：题目中斜面倾角为已知量 ，抛射角为待求量 ）。</p>\n<details class=\"hint-container details\"><summary>答案</summary>\n<p><strong>答案：</strong></p>\n<ol>\n<li>最远距离 。</li>\n<li>出手角度（相对于水平面） 。\n<em>（即：抛射方向平分“竖直向上”与“斜面方向”的夹角）</em></li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>设抛出点为原点，水平向右为  轴。</p>\n<p>落点在斜面上，坐标满足 （注意  向下为负）。</p>\n<p>水平位移 ，竖直位移 。</p>\n<p>由 ，代入得：</p>\n<p>解得飞行时间</p>\n<p>斜面射程</p>\n<p>代入  并整理：</p>\n<p>利用积化和差公式 ：</p>\n<p>显然，当  时， 取最大值。</p>\n<p>即 。</p>\n<p>最大射程为：</p>\n</details>\n<h2>题目四：斜面底端抛射的最远射程</h2>\n<p>倾角为  的斜面，一物体从斜面底端以大小为  的初速度向斜面上方抛出。求该物体在斜面上落点与抛出点的最大距离  以及此时初速度与水平方向的夹角 。</p>\n<details class=\"hint-container details\"><summary>答案</summary>\n<ol>\n<li>最远距离 。</li>\n<li>出手角度（相对于水平面） 。</li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>与题目三类似，只是落点坐标满足 （落点在  轴上方）。\n由  解得时间：</p>\n<p>射程</p>\n<p>代入得：</p>\n<p>利用积化和差公式：</p>\n<p>当  时， 取最大值。</p>\n<p>即 。</p>\n<p>最大射程为：</p>\n</details>\n",
+      "date_published": "2025-12-01T00:00:00.000Z",
+      "date_modified": "2025-12-01T05:33:30.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "LLM + RAG：智能问答实战",
       "url": "https://mister-duan.github.io/note/book/ai-knowledge.html",
       "id": "https://mister-duan.github.io/note/book/ai-knowledge.html",
@@ -74,6 +96,28 @@
       "tags": []
     },
     {
+      "title": "部署宝塔",
+      "url": "https://mister-duan.github.io/note/server/bt.html",
+      "id": "https://mister-duan.github.io/note/server/bt.html",
+      "summary": "前往 宝塔官网安装地址 下载安装宝塔。 安装之后： 修改用户名、密码、端口号和访问路径 设置告警 设置计划任务",
+      "content_html": "<p>前往 <a href=\"https://www.bt.cn/new/download.html\" target=\"_blank\" rel=\"noopener noreferrer\">宝塔官网安装地址</a> 下载安装宝塔。</p>\n<p>安装之后：</p>\n<ul>\n<li>修改用户名、密码、端口号和访问路径</li>\n<li>设置告警</li>\n<li>设置计划任务</li>\n</ul>\n",
+      "date_published": "2025-12-01T00:00:00.000Z",
+      "date_modified": "2025-12-01T05:33:30.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "frp",
+      "url": "https://mister-duan.github.io/note/server/frp.html",
+      "id": "https://mister-duan.github.io/note/server/frp.html",
+      "summary": "frp 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。 frp 的文档可以参照 frp 文档 或 frp GitHub Linux 安装服务端 标准的做法，是将 frps 放置在 /usr/local/bin 目录下。 确保 systemd 已经安装： 创建 frpc 或 frps 服务： 写入服务配置： 进...",
+      "content_html": "<p><a href=\"https://github.com/fatedier/frp\" target=\"_blank\" rel=\"noopener noreferrer\">frp</a> 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。</p>\n<p>frp 的文档可以参照 <a href=\"https://gofrp.org/zh-cn/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">frp 文档</a> 或 <a href=\"https://github.com/fatedier/frp\" target=\"_blank\" rel=\"noopener noreferrer\">frp GitHub</a></p>\n<h2>Linux 安装服务端</h2>\n<p>标准的做法，是将 frps 放置在 <code>/usr/local/bin</code> 目录下。</p>\n<p>确保 systemd 已经安装：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">apt</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> install</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemd</span></span></code></pre>\n</div><p>创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> vim</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> /etc/systemd/system/frps.service</span></span></code></pre>\n</div><p>写入服务配置：</p>\n<div class=\"language-conf line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"conf\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-conf\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Unit]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> FRP Server</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">After</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> network.target</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Service]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Type</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> simple</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">ExecStart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\">/usr/local/bin/frps -c /etc/frp/frps.toml</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Restart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> on-failure</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">RestartSec</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> 5s</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardOutput</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> file:/var/log/frp/frps.log</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardError</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\">file:/var/log/frp/frps.error.log</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Install]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">WantedBy</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> multi-user.target</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>进行其他配置，配置好后启用</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 启动</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemctl</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> start</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 查看状态</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemctl</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> status</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 开机启动</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemctl</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> enable</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span></code></pre>\n</div><p>如果想要查看日志，可以使用 <code>journalctl</code> 命令：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 查看日志</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> journalctl</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> -u</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span></code></pre>\n</div><h2>Linux 安装客户端</h2>\n<p>标准的做法，是将 frpc 放置在 <code>/usr/local/bin</code> 目录下。</p>\n<p>创建 <code>frpc</code> 服务：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> vim</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> /etc/systemd/system/frpc.service</span></span></code></pre>\n</div><p>写入服务配置：</p>\n<div class=\"language-conf line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"conf\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-conf\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Unit]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> FRP Client</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">After</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> network.target</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Service]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Type</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> simple</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">ExecStart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\">/usr/local/bin/frpc -c /etc/frp/frpc.toml</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Restart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> on-failure</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">RestartSec</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> 5s</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardOutput</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> file:/var/log/frp/frpc.log</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardError</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> file:/var/log/frp/frpc.error.log</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Install]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">WantedBy</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> multi-user.target</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2>Windows 安装</h2>\n<p>可以放置在 <code>C:\\frp</code> 目录下。</p>\n<p>创建 Windows 服务模板:</p>\n<div class=\"code-block-with-title\">\n  <div class=\"code-block-title-bar\" data-title=\"frpc.xml\">\n    <span>frpc.xml</span>\n  </div>\n  <div class=\"language-xml line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"xml\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-xml\"><span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&lt;?</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">xml</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> version</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1.0\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> ?&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">service</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">id</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;frpc&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">id</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;frpc.exe&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">executable</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;%BASE%\\frpc.exe&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">executable</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">log</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> mode</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"roll-by-size\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">    &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">keepFiles</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;4&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">keepFiles</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">    &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">sizeThreshold</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;262144&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">sizeThreshold</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">log</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">name</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;frpc&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">name</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">onfailure</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> action</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"restart\"</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> delay</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1 sec\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> /&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">onfailure</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> action</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"restart\"</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> delay</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1 sec\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> /&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">onfailure</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> action</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"restart\"</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> delay</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1 sec\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> /&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">resetfailure</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;1 min&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">resetfailure</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">startarguments</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;-c frpc.toml&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">startarguments</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">service</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div>\n</div><p>通过 <code>WinSW-x64.exe</code> 创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">C:\\frp\\WinSW-x64.exe</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> install</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frpc.xml</span></span></code></pre>\n</div>",
+      "date_published": "2025-12-01T00:00:00.000Z",
+      "date_modified": "2025-12-01T05:33:30.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "Docker 的安装与设置",
       "url": "https://mister-duan.github.io/note/ubuntu/docker.html",
       "id": "https://mister-duan.github.io/note/ubuntu/docker.html",
@@ -107,28 +151,6 @@
       "tags": []
     },
     {
-      "title": "部署宝塔",
-      "url": "https://mister-duan.github.io/note/server/bt.html",
-      "id": "https://mister-duan.github.io/note/server/bt.html",
-      "summary": "前往 宝塔官网安装地址 下载安装宝塔。 安装之后： 修改用户名、密码、端口号和访问路径 设置告警 设置计划任务",
-      "content_html": "<p>前往 <a href=\"https://www.bt.cn/new/download.html\" target=\"_blank\" rel=\"noopener noreferrer\">宝塔官网安装地址</a> 下载安装宝塔。</p>\n<p>安装之后：</p>\n<ul>\n<li>修改用户名、密码、端口号和访问路径</li>\n<li>设置告警</li>\n<li>设置计划任务</li>\n</ul>\n",
-      "date_published": "2025-12-01T00:00:00.000Z",
-      "date_modified": "2025-12-01T05:33:30.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
-      "title": "frp",
-      "url": "https://mister-duan.github.io/note/server/frp.html",
-      "id": "https://mister-duan.github.io/note/server/frp.html",
-      "summary": "frp 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。 frp 的文档可以参照 frp 文档 或 frp GitHub Linux 安装服务端 标准的做法，是将 frps 放置在 /usr/local/bin 目录下。 确保 systemd 已经安装： 创建 frpc 或 frps 服务： 写入服务配置： 进...",
-      "content_html": "<p><a href=\"https://github.com/fatedier/frp\" target=\"_blank\" rel=\"noopener noreferrer\">frp</a> 是一个高性能的反向代理应用，主要用于内网穿透。它可以将内网服务暴露到公网上，方便外部访问。</p>\n<p>frp 的文档可以参照 <a href=\"https://gofrp.org/zh-cn/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">frp 文档</a> 或 <a href=\"https://github.com/fatedier/frp\" target=\"_blank\" rel=\"noopener noreferrer\">frp GitHub</a></p>\n<h2>Linux 安装服务端</h2>\n<p>标准的做法，是将 frps 放置在 <code>/usr/local/bin</code> 目录下。</p>\n<p>确保 systemd 已经安装：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">apt</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> install</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemd</span></span></code></pre>\n</div><p>创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> vim</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> /etc/systemd/system/frps.service</span></span></code></pre>\n</div><p>写入服务配置：</p>\n<div class=\"language-conf line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"conf\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-conf\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Unit]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> FRP Server</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">After</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> network.target</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Service]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Type</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> simple</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">ExecStart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\">/usr/local/bin/frps -c /etc/frp/frps.toml</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Restart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> on-failure</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">RestartSec</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> 5s</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardOutput</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> file:/var/log/frp/frps.log</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardError</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\">file:/var/log/frp/frps.error.log</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Install]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">WantedBy</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> multi-user.target</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>进行其他配置，配置好后启用</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 启动</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemctl</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> start</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 查看状态</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemctl</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> status</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 开机启动</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> systemctl</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> enable</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span></code></pre>\n</div><p>如果想要查看日志，可以使用 <code>journalctl</code> 命令：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\"># 查看日志</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> journalctl</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> -u</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frps</span></span></code></pre>\n</div><h2>Linux 安装客户端</h2>\n<p>标准的做法，是将 frpc 放置在 <code>/usr/local/bin</code> 目录下。</p>\n<p>创建 <code>frpc</code> 服务：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">sudo</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> vim</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> /etc/systemd/system/frpc.service</span></span></code></pre>\n</div><p>写入服务配置：</p>\n<div class=\"language-conf line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"conf\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-conf\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Unit]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> FRP Client</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">After</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> network.target</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Service]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Type</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> simple</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">ExecStart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\">/usr/local/bin/frpc -c /etc/frp/frpc.toml</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">Restart</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> on-failure</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">RestartSec</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> 5s</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardOutput</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> file:/var/log/frp/frpc.log</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">StandardError</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> file:/var/log/frp/frpc.error.log</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">[Install]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#C678DD\">WantedBy</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> =</span><span style=\"--shiki-light:#383A42;--shiki-dark:#98C379\"> multi-user.target</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2>Windows 安装</h2>\n<p>可以放置在 <code>C:\\frp</code> 目录下。</p>\n<p>创建 Windows 服务模板:</p>\n<div class=\"code-block-with-title\">\n  <div class=\"code-block-title-bar\" data-title=\"frpc.xml\">\n    <span>frpc.xml</span>\n  </div>\n  <div class=\"language-xml line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"xml\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-xml\"><span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&lt;?</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">xml</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> version</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1.0\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> ?&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">service</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">id</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;frpc&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">id</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;frpc.exe&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">description</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">executable</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;%BASE%\\frpc.exe&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">executable</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">log</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> mode</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"roll-by-size\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">    &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">keepFiles</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;4&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">keepFiles</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">    &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">sizeThreshold</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;262144&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">sizeThreshold</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">log</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">name</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;frpc&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">name</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">onfailure</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> action</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"restart\"</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> delay</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1 sec\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> /&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">onfailure</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> action</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"restart\"</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> delay</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1 sec\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> /&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">onfailure</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> action</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"restart\"</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> delay</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">=</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"1 sec\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> /&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">resetfailure</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;1 min&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">resetfailure</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">  &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">startarguments</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;-c frpc.toml&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">startarguments</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">service</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div>\n</div><p>通过 <code>WinSW-x64.exe</code> 创建 <code>frpc</code> 或 <code>frps</code> 服务：</p>\n<div class=\"language-bash\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">C:\\frp\\WinSW-x64.exe</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> install</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> frpc.xml</span></span></code></pre>\n</div>",
-      "date_published": "2025-12-01T00:00:00.000Z",
-      "date_modified": "2025-12-01T05:33:30.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
       "title": "Docker",
       "url": "https://mister-duan.github.io/note/wsl/docker.html",
       "id": "https://mister-duan.github.io/note/wsl/docker.html",
@@ -140,26 +162,537 @@
       "tags": []
     },
     {
-      "title": "光滑滑块斜坡问题",
-      "url": "https://mister-duan.github.io/physics/high-school/1.html",
-      "id": "https://mister-duan.github.io/physics/high-school/1.html",
-      "summary": "题目 一个质量为 、倾角为 的斜面静置于水平面上。一个质量为 的小物块从斜面上由静止开始释放。 假设所有接触面（包括水平面与斜面之间、小物块与斜面之间）均光滑，在小物块滑离斜面前，斜面和小物块的加速度是多少？ 解答 变量设置、参考系与坐标系选取 参考系：选取地面为惯性参考系，假设斜面为左上至右下。 坐标系：建立直角坐标系，水平向右为 x 轴正方向，竖直...",
-      "content_html": "<h2>题目</h2>\n<p>一个质量为 、倾角为  的斜面静置于水平面上。一个质量为  的小物块从斜面上由静止开始释放。</p>\n<p>假设所有接触面（包括水平面与斜面之间、小物块与斜面之间）均光滑，在小物块滑离斜面前，斜面和小物块的加速度是多少？</p>\n<h2>解答</h2>\n<h3><strong>变量设置、参考系与坐标系选取</strong></h3>\n<ol>\n<li><strong>参考系</strong>：选取地面为惯性参考系，假设斜面为左上至右下。</li>\n<li><strong>坐标系</strong>：建立直角坐标系，水平向右为 x 轴正方向，竖直向上为 y 轴正方向。</li>\n<li><strong>变量定义</strong>：\n<ul>\n<li>设斜面  相对于地面的加速度为 。由于斜面只受水平方向的净外力，其运动方向必在水平方向上。根据受力分析可知，斜面将向左加速，故设其加速度大小为 ，方向沿 x 轴负方向，即 。</li>\n<li>设小物块  相对于地面的加速度为 。根据物理情景，小物块将向右下方加速，因此 ，。</li>\n</ul>\n</li>\n</ol>\n",
-      "date_published": "2025-12-01T00:00:00.000Z",
-      "date_modified": "2025-12-01T05:33:30.000Z",
+      "title": "轻言细语【一】",
+      "url": "https://mister-duan.github.io/piece/poem/1.html",
+      "id": "https://mister-duan.github.io/piece/poem/1.html",
+      "summary": "轻言细语【一】 雨是云的诺， 湿了心丢了情， 化作滴滴雨滴； 落在谁的指尖? ♢ 泪是眼的诺， 欲语还休泪涟漪， 一点朱砂， 落在谁的心上? ♢ 谁又是我的诺， 海誓山盟真情在， 执子之手， 比翼齐飞? ♢ 这个季节， 是落叶对秋的诺， 所有的依恋， 所有的不舍， 都化作一撮泥土， 守候着最后的深情。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>雨是云的诺，</p>\n<p>湿了心丢了情，</p>\n<p>化作滴滴雨滴；</p>\n<p>落在谁的指尖?</p>\n<p>♢</p>\n<p>泪是眼的诺，</p>\n<p>欲语还休泪涟漪，</p>\n<p>一点朱砂，</p>\n<p>落在谁的心上?</p>\n<p>♢</p>\n<p>谁又是我的诺，</p>\n<p>海誓山盟真情在，</p>\n<p>执子之手，</p>\n<p>比翼齐飞?</p>\n<p>♢</p>\n<p>这个季节，</p>\n<p>是落叶对秋的诺，</p>\n<p>所有的依恋，</p>\n<p>所有的不舍，</p>\n<p>都化作一撮泥土，</p>\n<p>守候着最后的深情。</p>\n</div>\n",
+      "date_published": "2014-10-02T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
       "authors": [],
-      "tags": []
+      "tags": [
+        "随笔"
+      ]
     },
     {
-      "title": "斜抛最远距离问题",
-      "url": "https://mister-duan.github.io/physics/high-school/2.html",
-      "id": "https://mister-duan.github.io/physics/high-school/2.html",
-      "summary": "题目一：高台抛射的最远水平距离 一小球从距水平地面高度为 的平台边缘以大小为 的初速度抛出。若忽略空气阻力，重力加速度为 ，试求： 为使小球落地点与抛出点的水平距离 最大，小球抛出时速度方向与水平面的夹角 应满足什么条件？ 该最大的水平距离 是多少？ 答案 出手角度满足 。 最远水平距离 。 思路： 建立直角坐标系，原点 为抛出点，水平向右为 轴，竖直...",
-      "content_html": "<h2>题目一：高台抛射的最远水平距离</h2>\n<p>一小球从距水平地面高度为  的平台边缘以大小为  的初速度抛出。若忽略空气阻力，重力加速度为 ，试求：</p>\n<ol>\n<li>为使小球落地点与抛出点的水平距离  最大，小球抛出时速度方向与水平面的夹角  应满足什么条件？</li>\n<li>该最大的水平距离  是多少？</li>\n</ol>\n<details class=\"hint-container details\"><summary>答案</summary>\n<ol>\n<li>出手角度满足 。</li>\n<li>最远水平距离 。</li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>建立直角坐标系，原点  为抛出点，水平向右为  轴，竖直向上为  轴。</p>\n<p>小球的运动轨迹方程为（消去时间 ）：</p>\n<p>利用三角恒等式 ，轨迹方程变为关于  的方程：</p>\n<p>小球落在地面上，即 。代入并整理，得到一个关于  的一元二次方程：</p>\n<p>若要存在这样的抛射角  使小球能到达距离  处，则该关于  的方程必须有实数解，即判别式 ：</p>\n<p>化简不等式（约去 ，因为 ）：</p>\n<p>解得：</p>\n<p>此时 ，方程有唯一解：</p>\n<p>代入  可得：</p>\n</details>\n<h2>题目二：定高越障的最远后撤距离</h2>\n<p>在水平地面上投掷一物体，初速度大小恒为 。前方有一高度为  的竖直墙壁（）。为了使物体能够越过该墙壁，投掷点距离墙壁的水平距离  最大不能超过多少？此时投掷角  为多少？</p>\n<details class=\"hint-container details\"><summary>答案</summary>\n<ol>\n<li>最远后撤距离 。</li>\n<li>出手角度满足 。</li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>此题即求解：当轨迹经过点  时， 的最大值。</p>\n<p>沿用题目一中的轨迹方程，此时令 （注意正负号变化）：</p>\n<p>整理为关于  的一元二次方程：</p>\n<p>同理，利用判别式 ：</p>\n<p>化简得：</p>\n<p>解得：</p>\n<p>即最远距离：</p>\n<p>对应的角度同样由  时的根确定：</p>\n</details>\n<h2>题目三：斜面顶端抛射的最远射程</h2>\n<p>倾角为  的斜面，一物体从斜面顶端以大小为  的初速度抛出。求该物体在斜面上落点与抛出点的最大距离  以及此时初速度与水平方向的夹角 。（注：题目中斜面倾角为已知量 ，抛射角为待求量 ）。</p>\n<details class=\"hint-container details\"><summary>答案</summary>\n<p><strong>答案：</strong></p>\n<ol>\n<li>最远距离 。</li>\n<li>出手角度（相对于水平面） 。\n<em>（即：抛射方向平分“竖直向上”与“斜面方向”的夹角）</em></li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>设抛出点为原点，水平向右为  轴。</p>\n<p>落点在斜面上，坐标满足 （注意  向下为负）。</p>\n<p>水平位移 ，竖直位移 。</p>\n<p>由 ，代入得：</p>\n<p>解得飞行时间</p>\n<p>斜面射程</p>\n<p>代入  并整理：</p>\n<p>利用积化和差公式 ：</p>\n<p>显然，当  时， 取最大值。</p>\n<p>即 。</p>\n<p>最大射程为：</p>\n</details>\n<h2>题目四：斜面底端抛射的最远射程</h2>\n<p>倾角为  的斜面，一物体从斜面底端以大小为  的初速度向斜面上方抛出。求该物体在斜面上落点与抛出点的最大距离  以及此时初速度与水平方向的夹角 。</p>\n<details class=\"hint-container details\"><summary>答案</summary>\n<ol>\n<li>最远距离 。</li>\n<li>出手角度（相对于水平面） 。</li>\n</ol>\n<p><strong>思路</strong>：</p>\n<p>与题目三类似，只是落点坐标满足 （落点在  轴上方）。\n由  解得时间：</p>\n<p>射程</p>\n<p>代入得：</p>\n<p>利用积化和差公式：</p>\n<p>当  时， 取最大值。</p>\n<p>即 。</p>\n<p>最大射程为：</p>\n</details>\n",
-      "date_published": "2025-12-01T00:00:00.000Z",
-      "date_modified": "2025-12-01T05:33:30.000Z",
+      "title": "轻言细语【十】",
+      "url": "https://mister-duan.github.io/piece/poem/10.html",
+      "id": "https://mister-duan.github.io/piece/poem/10.html",
+      "summary": "轻言细语【十】 并不是聊得来， 就适合在一起； 并不是适合， 就能够在一起； 并不是能够在一起 就会永远在一起； 并不是永远在一起 就会得到幸福的。 一切， 随缘。 既然如此， 为何急躁? 为何烦恼?",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>并不是聊得来，</p>\n<p>就适合在一起；</p>\n<p>并不是适合，</p>\n<p>就能够在一起；</p>\n<p>并不是能够在一起</p>\n<p>就会永远在一起；</p>\n<p>并不是永远在一起</p>\n<p>就会得到幸福的。</p>\n<p>一切，</p>\n<p>随缘。</p>\n<p>既然如此，</p>\n<p>为何急躁?</p>\n<p>为何烦恼?</p>\n</div>\n",
+      "date_published": "2015-12-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
       "authors": [],
-      "tags": []
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "11 月 11 日有感",
+      "url": "https://mister-duan.github.io/piece/poem/11-11.html",
+      "id": "https://mister-duan.github.io/piece/poem/11-11.html",
+      "summary": "11 月 11 日有感 曾一个人走过， 一个人上学，一个人回家; 一个人思索，一个人彷徨; 在汹涌人潮中， 迷失在下一个街口的转角。 曾以为一腔热血挥洒至今， 就能赢得荣耀与辉煌。 曾背负着太沉重的梦想， 直到某天输给了现实， 任凭自己再怎么努力， 都无法向着梦想的彼岸前进一步。 ♢ 这些年， 一个人花开，一个人花败， 不曾对谁诉说这一路走过的艰辛， ...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>曾一个人走过，</p>\n<p>一个人上学，一个人回家;</p>\n<p>一个人思索，一个人彷徨;</p>\n<p>在汹涌人潮中，</p>\n<p>迷失在下一个街口的转角。</p>\n<p>曾以为一腔热血挥洒至今，</p>\n<p>就能赢得荣耀与辉煌。</p>\n<p>曾背负着太沉重的梦想，</p>\n<p>直到某天输给了现实，</p>\n<p>任凭自己再怎么努力，</p>\n<p>都无法向着梦想的彼岸前进一步。</p>\n<p>♢</p>\n<p>这些年，</p>\n<p>一个人花开，一个人花败，</p>\n<p>不曾对谁诉说这一路走过的艰辛，</p>\n<p>也从未被问起自己内心的孤寂。</p>\n<p>反正，总是一个人过，</p>\n<p>少了纷扰，倒也省心。</p>\n<p>♢</p>\n<p>一个人行走的时光，</p>\n<p>或明媚，或悲伤，</p>\n<p>或平凡无奇，或惊天动地，</p>\n<p>但无论将来的我们</p>\n<p>是以何种形式存在于这个世界，</p>\n<p>到最后，</p>\n<p>那些曾经自己一个人走过的路</p>\n<p>终将成为内心最美的风景。</p>\n<p>♢</p>\n<p>或许，</p>\n<p>最后时光还是没有改变残酷的现实，</p>\n<p>我还是会输得一败涂地;</p>\n<p>可是至少，</p>\n<p>我也曾轰轰烈烈走过属于自己一个人的青春。</p>\n<p>成功也好，失败也罢，</p>\n<p>这些都不是青春的定义。</p>\n<p>从没有人可以给我们的青春下定义，</p>\n<p>除了我们自己。</p>\n<p>不知不觉，</p>\n<p>一个人也走过了很长的一段路，</p>\n<p>偶尔转过身回头看看，</p>\n<p>一个人也并没有什么不好，</p>\n<p>简单，快乐，自由，</p>\n<p>亦可以勇敢去追求自己想要的生活。</p>\n<p>不用对谁虚伪讨好，</p>\n<p>亦不必在乎别人的眼光，</p>\n<p>并不是我们矫情做作，</p>\n<p>只是用自己的形式去追逐内心的渴望。</p>\n<p>努力地去尝试过自己向往的生活，</p>\n<p>虽然有时孤独，</p>\n<p>亦会感到无助，</p>\n<p>但人生何尝不是一种孤独?</p>\n<p>而这无助又何尝不是一种成长?</p>\n<p>♢</p>\n<p>虽曾经历着迷茫和彷徨，</p>\n<p>却也肆意地在自己青春里，</p>\n<p>享受着</p>\n<p>一个人的狂欢，</p>\n<p>一个人的放浪，</p>\n<p>和那独自行走的时光，</p>\n<p>一个人孤独看海，</p>\n<p>一个人寂寞听风，</p>\n<p>一个人肆意奔跑，</p>\n<p>一个人涅槃重生。</p>\n<p>避开了俗世的纷扰，</p>\n<p>倒也落得个悠闲自在。</p>\n<p>在风轻云淡的日子里，</p>\n<p>读书，写字，看风景，感悟人生。</p>\n<p>手捧着一本书，认真地读，</p>\n<p>用心写下一些感悟的文字，</p>\n<p>偶尔回头看看</p>\n<p>这一路走过的风景和见过的人，</p>\n<p>或许，日子久了，</p>\n<p>有些俗事，就看淡了；</p>\n<p>有些偏执，就放下了。</p>\n<p>而我也终可以</p>\n<p>在这错综复杂的现实世界里</p>\n<p>不为现实之乱所烦，</p>\n<p>为世俗之事所困。</p>\n<p>一个人行走的日子，</p>\n<p>是被安静下来的时光，</p>\n<p>是自己跟内心对话的时刻</p>\n<p>让自己有时间读懂内心的独白，</p>\n<p>清楚追求的彼岸在何处，</p>\n<p>未来的人生路又如何走……</p>\n<p>♢</p>\n<p>一个人行走的旅程，</p>\n<p>注定是孤独的，</p>\n<p>所有的风雨都要一个人挡，</p>\n<p>所有的困难都要一个人扛。</p>\n<p>或许，拼到最后，</p>\n<p>还是会败北，</p>\n<p>还是会一无所有，</p>\n<p>甚至还会失去原本的样子，</p>\n<p>但这都无所谓，</p>\n<p>至少我在追求有价值的东西，</p>\n<p>也没有过自己不想过的生活。</p>\n<p>♢</p>\n<p>一个人，一颗心，</p>\n<p>背起梦想，说走就走，</p>\n<p>管它路还有多长，</p>\n<p>管它梦还有多远，</p>\n<p>一直往前奔跑，</p>\n<p>终会找到属于自己的风景。</p>\n<p>既然选择一个人孤独行走，</p>\n<p>哪怕最后只剩下影子，</p>\n<p>也要义无返顾地向前冲，</p>\n<p>直到有一天，</p>\n<p>能够与一切梦想的阻力抗衡。</p>\n<p>♢</p>\n<p>如果，</p>\n<p>到最后我还是没有变得更好，</p>\n<p>那么我也仍要</p>\n<p>活得更像当初想要成为的样子:</p>\n<p>独立，坚强，自信，亦不害怕孤独。</p>\n</div>\n",
+      "date_published": "2016-11-11T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【十一】",
+      "url": "https://mister-duan.github.io/piece/poem/11.html",
+      "id": "https://mister-duan.github.io/piece/poem/11.html",
+      "summary": "轻言细语【十一】 如今才知， 总有场场遇见， 开始惊艳， 结局悲怜。 ♢ 当爱情搁浅， 只有孤星残月共我赴约。 风里，雨里， 我只能独自拥抱黑夜。 ♢ 思念，躲在角落的尘埃里面， 从不肯走远。 柳湖岸边的衰草上， 满满都是如泣如诉的幽怨。 ♢ 我努力踮起脚尖， 却得不到幸福的召见。 那倾城的花海里， 瞳孔找不到 曾让我聚焦的 那抹亮点。 ♢ 那枚刻满誓...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>如今才知，</p>\n<p>总有场场遇见，</p>\n<p>开始惊艳，</p>\n<p>结局悲怜。</p>\n<p>♢</p>\n<p>当爱情搁浅，</p>\n<p>只有孤星残月共我赴约。</p>\n<p>风里，雨里，</p>\n<p>我只能独自拥抱黑夜。</p>\n<p>♢</p>\n<p>思念，躲在角落的尘埃里面，</p>\n<p>从不肯走远。</p>\n<p>柳湖岸边的衰草上，</p>\n<p>满满都是如泣如诉的幽怨。</p>\n<p>♢</p>\n<p>我努力踮起脚尖，</p>\n<p>却得不到幸福的召见。</p>\n<p>那倾城的花海里，</p>\n<p>瞳孔找不到</p>\n<p>曾让我聚焦的</p>\n<p>那抹亮点。</p>\n<p>♢</p>\n<p>那枚刻满誓言的情签，</p>\n<p>不知飘向了哪个山谷水涧；</p>\n<p>隔世离空的飞吻，</p>\n<p>不知埋在了哪个沙漠荒原。</p>\n<p>♢</p>\n<p>原以为，</p>\n<p>会有人和我永远相伴在伊甸园，</p>\n<p>琴声拨起的恋曲，</p>\n<p>不会在烟雨深处呜咽。</p>\n<p>可如今我们之间，</p>\n<p>再没有了剧情关联，</p>\n<p>那一叠厚厚词阙，</p>\n<p>都化作片片雪花，</p>\n<p>落寞而又蹁跹。</p>\n<p>♢</p>\n<p>落雪缤纷的夜晚，</p>\n<p>你的名字是我唯一的牵念。</p>\n<p>那一滴相思泪，</p>\n<p>潮湿了纸片，</p>\n<p>滋润了钢笔，</p>\n<p>也播种了春天。</p>\n<p>♢</p>\n<p>卷不起记忆的重帘，</p>\n<p>所以，只好以凄美转身，</p>\n<p>把悲情锁在眉眼。</p>\n<p>从此，陷在独角戏里，</p>\n<p>兀自回忆、独自成眠。</p>\n</div>\n",
+      "date_published": "2016-01-18T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【十二】",
+      "url": "https://mister-duan.github.io/piece/poem/12.html",
+      "id": "https://mister-duan.github.io/piece/poem/12.html",
+      "summary": "轻言细语【十二】 时间在走，年龄在长。 懂得多了，看透多了， 可快乐却越来越少了。 怀念生命中的那些年， 未来遥远的没有形状， 我们单纯得没有烦恼。 如今是不是一种悲哀， 有时因为说了真话， 反而要和别人道歉， 只因为戳穿了事实。 想要活得舒心顺畅， 只得时刻打起精神， 用起那颗疲惫的心。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>时间在走，年龄在长。</p>\n<p>懂得多了，看透多了，</p>\n<p>可快乐却越来越少了。</p>\n<p>怀念生命中的那些年，</p>\n<p>未来遥远的没有形状，</p>\n<p>我们单纯得没有烦恼。</p>\n<p>如今是不是一种悲哀，</p>\n<p>有时因为说了真话，</p>\n<p>反而要和别人道歉，</p>\n<p>只因为戳穿了事实。</p>\n<p>想要活得舒心顺畅，</p>\n<p>只得时刻打起精神，</p>\n<p>用起那颗疲惫的心。</p>\n</div>\n",
+      "date_published": "2016-11-09T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【十三】",
+      "url": "https://mister-duan.github.io/piece/poem/13.html",
+      "id": "https://mister-duan.github.io/piece/poem/13.html",
+      "summary": "轻言细语【十三】 孤窗外，夜色朦胧，镰月如勾，寒夜添寂寞，我将心事摘落，化作相思梧桐，拂一抹诗意在浅冬的诗笺上，寄给白雪素影里。 ——题记 今晚，在雾霾之下，没有清凉凉的月光，也没有耀眼的繁星。可即使没有明月，仍可以在音乐和文字里享受一个人的幸福，享受这孤独的美丽。南森曾说: 人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。是的，只有敢于承受孤...",
+      "content_html": "\n<p>孤窗外，夜色朦胧，镰月如勾，寒夜添寂寞，我将心事摘落，化作相思梧桐，拂一抹诗意在浅冬的诗笺上，寄给白雪素影里。</p>\n<div style=\"text-align:right\">\n<p>——题记</p>\n</div>\n<p>今晚，在雾霾之下，没有清凉凉的月光，也没有耀眼的繁星。可即使没有明月，仍可以在音乐和文字里享受一个人的幸福，享受这孤独的美丽。南森曾说: 人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。是的，只有敢于承受孤独的人，才会发现自我。依着夜色的隽然，泡一杯清茶，(再泡一袋方便面)，在吊椅上呆呆的小坐，不予喧嚣奔跑，只与宁静轻握。夜幕里，习惯了与音乐，文字，清茶(还有方便面)为伴，是知音，是情人，是朋友。</p>\n<p>音乐，是宁静里的一泓碧水，是与灵魂契机的知音，在每一个音节的律动里，都是一种深深的懂得和惜我。</p>\n<p>文字，像是一个爱抚灵魂的伴侣，会永远安静的守护你的寂寞、你的孤独、你的欢乐、你的惆怅，只要去文字里发泄，或者狂欢。冥冥之中，已经注定，文字，才是最贴心的情人，一生最佳的长情伴侣。</p>\n<p>如果说音乐，文字是你的知音和情人，那么茶香，就是最温暖的朋友，在一缕茶烟袅娜里，读懂四季，读明禅音，读清生命里那些跌宕起伏，绵远悠长，柔情如水，沉淀睿智的故事。</p>\n<p>静谧的夜晚，因为有了音乐，而快乐。铺开一张宣纸(字帖本)，在音乐的曼妙音符里，将幸福的心事，典藏在幽幽笔墨间，幻化成隽永劲道的小字，流进每一寸的光阴里。放下手心的笔，感受那<s>溢满在房间的茶香</s>自习室的泡面味，感受手心，唇边，残留着没有消散的那杯茶的温度。此刻，只想把安谧，祥和，欣喜，藏在一页<s>宣纸</s>字帖本的留白里。音乐，还在耳边飞舞，我似乎又看到了久违的阳光，在浅冬里，沐浴与欢愉着自然万物的生命;笔尖，还在纸上舞动，我仿佛又看到阳光，正跳跃在枯枝的节末上……</p>\n",
+      "date_published": "2016-11-09T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【十四】",
+      "url": "https://mister-duan.github.io/piece/poem/14.html",
+      "id": "https://mister-duan.github.io/piece/poem/14.html",
+      "summary": "轻言细语【十四】 刚烈的冬风敲打着车窗， 和着淡淡的薄凉， 飘洒在飞驰的列车旁。 窗外景色飞退， 心微凉，情慵懒， 一缕倦意心头堆， 劳累此般又为谁? 寒寂渐深，心乱纷沓， 犹如一片孤寂的小雪花— 没有目的地却有牵挂， 飘荡在虚空中渐渐升华",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>刚烈的冬风敲打着车窗，</p>\n<p>和着淡淡的薄凉，</p>\n<p>飘洒在飞驰的列车旁。</p>\n<p>窗外景色飞退，</p>\n<p>心微凉，情慵懒，</p>\n<p>一缕倦意心头堆，</p>\n<p>劳累此般又为谁?</p>\n<p>寒寂渐深，心乱纷沓，</p>\n<p>犹如一片孤寂的小雪花—</p>\n<p>没有目的地却有牵挂，</p>\n<p>飘荡在虚空中渐渐升华</p>\n</div>\n",
+      "date_published": "2016-12-09T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【二】",
+      "url": "https://mister-duan.github.io/piece/poem/2.html",
+      "id": "https://mister-duan.github.io/piece/poem/2.html",
+      "summary": "轻言细语【二】 遇见，是幸; 留下，是缘; 一起走便是命中注定。 遵从内心的召唤， 走在人生的平凡路上， 只要认认真真地活着， 每一个日子就有希望。 ♢ 人生路上， 一路艰辛，一路风景。 如果你不相信前进 是通向幸福的唯一途经 那停滞更不会是答案。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>遇见，是幸;</p>\n<p>留下，是缘;</p>\n<p>一起走便是命中注定。</p>\n<p>遵从内心的召唤，</p>\n<p>走在人生的平凡路上，</p>\n<p>只要认认真真地活着，</p>\n<p>每一个日子就有希望。</p>\n<p>♢</p>\n<p>人生路上，</p>\n<p>一路艰辛，一路风景。</p>\n<p>如果你不相信前进</p>\n<p>是通向幸福的唯一途经</p>\n<p>那停滞更不会是答案。</p>\n</div>\n",
+      "date_published": "2014-10-04T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【三】",
+      "url": "https://mister-duan.github.io/piece/poem/3.html",
+      "id": "https://mister-duan.github.io/piece/poem/3.html",
+      "summary": "轻言细语【三】 一卷诗书。 人半旧，心半旧，物半旧; 月半旧，花半旧，风半旧。 会在旧时光里 偶尔翻出 一滴旧时的泪， 一点旧时的雨， 甚至 一朵旧时的花儿， 一幅旧时的墨迹， 一段旧时的心情， 可有莫名的感动， 丝丝的温暖。 善待生命，善待自己； 热爱生活，热爱自己； 拥抱明天，拥抱自己。 ♢ 人生是条漫长的旅途， 有平坦的大道， 也有崎岖的小路； ...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>一卷诗书。</p>\n<p>人半旧，心半旧，物半旧;</p>\n<p>月半旧，花半旧，风半旧。</p>\n<p>会在旧时光里</p>\n<p>偶尔翻出</p>\n<p>一滴旧时的泪，</p>\n<p>一点旧时的雨，</p>\n<p>甚至</p>\n<p>一朵旧时的花儿，</p>\n<p>一幅旧时的墨迹，</p>\n<p>一段旧时的心情，</p>\n<p>可有莫名的感动，</p>\n<p>丝丝的温暖。</p>\n<p>善待生命，善待自己；</p>\n<p>热爱生活，热爱自己；</p>\n<p>拥抱明天，拥抱自己。</p>\n<p>♢</p>\n<p>人生是条漫长的旅途，</p>\n<p>有平坦的大道，</p>\n<p>也有崎岖的小路；</p>\n<p>有鲜花，也有荆棘，</p>\n<p>但无论顺境还是逆境，</p>\n<p>都要从容面对。</p>\n<p>♢</p>\n<p>许多事情的答案都不是只有一个，</p>\n<p>即使切都在变，</p>\n<p>唯一不变的就是我们依旧在前行。</p>\n<p>那些藏在过去，埋葬的碎梦，</p>\n<p>在时间流过的瞬间，</p>\n<p>早已相隔千里，</p>\n<p>岁月摇曳的长河里，</p>\n<p>注定有明媚的忧伤。</p>\n</div>\n",
+      "date_published": "2014-10-08T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【四】",
+      "url": "https://mister-duan.github.io/piece/poem/4.html",
+      "id": "https://mister-duan.github.io/piece/poem/4.html",
+      "summary": "轻言细语【四】 有一种情，叫做思念; 有一种爱，叫做动心; 有一一种念，叫牵挂; 有一种想，叫暧昧; 爱了，小气了; 心动了， 在乎了。 因为爱得深，所以会痛; 因为爱得真，所以会疼: 因为疼痛，所以难舍: 因为懂得，所以慈悲。 花也有爱? 风也有情? 心动了，就会看见红尘， 见色是色，见情是情。 因爱故生憎， 因憎故生怖。 ♢ 也罢，因为， 所有的相...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>有一种情，叫做思念;</p>\n<p>有一种爱，叫做动心;</p>\n<p>有一一种念，叫牵挂;</p>\n<p>有一种想，叫暧昧;</p>\n<p>爱了，小气了;</p>\n<p>心动了， 在乎了。</p>\n<p>因为爱得深，所以会痛;</p>\n<p>因为爱得真，所以会疼:</p>\n<p>因为疼痛，所以难舍:</p>\n<p>因为懂得，所以慈悲。</p>\n<p>花也有爱?</p>\n<p>风也有情?</p>\n<p>心动了，就会看见红尘，</p>\n<p>见色是色，见情是情。</p>\n<p>因爱故生憎，</p>\n<p>因憎故生怖。</p>\n<p>♢</p>\n<p>也罢，因为，</p>\n<p>所有的相遇，都是前世的缘;</p>\n<p>所有的离别，都是今生的果。</p>\n<p>世界上总会有值得-爱的人，</p>\n<p>亦必有可以掏心掏肺的知己。</p>\n<p>♢</p>\n<p>既然</p>\n<p>所有的擦肩，</p>\n<p>要有五百次的回首;</p>\n<p>所有的相遇，</p>\n<p>要有一千年的缘。</p>\n<p>轻轻问一句:</p>\n<p>我的心，你懂。</p>\n<p>又何必在乎地久天长?</p>\n</div>\n",
+      "date_published": "2014-10-12T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【五】",
+      "url": "https://mister-duan.github.io/piece/poem/5.html",
+      "id": "https://mister-duan.github.io/piece/poem/5.html",
+      "summary": "轻言细语【五】 去收集那一朵朵云的白， 去采集秋日阳光的融暖， 便沿着这份青翠找来。 挑开了帘， 安放了光阴的青藤， 听那风铃的细微声响， 和那正合时宜的花草鸟木。 如果可以， 就牵着岁月的手， 一起走过安之若素的浅秋。 或许，便会多了些烟火的味道。 然而，琐碎的时光， 终寻不到些许烟火存留的气息， 只有寸寸重叠的光阴， 在岁月的花篮中繁花锦簇， 唯美...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>去收集那一朵朵云的白，</p>\n<p>去采集秋日阳光的融暖，</p>\n<p>便沿着这份青翠找来。</p>\n<p>挑开了帘，</p>\n<p>安放了光阴的青藤，</p>\n<p>听那风铃的细微声响，</p>\n<p>和那正合时宜的花草鸟木。</p>\n<p>如果可以，</p>\n<p>就牵着岁月的手，</p>\n<p>一起走过安之若素的浅秋。</p>\n<p>或许，便会多了些烟火的味道。</p>\n<p>然而，琐碎的时光，</p>\n<p>终寻不到些许烟火存留的气息，</p>\n<p>只有寸寸重叠的光阴，</p>\n<p>在岁月的花篮中繁花锦簇，</p>\n<p>唯美,忧伤。</p>\n<p>♢</p>\n<p>爱了，小气了，</p>\n<p>眼里只有一个人，</p>\n<p>心里只有一个人。</p>\n<p>心为你跳，</p>\n<p>情为你动，</p>\n<p>是蛊?</p>\n<p>是毒?</p>\n<p>没了你就是万箭穿心，</p>\n<p>毒瘾发作，生不如死。</p>\n<p>倾情了，在乎了，</p>\n<p>一举一动，</p>\n<p>都牵着肠，挂着肚，</p>\n<p>眼里是情火，</p>\n<p>心中是暧昧。</p>\n<p>相聚，欢畅；</p>\n<p>离别，肠断。</p>\n</div>\n",
+      "date_published": "2014-10-16T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【六】",
+      "url": "https://mister-duan.github.io/piece/poem/6.html",
+      "id": "https://mister-duan.github.io/piece/poem/6.html",
+      "summary": "轻言细语【六】 在时光的夹缝中不停的辗转， 数一程过往， 看一路云烟， 留不住的美丽， 定格在某一个角落， 不曾提及却频频忆起。 或许， 在美丽的繁华， 也经不起轮回的践踏， 沾花一笑的音容， 回首已是落寞。 都说放下就是一个新的开始， 但又有几人 能够放下的如此洒脱!",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>在时光的夹缝中不停的辗转，</p>\n<p>数一程过往，</p>\n<p>看一路云烟，</p>\n<p>留不住的美丽，</p>\n<p>定格在某一个角落，</p>\n<p>不曾提及却频频忆起。</p>\n<p>或许，</p>\n<p>在美丽的繁华，</p>\n<p>也经不起轮回的践踏，</p>\n<p>沾花一笑的音容，</p>\n<p>回首已是落寞。</p>\n<p>都说放下就是一个新的开始，</p>\n<p>但又有几人</p>\n<p>能够放下的如此洒脱!</p>\n</div>\n",
+      "date_published": "2014-10-19T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【七】",
+      "url": "https://mister-duan.github.io/piece/poem/7.html",
+      "id": "https://mister-duan.github.io/piece/poem/7.html",
+      "summary": "轻言细语【七】 岁月流逝， 也总会有 那淡淡的心伤抹， 徘徊在经年的路口上。 时光并没有亏欠， 不是谁不解风尘， 只因季节的错落， 分割那一站琉璃。 秋风不解秋水寒， 秋水难懂落花语， 一程过往难断两两相牵， 一世尘缘迷离几许无言。 时光走过， 散落在风尘中的碎片， 堆积成了岁月的箴言， 随流年默默。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>岁月流逝，</p>\n<p>也总会有</p>\n<p>那淡淡的心伤抹，</p>\n<p>徘徊在经年的路口上。</p>\n<p>时光并没有亏欠，</p>\n<p>不是谁不解风尘，</p>\n<p>只因季节的错落，</p>\n<p>分割那一站琉璃。</p>\n<p>秋风不解秋水寒，</p>\n<p>秋水难懂落花语，</p>\n<p>一程过往难断两两相牵，</p>\n<p>一世尘缘迷离几许无言。</p>\n<p>时光走过，</p>\n<p>散落在风尘中的碎片，</p>\n<p>堆积成了岁月的箴言，</p>\n<p>随流年默默。</p>\n</div>\n",
+      "date_published": "2014-10-21T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【八】",
+      "url": "https://mister-duan.github.io/piece/poem/8.html",
+      "id": "https://mister-duan.github.io/piece/poem/8.html",
+      "summary": "轻言细语【八】 鹰， 不需鼓掌也在飞翔。 小草， 没人心疼也在成长。 深山的野花， 没人欣赏也在芬芳。 做事， 不需人人都理解， 只需尽心尽力； 做人， 不需人人都喜欢， 只需坦坦荡荡。 坚持， 注定有孤独彷徨， 质疑嘲笑， 也都无妨。 就算遍体鳞伤， 也要撑起坚强； 就算人生短暂， 也要活得漂亮!",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>鹰，</p>\n<p>不需鼓掌也在飞翔。</p>\n<p>小草，</p>\n<p>没人心疼也在成长。</p>\n<p>深山的野花，</p>\n<p>没人欣赏也在芬芳。</p>\n<p>做事，</p>\n<p>不需人人都理解，</p>\n<p>只需尽心尽力；</p>\n<p>做人，</p>\n<p>不需人人都喜欢，</p>\n<p>只需坦坦荡荡。</p>\n<p>坚持，</p>\n<p>注定有孤独彷徨，</p>\n<p>质疑嘲笑，</p>\n<p>也都无妨。</p>\n<p>就算遍体鳞伤，</p>\n<p>也要撑起坚强；</p>\n<p>就算人生短暂，</p>\n<p>也要活得漂亮!</p>\n</div>\n",
+      "date_published": "2014-10-25T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语【九】",
+      "url": "https://mister-duan.github.io/piece/poem/9.html",
+      "id": "https://mister-duan.github.io/piece/poem/9.html",
+      "summary": "轻言细语【九】 年少的我们， 总是喜欢， 不停地揣测对方心情， 不停地猜忌对方想法， 然后开始惶恐不安， 开始患得患失， 开始责怪自己哪里不够好。 人生的经历终会告诉你， 太过在乎就是失去的开始。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>年少的我们，</p>\n<p>总是喜欢，</p>\n<p>不停地揣测对方心情，</p>\n<p>不停地猜忌对方想法，</p>\n<p>然后开始惶恐不安，</p>\n<p>开始患得患失，</p>\n<p>开始责怪自己哪里不够好。</p>\n<p>人生的经历终会告诉你，</p>\n<p>太过在乎就是失去的开始。</p>\n</div>\n",
+      "date_published": "2015-12-06T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "轻言细语",
+      "url": "https://mister-duan.github.io/piece/poem/",
+      "id": "https://mister-duan.github.io/piece/poem/",
+      "summary": "介绍 这是我在高一写的一些小的散文诗，最初发表在空间日志上。 近日将其作为少年回忆，整理在博客中。",
+      "content_html": "<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">介绍</p>\n<p>这是我在高一写的一些小的散文诗，最初发表在空间日志上。</p>\n<p>近日将其作为少年回忆，整理在博客中。</p>\n</div>\n<!-- more -->\n<ul>\n<li><a href=\"https://h5.qzone.qq.com/ugc/share/?sharetag=38F7D93E6B85A1E5BE96A0C93F17652D&amp;subtype=3&amp;ciphertext=&amp;sid=&amp;blog_photo=&amp;g=&amp;res_uin=1178522294&amp;cellid=V10JYlHT29nRn4&amp;subid=&amp;bp1=&amp;bp2=&amp;bp7=&amp;appid=4&amp;g_f=2000000103\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>空间相册链接</strong></a></li>\n</ul>\n<blockquote>\n<p>由 赵婧一 摘抄</p>\n</blockquote>\n",
+      "date_published": "2022-01-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "江城子·高考",
+      "url": "https://mister-duan.github.io/piece/poem/exam.html",
+      "id": "https://mister-duan.github.io/piece/poem/exam.html",
+      "summary": "江城子·高考 丙申六月六日午凭窗远望，闻林中歌扬，有感，故作此篇。 十年苦读月相望，夜沧茫，内彷徨。一盏孤灯，无处话凄凉。明日一举定成败，虽抱恙，又何妨? 如闻鸦啼肠断况，尘满面，自难忘。相顾无言，惟有泪千行。若榜题名成栋梁，心飞扬，愿得偿!",
+      "content_html": "\n<p>丙申六月六日午凭窗远望，闻林中歌扬，有感，故作此篇。</p>\n<p>十年苦读月相望，夜沧茫，内彷徨。一盏孤灯，无处话凄凉。明日一举定成败，虽抱恙，又何妨?</p>\n<p>如闻鸦啼肠断况，尘满面，自难忘。相顾无言，惟有泪千行。若榜题名成栋梁，心飞扬，愿得偿!</p>\n",
+      "date_published": "2016-06-08T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "醉落魄·夏夜抒怀",
+      "url": "https://mister-duan.github.io/piece/poem/sad.html",
+      "id": "https://mister-duan.github.io/piece/poem/sad.html",
+      "summary": "醉落魄·夏夜抒怀 兄长难做。 相留舍妹责吾过。 针入子胸撑心破。 心仅情谊，反却遭人唾。 ♢ 士帼唯爱安非错? 厚谊更比苍天阔。 忆追尘事徒萧索。 辗转寻眠，愁溢又生惑。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>兄长难做。</p>\n<p>相留舍妹责吾过。</p>\n<p>针入子胸撑心破。</p>\n<p>心仅情谊，反却遭人唾。</p>\n<p>♢</p>\n<p>士帼唯爱安非错?</p>\n<p>厚谊更比苍天阔。</p>\n<p>忆追尘事徒萧索。</p>\n<p>辗转寻眠，愁溢又生惑。</p>\n</div>\n",
+      "date_published": "2016-06-27T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【一】",
+      "url": "https://mister-duan.github.io/piece/life/1.html",
+      "id": "https://mister-duan.github.io/piece/life/1.html",
+      "summary": "笑谈人生【一】 精打细算你失去了多少， 求而不得你烦恼了多少， 斤斤计较你结怨了多少， 贪心不灭你造恶了多少， 日复一日你能放下多少， 千方百计你能得到多少， 人生在世你能享受多少， 临命终时你能带走多少? 唯大肚能容， 容天下难容之事， 只开口一笑， 笑世上可笑之人。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>精打细算你失去了多少，</p>\n<p>求而不得你烦恼了多少，</p>\n<p>斤斤计较你结怨了多少，</p>\n<p>贪心不灭你造恶了多少，</p>\n<p>日复一日你能放下多少，</p>\n<p>千方百计你能得到多少，</p>\n<p>人生在世你能享受多少，</p>\n<p>临命终时你能带走多少?</p>\n<p>唯大肚能容，</p>\n<p>容天下难容之事，</p>\n<p>只开口一笑，</p>\n<p>笑世上可笑之人。</p>\n</div>\n",
+      "date_published": "2014-08-18T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【二】",
+      "url": "https://mister-duan.github.io/piece/life/2.html",
+      "id": "https://mister-duan.github.io/piece/life/2.html",
+      "summary": "笑谈人生【二】 梦，不能做得太深，深了，难以清醒； 话，不能说得太满，满了，难以相通； 调，不能定得太高，高了，难以合声； 事，不能做得太绝，绝了，难以进退； 情，不能陷得太深，深了，难以自拔； 利，不能看得太重，重了，难以明志； 人，不能做得太假，假了，难以交心。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>梦，不能做得太深，深了，难以清醒；</p>\n<p>话，不能说得太满，满了，难以相通；</p>\n<p>调，不能定得太高，高了，难以合声；</p>\n<p>事，不能做得太绝，绝了，难以进退；</p>\n<p>情，不能陷得太深，深了，难以自拔；</p>\n<p>利，不能看得太重，重了，难以明志；</p>\n<p>人，不能做得太假，假了，难以交心。</p>\n</div>\n",
+      "date_published": "2014-08-19T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【三】",
+      "url": "https://mister-duan.github.io/piece/life/3.html",
+      "id": "https://mister-duan.github.io/piece/life/3.html",
+      "summary": "笑谈人生【三】 人生就是一阵风，起了，没了。 理想就是一盏灯，燃了，灭了。 人情就是一阵雨，下了，干了。 朋友就是一层云，聚了，散了。 闲愁就是一壶酒，醉了，醒了。 寂寞就是一颗星，闪了，灭了。 孤独就是一轮月，升了，落了。 死亡就是一场梦，累了，睡了。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>人生就是一阵风，起了，没了。</p>\n<p>理想就是一盏灯，燃了，灭了。</p>\n<p>人情就是一阵雨，下了，干了。</p>\n<p>朋友就是一层云，聚了，散了。</p>\n<p>闲愁就是一壶酒，醉了，醒了。</p>\n<p>寂寞就是一颗星，闪了，灭了。</p>\n<p>孤独就是一轮月，升了，落了。</p>\n<p>死亡就是一场梦，累了，睡了。</p>\n</div>\n",
+      "date_published": "2014-08-17T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【四】",
+      "url": "https://mister-duan.github.io/piece/life/4.html",
+      "id": "https://mister-duan.github.io/piece/life/4.html",
+      "summary": "笑谈人生【四】 只有淡然的心态， 才是人生的成熟。 越长大就越孤单， 越长大就越无奈。 曾经我们可以 肆无忌惮说的话， 不计后果做的事， 在长大的那一天， 终于被硬生生地 压回到了心底。 长大了，懂事了， 心却复杂起来了。 还是觉得淡然最好， 简单心态最快乐。 人生之事，计较越多，烦恼越多。 淡然，才是一种彻悟。 怀着淡然，笑看人生。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>只有淡然的心态，</p>\n<p>才是人生的成熟。</p>\n<p>越长大就越孤单，</p>\n<p>越长大就越无奈。</p>\n<p>曾经我们可以</p>\n<p>肆无忌惮说的话，</p>\n<p>不计后果做的事，</p>\n<p>在长大的那一天，</p>\n<p>终于被硬生生地</p>\n<p>压回到了心底。</p>\n<p>长大了，懂事了，</p>\n<p>心却复杂起来了。</p>\n<p>还是觉得淡然最好，</p>\n<p>简单心态最快乐。</p>\n<p>人生之事，计较越多，烦恼越多。</p>\n<p>淡然，才是一种彻悟。</p>\n<p>怀着淡然，笑看人生。</p>\n</div>\n",
+      "date_published": "2014-08-26T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【五】",
+      "url": "https://mister-duan.github.io/piece/life/5.html",
+      "id": "https://mister-duan.github.io/piece/life/5.html",
+      "summary": "笑谈人生【五】 人生犹如一首歌， 音调高低起伏， 旋律抑扬顿挫； 人生仿佛一本书， 写满酸甜苦辣， 记录喜怒哀乐； 人生就像一局棋， 处处布满危险， 也撒遍了机遇； 人生恰似一条路， 有山重水复的坎坷， 也有柳暗花明的坦途； 人生如同一条河， 有时九曲回肠， 有时一泻千里。 成败自清醒， 是非一笑过。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>人生犹如一首歌，</p>\n<p>音调高低起伏，</p>\n<p>旋律抑扬顿挫；</p>\n<p>人生仿佛一本书，</p>\n<p>写满酸甜苦辣，</p>\n<p>记录喜怒哀乐；</p>\n<p>人生就像一局棋，</p>\n<p>处处布满危险，</p>\n<p>也撒遍了机遇；</p>\n<p>人生恰似一条路，</p>\n<p>有山重水复的坎坷，</p>\n<p>也有柳暗花明的坦途；</p>\n<p>人生如同一条河，</p>\n<p>有时九曲回肠，</p>\n<p>有时一泻千里。</p>\n<p>成败自清醒，</p>\n<p>是非一笑过。</p>\n</div>\n",
+      "date_published": "2014-08-29T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【六】",
+      "url": "https://mister-duan.github.io/piece/life/6.html",
+      "id": "https://mister-duan.github.io/piece/life/6.html",
+      "summary": "笑谈人生【六】 人之所以会烦恼，就是记性太好。 人之所以会痛苦，就是追求太多。 人之所以不快乐，就是计较太多。 人之所以不幸福，就是不会知足。 人之所以活的累，就是想的太多。 人，永远是矛盾的主体， 经常处在困惑中， 夹在世俗的单行道上， 走不远，也回不去。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>人之所以会烦恼，就是记性太好。</p>\n<p>人之所以会痛苦，就是追求太多。</p>\n<p>人之所以不快乐，就是计较太多。</p>\n<p>人之所以不幸福，就是不会知足。</p>\n<p>人之所以活的累，就是想的太多。</p>\n<p>人，永远是矛盾的主体，</p>\n<p>经常处在困惑中，</p>\n<p>夹在世俗的单行道上，</p>\n<p>走不远，也回不去。</p>\n</div>\n",
+      "date_published": "2014-08-30T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【七】",
+      "url": "https://mister-duan.github.io/piece/life/7.html",
+      "id": "https://mister-duan.github.io/piece/life/7.html",
+      "summary": "笑谈人生【七】 当你成长跟不上知识更新时， 你的学习会出问题； 当你成长跟不上恋人配偶时， 你的感情会出问题； 当你成长跟不上朋友时， 你的友谊会出问题； 当你成长跟不上公司节奏时， 你的工作会出问题； 当你成长跟不上孩子思维时， 你的沟通会出问题! 我们一生努力的结果， 不过是配得起身边的人， 大家彼此欣赏， 相依相伴， 携手一生。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>当你成长跟不上知识更新时，</p>\n<p>你的学习会出问题；</p>\n<p>当你成长跟不上恋人配偶时，</p>\n<p>你的感情会出问题；</p>\n<p>当你成长跟不上朋友时，</p>\n<p>你的友谊会出问题；</p>\n<p>当你成长跟不上公司节奏时，</p>\n<p>你的工作会出问题；</p>\n<p>当你成长跟不上孩子思维时，</p>\n<p>你的沟通会出问题!</p>\n<p>我们一生努力的结果，</p>\n<p>不过是配得起身边的人，</p>\n<p>大家彼此欣赏，</p>\n<p>相依相伴，</p>\n<p>携手一生。</p>\n</div>\n",
+      "date_published": "2014-08-31T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【八】",
+      "url": "https://mister-duan.github.io/piece/life/8.html",
+      "id": "https://mister-duan.github.io/piece/life/8.html",
+      "summary": "笑谈人生【八】 人生不易，且行且珍惜。 ♢ 幸福不在于拥有很多，而在于拥有很少也已满足，所谓知足常乐亦如此。浮躁的人们，总是习惯等待一段时光沉淀后，掸去风尘，才会感叹当时的美好；总是欢在一段光阴中回忆另一段光阴里的故事。可是流水里洒落的光阴，一路向东，不会停留，多少年的走过，也只能给彼此留下一份淡淡的回忆。 ♢ 与其华丽撞墙，不如优雅转身，给自己一个迂...",
+      "content_html": "\n<p>人生不易，且行且珍惜。</p>\n<div style=\"text-align:center\">\n<p>♢</p>\n</div>\n<p>幸福不在于拥有很多，而在于拥有很少也已满足，所谓知足常乐亦如此。浮躁的人们，总是习惯等待一段时光沉淀后，掸去风尘，才会感叹当时的美好；总是欢在一段光阴中回忆另一段光阴里的故事。可是流水里洒落的光阴，一路向东，不会停留，多少年的走过，也只能给彼此留下一份淡淡的回忆。</p>\n<div style=\"text-align:center\">\n<p>♢</p>\n</div>\n<p>与其华丽撞墙，不如优雅转身，给自己一个迂回的空间，学会思索，慢慢调整。人生最曼妙的风景，不是追名逐利，风光无限，而是内心的淡定与从容。</p>\n",
+      "date_published": "2014-08-31T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【九】",
+      "url": "https://mister-duan.github.io/piece/life/9.html",
+      "id": "https://mister-duan.github.io/piece/life/9.html",
+      "summary": "笑谈人生【九】 不打扰别人， 不怠慢自己， 不挥霍信任， 不讨好，不盲从， 不做道德上的英雄， 足矣! 人生有许多的如果， 却只有一个结果。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>不打扰别人，</p>\n<p>不怠慢自己，</p>\n<p>不挥霍信任，</p>\n<p>不讨好，不盲从，</p>\n<p>不做道德上的英雄，</p>\n<p>足矣!</p>\n<p>人生有许多的如果，</p>\n<p>却只有一个结果。</p>\n</div>\n",
+      "date_published": "2014-09-02T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生",
+      "url": "https://mister-duan.github.io/piece/life/",
+      "id": "https://mister-duan.github.io/piece/life/",
+      "summary": "介绍 这是我在高一写的人生感悟，最初发表在空间日志上。 近日将其作为少年回忆，整理在博客中。 空间相册链接",
+      "content_html": "<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">介绍</p>\n<p>这是我在高一写的人生感悟，最初发表在空间日志上。</p>\n<p>近日将其作为少年回忆，整理在博客中。</p>\n</div>\n<ul>\n<li><a href=\"https://h5.qzone.qq.com/ugc/share/?sharetag=126FDE98906EB067815B0EEA0F72BEC0&amp;subtype=3&amp;ciphertext=&amp;sid=&amp;blog_photo=&amp;g=&amp;res_uin=1178522294&amp;cellid=V10JYlHT49u8Sd&amp;subid=&amp;bp1=&amp;bp2=&amp;bp7=&amp;appid=4&amp;g_f=2000000103\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>空间相册链接</strong></a></li>\n</ul>\n",
+      "date_published": "2022-01-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "19 周岁生日有感",
+      "url": "https://mister-duan.github.io/piece/life/birthday.html",
+      "id": "https://mister-duan.github.io/piece/life/birthday.html",
+      "summary": "19 周岁生日有感 古往今来， 无数人把人生比作路， 那成长必是 路上的一段灿烂旅程。 ♢ 我的故乡啊， 承载了多少成长过往， 一颦一蹙，亦喜亦嗔。 成长注定是孤独的旅程， 纵一世繁华，尘埃亦会落定， 物是人非，只待须臾。 正如这故乡胜利广场上的花吧， 年年岁岁花相似， 却不知是哪朵曾让我青睐。 每年近元宵之时唯白雪皑皑， 不知在哪一秒间烟花绽放; 不...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>古往今来，</p>\n<p>无数人把人生比作路，</p>\n<p>那成长必是</p>\n<p>路上的一段灿烂旅程。</p>\n<p>♢</p>\n<p>我的故乡啊，</p>\n<p>承载了多少成长过往，</p>\n<p>一颦一蹙，亦喜亦嗔。</p>\n<p>成长注定是孤独的旅程，</p>\n<p>纵一世繁华，尘埃亦会落定，</p>\n<p>物是人非，只待须臾。</p>\n<p>正如这故乡胜利广场上的花吧，</p>\n<p>年年岁岁花相似，</p>\n<p>却不知是哪朵曾让我青睐。</p>\n<p>每年近元宵之时唯白雪皑皑，</p>\n<p>不知在哪一秒间烟花绽放;</p>\n<p>不知几秒后唯有空寂。</p>\n<p>烟花虽易冷，</p>\n<p>却在我脑海中，</p>\n<p>留下了灿烂的回忆。</p>\n<p>♢</p>\n<p>分离，</p>\n<p>是成长的必经之路</p>\n<p>当我们翻开相册，</p>\n<p>昔日熟悉的面孔历历在目，</p>\n<p>可是当真聚会时，</p>\n<p>却发现曾经熟悉的人，</p>\n<p>已然逐渐陌生。</p>\n<p>成长的孤独</p>\n<p>也正体现于此。</p>\n<p>昔日成群结队的挚友</p>\n<p>如今三三两两，</p>\n<p>曾经咫尺之间的兄弟</p>\n<p>现在天各一方。</p>\n<p>或许每个人</p>\n<p>都对情分天长地久有所幻想，</p>\n<p>只可惜路好长，</p>\n<p>终会选择不同方向。</p>\n<p>♢</p>\n<p>唯有淡忘了曾经的灿烂与辉煌，</p>\n<p>才能更好地把握今后的方向。</p>\n<p>成长不是分离时伤心绝望，</p>\n<p>而是在逆境中愈加坚强，</p>\n<p>零点已过，钟声回响，</p>\n<p>标志了我新的成长，</p>\n<p>新岁定英勇而上，</p>\n<p>吾必乘风破浪!</p>\n</div>\n",
+      "date_published": "2017-02-11T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈坦然】",
+      "url": "https://mister-duan.github.io/piece/life/calm.html",
+      "id": "https://mister-duan.github.io/piece/life/calm.html",
+      "summary": "笑谈人生【谈坦然】 人生旅程中，顺畅也好，低谷也罢，都应该坦然面对。因为在这世界上，本不存在极乐天堂，无人能从世俗的羁绊中解脱出来，我们所能做的，只是爬起来比倒下去多一次，用汗水代替口水而已； 也唯有如此，方能让生命在磨难中得到升华。 我们要坚信人生没有过不去的坎，以勇敢的姿态迎接命运的挑战。",
+      "content_html": "\n<p>人生旅程中，顺畅也好，低谷也罢，都应该坦然面对。因为在这世界上，本不存在极乐天堂，无人能从世俗的羁绊中解脱出来，我们所能做的，只是爬起来比倒下去多一次，用汗水代替口水而已；</p>\n<p>也唯有如此，方能让生命在磨难中得到升华。</p>\n<p>我们要坚信人生没有过不去的坎，以勇敢的姿态迎接命运的挑战。</p>\n",
+      "date_published": "2015-01-17T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈选择】",
+      "url": "https://mister-duan.github.io/piece/life/choice.html",
+      "id": "https://mister-duan.github.io/piece/life/choice.html",
+      "summary": "笑谈人生【谈选择】 生活中有太多的选择，时刻考验着我们的心智。我们在一次次选择中成长。经历让我们承受太多无奈，些许的沧桑也被岁月刻在脸上。点点滴滴琐碎的融入，伴着侵入骨髓的苦楚，在崎岖不平的路上使我们跌跌撞撞，在断续的跌倒爬起中变得坚强。心中有所选择，有份属于自己的坚持，是件令人高兴的事。心中有梦，就不怕前路茫茫。有所追求，心灵就不会迷失，不会沉沦。即...",
+      "content_html": "\n<p>生活中有太多的选择，时刻考验着我们的心智。我们在一次次选择中成长。经历让我们承受太多无奈，些许的沧桑也被岁月刻在脸上。点点滴滴琐碎的融入，伴着侵入骨髓的苦楚，在崎岖不平的路上使我们跌跌撞撞，在断续的跌倒爬起中变得坚强。心中有所选择，有份属于自己的坚持，是件令人高兴的事。心中有梦，就不怕前路茫茫。有所追求，心灵就不会迷失，不会沉沦。即使面对凄风冷雨，也会默默的坚持。有时候一种选择，就是一种力量。这种强大的支撑，让我们不惧怕冷言冷语，即使没人理解，也固执的给自己力量，告诉自己: 风雨过后，会有不一样的风景，风雨冲洗过的天空，空气更好。</p>\n",
+      "date_published": "2014-09-18T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈感情】",
+      "url": "https://mister-duan.github.io/piece/life/emotion.html",
+      "id": "https://mister-duan.github.io/piece/life/emotion.html",
+      "summary": "笑谈人生【谈感情】 并不是所有的感情都会久远，比如爱情，又比如友情。 有些人，也许从未想过会有交集，可是冥冥中注定的一样，就走在了一起；有些人，曾经同甘共苦、患难与共，一起走过了数年或数十年，却渐渐地淡却了。可能是双方同时的，也可能是有一方在先，而另一方自然就放弃了。回忆总是美好的，无论回忆里有哭、有笑，想起那些朋友，会由衷的觉得，生命中曾经有你，真好...",
+      "content_html": "\n<p>并不是所有的感情都会久远，比如爱情，又比如友情。</p>\n<p>有些人，也许从未想过会有交集，可是冥冥中注定的一样，就走在了一起；有些人，曾经同甘共苦、患难与共，一起走过了数年或数十年，却渐渐地淡却了。可能是双方同时的，也可能是有一方在先，而另一方自然就放弃了。回忆总是美好的，无论回忆里有哭、有笑，想起那些朋友，会由衷的觉得，生命中曾经有你，真好! 可是依然无法改变现实，有些人确实疏远了。</p>\n<p>我相信，没有人会毫无原因就疏远谁，也更不会因为时间和距离刻意去忘记谁。冷漠的背后，必然有让人伤心的事，那些事无法轻易忘记。这样的决绝是否会让人费解，甚至会让人误解?</p>\n<p>在生命的旅途中，一定会有一些人陪你走完某段路，然后各不相干，这就是所谓的过客。其实本来可以走得更远，只因为有的人没有珍惜，所以走向了分离。既然选择了不同的路，就要做好自己承担的准备。不会有那么一个人，永远的陪你走下去。你的路对了，错了，都与别人无关。不要怨天尤人，也不要埋怨谁舍你而去。一些人近了，一些人必然就远了。不要计较谁先转身，离开了谁。只要明白，你走了，就不会有人等你。爱情也好，友情也罢，顺其自然，不要强求。</p>\n",
+      "date_published": "2014-09-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈亲情】",
+      "url": "https://mister-duan.github.io/piece/life/family.html",
+      "id": "https://mister-duan.github.io/piece/life/family.html",
+      "summary": "笑谈人生【谈亲情】 成长中的亲情， 不像爱情那样多情， 不像友情那样述说， 却是最长久的感情。 我们每天 都在亲人的关怀下， 幸福的生活着。 ♢ 亲情， 不像爱情那样浓烈， 不像友情那样欢笑， 却能在平淡日子里 默默的温暖着我们， 平淡得 让我们有所忽略。 ♢ 青春年少的叛逆， 是我们最难回首的曾经， 是否还记得， 你因为父母的一声责骂就摔门而出， 许...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>成长中的亲情，</p>\n<p>不像爱情那样多情，</p>\n<p>不像友情那样述说，</p>\n<p>却是最长久的感情。</p>\n<p>我们每天</p>\n<p>都在亲人的关怀下，</p>\n<p>幸福的生活着。</p>\n<p>♢</p>\n<p>亲情，</p>\n<p>不像爱情那样浓烈，</p>\n<p>不像友情那样欢笑，</p>\n<p>却能在平淡日子里</p>\n<p>默默的温暖着我们，</p>\n<p>平淡得</p>\n<p>让我们有所忽略。</p>\n<p>♢</p>\n<p>青春年少的叛逆，</p>\n<p>是我们最难回首的曾经，</p>\n<p>是否还记得，</p>\n<p>你因为父母的一声责骂就摔门而出，</p>\n<p>许多天不说一句话；</p>\n<p>是否还记得，</p>\n<p>你出了远门，</p>\n<p>好久也不打个电话回去，</p>\n<p>父母是有多么的牵挂；</p>\n<p>是否还记得，</p>\n<p>你每次被人欺负，</p>\n<p>父母是有多么的心疼?</p>\n<p>♢</p>\n<p>亲情，</p>\n<p>虽然只占了生命的一部分，</p>\n<p>只是一生中的一个片段，</p>\n<p>但是，</p>\n<p>他们确实是</p>\n<p>值得一生去珍惜和留念的那些人。</p>\n<p>那些渐渐老去的亲人，</p>\n<p>那些渐渐模糊的背影，</p>\n<p>是我们一生需要珍藏的最美时光。</p>\n</div>\n",
+      "date_published": "2014-09-04T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈友情】",
+      "url": "https://mister-duan.github.io/piece/life/friendship.html",
+      "id": "https://mister-duan.github.io/piece/life/friendship.html",
+      "summary": "笑谈人生【谈友情】 成长中的友情， 或许没有爱情那样一见倾心， 却是日久生情最好的写照。 也许爱情是眼泪， 友情是纸巾， 爱情是那个会让你流泪的东西， 而友情就是帮你擦泪的东西。 在如今高中的那些朋友， 是对整个人生影响最大的人群之一， 如今的我们不需也不应谈恋爱， 但我们必须会有一些朋友， 来充实自己的生活。 ♢ 你还记得吗? 当你考试失利， 萎靡不...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>成长中的友情，</p>\n<p>或许没有爱情那样一见倾心，</p>\n<p>却是日久生情最好的写照。</p>\n<p>也许爱情是眼泪，</p>\n<p>友情是纸巾，</p>\n<p>爱情是那个会让你流泪的东西，</p>\n<p>而友情就是帮你擦泪的东西。</p>\n<p>在如今高中的那些朋友，</p>\n<p>是对整个人生影响最大的人群之一，</p>\n<p>如今的我们不需也不应谈恋爱，</p>\n<p>但我们必须会有一些朋友，</p>\n<p>来充实自己的生活。</p>\n<p>♢</p>\n<p>你还记得吗?</p>\n<p>当你考试失利，</p>\n<p>萎靡不振的时候，</p>\n<p>是谁在你耳边说些安慰的话，</p>\n<p>帮你走出学习的压力；</p>\n<p>当你感情受挫，</p>\n<p>恋爱不顺的时候，</p>\n<p>是谁充当你的心理导师，</p>\n<p>帮你走出情感的阴影；</p>\n<p>当你陷入流言蜚语，</p>\n<p>遭遇他人误解的时候，</p>\n<p>是谁不顾别人的冷眼，</p>\n<p>帮你澄清难解的误会?</p>\n<p>♢</p>\n<p>友情，</p>\n<p>像一股涓涓细流，</p>\n<p>是一点一滴的累积起来的情感，</p>\n<p>不会一涌而出，</p>\n<p>却能在最需要的时候</p>\n<p>给你一口救命的甘甜。</p>\n<p>友情，就是这样。</p>\n<p>你一路前行，</p>\n<p>他一路跟随，</p>\n<p>只要彼此相惜，</p>\n<p>一定不会走丢。</p>\n<p>我的朋友们，</p>\n<p>一路上有你们，真好!</p>\n<p>这份最美的时光，</p>\n<p>我一定藏在心底。</p>\n</div>\n",
+      "date_published": "2014-09-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈淡泊】",
+      "url": "https://mister-duan.github.io/piece/life/indifferent.html",
+      "id": "https://mister-duan.github.io/piece/life/indifferent.html",
+      "summary": "笑谈人生【谈淡泊】 何为淡泊? 淡泊就是 对世间事洞明后的淡然， 不争，不辩， 不急，不燥， 以平常心态 去面对生活。 淡中出真味， 常中识英奇。 淡泊的人处事低调， 得也不喜，失也不悲。 淡泊的人， 是识尽愁滋味后的 不知愁滋味。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>何为淡泊?</p>\n<p>淡泊就是</p>\n<p>对世间事洞明后的淡然，</p>\n<p>不争，不辩，</p>\n<p>不急，不燥，</p>\n<p>以平常心态</p>\n<p>去面对生活。</p>\n<p>淡中出真味，</p>\n<p>常中识英奇。</p>\n<p>淡泊的人处事低调，</p>\n<p>得也不喜，失也不悲。</p>\n<p>淡泊的人，</p>\n<p>是识尽愁滋味后的</p>\n<p>不知愁滋味。</p>\n</div>\n",
+      "date_published": "2014-09-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈生命】",
+      "url": "https://mister-duan.github.io/piece/life/life.html",
+      "id": "https://mister-duan.github.io/piece/life/life.html",
+      "summary": "笑谈人生【谈生命】 生命的美丽， 永远展现在她无时无刻无处不在的进取中； 就像大树的美丽， 是展现在它负势向上高耸入云蓬勃生机中； 就像雄鹰的美丽， 是展现在它搏风击雨如苍天之魂的翱翔中； 就像江河的美丽， 是展现在它波涛汹涌承载船只的奔腾之中。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>生命的美丽，</p>\n<p>永远展现在她无时无刻无处不在的进取中；</p>\n<p>就像大树的美丽，</p>\n<p>是展现在它负势向上高耸入云蓬勃生机中；</p>\n<p>就像雄鹰的美丽，</p>\n<p>是展现在它搏风击雨如苍天之魂的翱翔中；</p>\n<p>就像江河的美丽，</p>\n<p>是展现在它波涛汹涌承载船只的奔腾之中。</p>\n</div>\n",
+      "date_published": "2014-09-04T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈爱情】",
+      "url": "https://mister-duan.github.io/piece/life/love.html",
+      "id": "https://mister-duan.github.io/piece/life/love.html",
+      "summary": "笑谈人生【谈爱情】 成长中的爱情， 伴随着淡淡苦涩， 却是永远的珍藏。 没有人知道 什么时候的遇见是对的遇见， 什么时候遇到的人是对的人， 即使相爱的两人最终分开， 也只不过是命运 和我们说了一个幸福的谎言。 当这个谎言被戳破时， 每个人似乎都理性了一截， 这就是所谓的成长。 ♢ 初恋， 一直是很多人无法绕过的心结， 也是青春年少最深刻的记忆， 或许最...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>成长中的爱情，</p>\n<p>伴随着淡淡苦涩，</p>\n<p>却是永远的珍藏。</p>\n<p>没有人知道</p>\n<p>什么时候的遇见是对的遇见，</p>\n<p>什么时候遇到的人是对的人，</p>\n<p>即使相爱的两人最终分开，</p>\n<p>也只不过是命运</p>\n<p>和我们说了一个幸福的谎言。</p>\n<p>当这个谎言被戳破时，</p>\n<p>每个人似乎都理性了一截，</p>\n<p>这就是所谓的成长。</p>\n<p>♢</p>\n<p>初恋，</p>\n<p>一直是很多人无法绕过的心结，</p>\n<p>也是青春年少最深刻的记忆，</p>\n<p>或许最初的恋爱给人们一个共识，</p>\n<p>那是不掺带任何杂质的恋爱，</p>\n<p>也是最纯净的爱情。</p>\n<p>♢</p>\n<p>喜欢的人不一定非要相交，</p>\n<p>相交过后是远远的相离，</p>\n<p>而相互平行，</p>\n<p>却能看到彼此的生活轨迹，</p>\n<p>默默的相望，</p>\n<p>胜过一切千言万语。</p>\n<p>逝去的爱情，</p>\n<p>虽没能走到最后，</p>\n<p>却是短短一生里的最美时光。</p>\n</div>\n",
+      "date_published": "2014-09-07T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈纯真】",
+      "url": "https://mister-duan.github.io/piece/life/pure.html",
+      "id": "https://mister-duan.github.io/piece/life/pure.html",
+      "summary": "笑谈人生【谈纯真】 我喜欢简单的人、简单的事， 傻傻的， 每天简简单单的过日子。 我也想像曾经那样， 几个人围在一起， 总有说不完的话， 不耍心计， 不挖苦， 不讽刺， 都真诚的去对待每一个人。 可是那逝去的时光， 真的能得以复返么?",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>我喜欢简单的人、简单的事，</p>\n<p>傻傻的，</p>\n<p>每天简简单单的过日子。</p>\n<p>我也想像曾经那样，</p>\n<p>几个人围在一起，</p>\n<p>总有说不完的话，</p>\n<p>不耍心计，</p>\n<p>不挖苦，</p>\n<p>不讽刺，</p>\n<p>都真诚的去对待每一个人。</p>\n<p>可是那逝去的时光，</p>\n<p>真的能得以复返么?</p>\n</div>\n",
+      "date_published": "2014-09-03T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈路】",
+      "url": "https://mister-duan.github.io/piece/life/road.html",
+      "id": "https://mister-duan.github.io/piece/life/road.html",
+      "summary": "笑谈人生【谈路】 人，不应该总选择轻松的路，而应该选择正确的道路，无论路途多么遥远，永远不要放弃，坚持走下去，肯定会有意想不到的风景。也许不在你本来想走的路上，也不是你本来想登临的山顶，可另一条路也有另一条路的风景，不同的山顶也一样会有美丽的日出，所以更多时候，不如试着静下心来，走上一条新路。",
+      "content_html": "\n<p>人，不应该总选择轻松的路，而应该选择正确的道路，无论路途多么遥远，永远不要放弃，坚持走下去，肯定会有意想不到的风景。也许不在你本来想走的路上，也不是你本来想登临的山顶，可另一条路也有另一条路的风景，不同的山顶也一样会有美丽的日出，所以更多时候，不如试着静下心来，走上一条新路。</p>\n",
+      "date_published": "2014-10-31T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈一步】",
+      "url": "https://mister-duan.github.io/piece/life/step.html",
+      "id": "https://mister-duan.github.io/piece/life/step.html",
+      "summary": "笑谈人生【谈一步】 一步很短，一生很长。 一步近在脚下，一生漫远无边。 一步易于修饰，一生难于描画。 一步短暂瞬间，一生烛照永恒。 每一步都刻满一生的选择， 每一步都关及一生的希望， 每一步都镶了时间的密码， 每一步都相扣一生的成败。 走对一步人生会光明一片， 走错一步人生会惨淡黑暗。 关键时一步，决定着一生。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>一步很短，一生很长。</p>\n<p>一步近在脚下，一生漫远无边。</p>\n<p>一步易于修饰，一生难于描画。</p>\n<p>一步短暂瞬间，一生烛照永恒。</p>\n<p>每一步都刻满一生的选择，</p>\n<p>每一步都关及一生的希望，</p>\n<p>每一步都镶了时间的密码，</p>\n<p>每一步都相扣一生的成败。</p>\n<p>走对一步人生会光明一片，</p>\n<p>走错一步人生会惨淡黑暗。</p>\n<p>关键时一步，决定着一生。</p>\n</div>\n",
+      "date_published": "2014-09-03T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
+    },
+    {
+      "title": "笑谈人生【谈岁月】",
+      "url": "https://mister-duan.github.io/piece/life/year.html",
+      "id": "https://mister-duan.github.io/piece/life/year.html",
+      "summary": "笑谈人生【谈岁月】 岁月，当真无情。 任凭沧海桑田，世事变迁， 它都冷眼旁观， 绝不会为任何一个人， 放慢脚步，停留驻足。 时光的流逝， 仿佛一双苍老又温柔的手， 不停的推着我们向前、再向前。 不论我们多么急于向前， 抑或渴望停留， 时间它都会不紧不慢， 遵循着它的轨迹与速度， 一刻不停地向前进行着。",
+      "content_html": "\n<div style=\"text-align:center\">\n<p>岁月，当真无情。</p>\n<p>任凭沧海桑田，世事变迁，</p>\n<p>它都冷眼旁观，</p>\n<p>绝不会为任何一个人，</p>\n<p>放慢脚步，停留驻足。</p>\n<p>时光的流逝，</p>\n<p>仿佛一双苍老又温柔的手，</p>\n<p>不停的推着我们向前、再向前。</p>\n<p>不论我们多么急于向前，</p>\n<p>抑或渴望停留，</p>\n<p>时间它都会不紧不慢，</p>\n<p>遵循着它的轨迹与速度，</p>\n<p>一刻不停地向前进行着。</p>\n</div>\n",
+      "date_published": "2014-09-04T00:00:00.000Z",
+      "date_modified": "2025-12-01T03:56:25.000Z",
+      "authors": [],
+      "tags": [
+        "随笔"
+      ]
     },
     {
       "title": "秋之思【一】",
@@ -610,539 +1143,6 @@
       "summary": "Autumn Recollection I believe， there is always someone, or something, which can hold in heart, Worthy to be memorized the whole life But sometimes, people need to suffer lies, t...",
       "content_html": "\n<div style=\"text-align:center\">\n<p>I believe，</p>\n<p>there is always someone,</p>\n<p>or something,</p>\n<p>which can hold in heart,</p>\n<p>Worthy to be memorized the whole life</p>\n<p>But sometimes,</p>\n<p>people need to suffer lies,</p>\n<p>to stand beguilement,</p>\n<p>to forget promises,</p>\n<p>and then they gradually know that:</p>\n<p>Holding on does not mean Victory,</p>\n<p>and Oblivion does not mean Apathy.</p>\n</div>\n",
       "date_published": "2014-09-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【一】",
-      "url": "https://mister-duan.github.io/piece/life/1.html",
-      "id": "https://mister-duan.github.io/piece/life/1.html",
-      "summary": "笑谈人生【一】 精打细算你失去了多少， 求而不得你烦恼了多少， 斤斤计较你结怨了多少， 贪心不灭你造恶了多少， 日复一日你能放下多少， 千方百计你能得到多少， 人生在世你能享受多少， 临命终时你能带走多少? 唯大肚能容， 容天下难容之事， 只开口一笑， 笑世上可笑之人。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>精打细算你失去了多少，</p>\n<p>求而不得你烦恼了多少，</p>\n<p>斤斤计较你结怨了多少，</p>\n<p>贪心不灭你造恶了多少，</p>\n<p>日复一日你能放下多少，</p>\n<p>千方百计你能得到多少，</p>\n<p>人生在世你能享受多少，</p>\n<p>临命终时你能带走多少?</p>\n<p>唯大肚能容，</p>\n<p>容天下难容之事，</p>\n<p>只开口一笑，</p>\n<p>笑世上可笑之人。</p>\n</div>\n",
-      "date_published": "2014-08-18T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【二】",
-      "url": "https://mister-duan.github.io/piece/life/2.html",
-      "id": "https://mister-duan.github.io/piece/life/2.html",
-      "summary": "笑谈人生【二】 梦，不能做得太深，深了，难以清醒； 话，不能说得太满，满了，难以相通； 调，不能定得太高，高了，难以合声； 事，不能做得太绝，绝了，难以进退； 情，不能陷得太深，深了，难以自拔； 利，不能看得太重，重了，难以明志； 人，不能做得太假，假了，难以交心。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>梦，不能做得太深，深了，难以清醒；</p>\n<p>话，不能说得太满，满了，难以相通；</p>\n<p>调，不能定得太高，高了，难以合声；</p>\n<p>事，不能做得太绝，绝了，难以进退；</p>\n<p>情，不能陷得太深，深了，难以自拔；</p>\n<p>利，不能看得太重，重了，难以明志；</p>\n<p>人，不能做得太假，假了，难以交心。</p>\n</div>\n",
-      "date_published": "2014-08-19T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【三】",
-      "url": "https://mister-duan.github.io/piece/life/3.html",
-      "id": "https://mister-duan.github.io/piece/life/3.html",
-      "summary": "笑谈人生【三】 人生就是一阵风，起了，没了。 理想就是一盏灯，燃了，灭了。 人情就是一阵雨，下了，干了。 朋友就是一层云，聚了，散了。 闲愁就是一壶酒，醉了，醒了。 寂寞就是一颗星，闪了，灭了。 孤独就是一轮月，升了，落了。 死亡就是一场梦，累了，睡了。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>人生就是一阵风，起了，没了。</p>\n<p>理想就是一盏灯，燃了，灭了。</p>\n<p>人情就是一阵雨，下了，干了。</p>\n<p>朋友就是一层云，聚了，散了。</p>\n<p>闲愁就是一壶酒，醉了，醒了。</p>\n<p>寂寞就是一颗星，闪了，灭了。</p>\n<p>孤独就是一轮月，升了，落了。</p>\n<p>死亡就是一场梦，累了，睡了。</p>\n</div>\n",
-      "date_published": "2014-08-17T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【四】",
-      "url": "https://mister-duan.github.io/piece/life/4.html",
-      "id": "https://mister-duan.github.io/piece/life/4.html",
-      "summary": "笑谈人生【四】 只有淡然的心态， 才是人生的成熟。 越长大就越孤单， 越长大就越无奈。 曾经我们可以 肆无忌惮说的话， 不计后果做的事， 在长大的那一天， 终于被硬生生地 压回到了心底。 长大了，懂事了， 心却复杂起来了。 还是觉得淡然最好， 简单心态最快乐。 人生之事，计较越多，烦恼越多。 淡然，才是一种彻悟。 怀着淡然，笑看人生。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>只有淡然的心态，</p>\n<p>才是人生的成熟。</p>\n<p>越长大就越孤单，</p>\n<p>越长大就越无奈。</p>\n<p>曾经我们可以</p>\n<p>肆无忌惮说的话，</p>\n<p>不计后果做的事，</p>\n<p>在长大的那一天，</p>\n<p>终于被硬生生地</p>\n<p>压回到了心底。</p>\n<p>长大了，懂事了，</p>\n<p>心却复杂起来了。</p>\n<p>还是觉得淡然最好，</p>\n<p>简单心态最快乐。</p>\n<p>人生之事，计较越多，烦恼越多。</p>\n<p>淡然，才是一种彻悟。</p>\n<p>怀着淡然，笑看人生。</p>\n</div>\n",
-      "date_published": "2014-08-26T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【五】",
-      "url": "https://mister-duan.github.io/piece/life/5.html",
-      "id": "https://mister-duan.github.io/piece/life/5.html",
-      "summary": "笑谈人生【五】 人生犹如一首歌， 音调高低起伏， 旋律抑扬顿挫； 人生仿佛一本书， 写满酸甜苦辣， 记录喜怒哀乐； 人生就像一局棋， 处处布满危险， 也撒遍了机遇； 人生恰似一条路， 有山重水复的坎坷， 也有柳暗花明的坦途； 人生如同一条河， 有时九曲回肠， 有时一泻千里。 成败自清醒， 是非一笑过。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>人生犹如一首歌，</p>\n<p>音调高低起伏，</p>\n<p>旋律抑扬顿挫；</p>\n<p>人生仿佛一本书，</p>\n<p>写满酸甜苦辣，</p>\n<p>记录喜怒哀乐；</p>\n<p>人生就像一局棋，</p>\n<p>处处布满危险，</p>\n<p>也撒遍了机遇；</p>\n<p>人生恰似一条路，</p>\n<p>有山重水复的坎坷，</p>\n<p>也有柳暗花明的坦途；</p>\n<p>人生如同一条河，</p>\n<p>有时九曲回肠，</p>\n<p>有时一泻千里。</p>\n<p>成败自清醒，</p>\n<p>是非一笑过。</p>\n</div>\n",
-      "date_published": "2014-08-29T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【六】",
-      "url": "https://mister-duan.github.io/piece/life/6.html",
-      "id": "https://mister-duan.github.io/piece/life/6.html",
-      "summary": "笑谈人生【六】 人之所以会烦恼，就是记性太好。 人之所以会痛苦，就是追求太多。 人之所以不快乐，就是计较太多。 人之所以不幸福，就是不会知足。 人之所以活的累，就是想的太多。 人，永远是矛盾的主体， 经常处在困惑中， 夹在世俗的单行道上， 走不远，也回不去。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>人之所以会烦恼，就是记性太好。</p>\n<p>人之所以会痛苦，就是追求太多。</p>\n<p>人之所以不快乐，就是计较太多。</p>\n<p>人之所以不幸福，就是不会知足。</p>\n<p>人之所以活的累，就是想的太多。</p>\n<p>人，永远是矛盾的主体，</p>\n<p>经常处在困惑中，</p>\n<p>夹在世俗的单行道上，</p>\n<p>走不远，也回不去。</p>\n</div>\n",
-      "date_published": "2014-08-30T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【七】",
-      "url": "https://mister-duan.github.io/piece/life/7.html",
-      "id": "https://mister-duan.github.io/piece/life/7.html",
-      "summary": "笑谈人生【七】 当你成长跟不上知识更新时， 你的学习会出问题； 当你成长跟不上恋人配偶时， 你的感情会出问题； 当你成长跟不上朋友时， 你的友谊会出问题； 当你成长跟不上公司节奏时， 你的工作会出问题； 当你成长跟不上孩子思维时， 你的沟通会出问题! 我们一生努力的结果， 不过是配得起身边的人， 大家彼此欣赏， 相依相伴， 携手一生。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>当你成长跟不上知识更新时，</p>\n<p>你的学习会出问题；</p>\n<p>当你成长跟不上恋人配偶时，</p>\n<p>你的感情会出问题；</p>\n<p>当你成长跟不上朋友时，</p>\n<p>你的友谊会出问题；</p>\n<p>当你成长跟不上公司节奏时，</p>\n<p>你的工作会出问题；</p>\n<p>当你成长跟不上孩子思维时，</p>\n<p>你的沟通会出问题!</p>\n<p>我们一生努力的结果，</p>\n<p>不过是配得起身边的人，</p>\n<p>大家彼此欣赏，</p>\n<p>相依相伴，</p>\n<p>携手一生。</p>\n</div>\n",
-      "date_published": "2014-08-31T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【八】",
-      "url": "https://mister-duan.github.io/piece/life/8.html",
-      "id": "https://mister-duan.github.io/piece/life/8.html",
-      "summary": "笑谈人生【八】 人生不易，且行且珍惜。 ♢ 幸福不在于拥有很多，而在于拥有很少也已满足，所谓知足常乐亦如此。浮躁的人们，总是习惯等待一段时光沉淀后，掸去风尘，才会感叹当时的美好；总是欢在一段光阴中回忆另一段光阴里的故事。可是流水里洒落的光阴，一路向东，不会停留，多少年的走过，也只能给彼此留下一份淡淡的回忆。 ♢ 与其华丽撞墙，不如优雅转身，给自己一个迂...",
-      "content_html": "\n<p>人生不易，且行且珍惜。</p>\n<div style=\"text-align:center\">\n<p>♢</p>\n</div>\n<p>幸福不在于拥有很多，而在于拥有很少也已满足，所谓知足常乐亦如此。浮躁的人们，总是习惯等待一段时光沉淀后，掸去风尘，才会感叹当时的美好；总是欢在一段光阴中回忆另一段光阴里的故事。可是流水里洒落的光阴，一路向东，不会停留，多少年的走过，也只能给彼此留下一份淡淡的回忆。</p>\n<div style=\"text-align:center\">\n<p>♢</p>\n</div>\n<p>与其华丽撞墙，不如优雅转身，给自己一个迂回的空间，学会思索，慢慢调整。人生最曼妙的风景，不是追名逐利，风光无限，而是内心的淡定与从容。</p>\n",
-      "date_published": "2014-08-31T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【九】",
-      "url": "https://mister-duan.github.io/piece/life/9.html",
-      "id": "https://mister-duan.github.io/piece/life/9.html",
-      "summary": "笑谈人生【九】 不打扰别人， 不怠慢自己， 不挥霍信任， 不讨好，不盲从， 不做道德上的英雄， 足矣! 人生有许多的如果， 却只有一个结果。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>不打扰别人，</p>\n<p>不怠慢自己，</p>\n<p>不挥霍信任，</p>\n<p>不讨好，不盲从，</p>\n<p>不做道德上的英雄，</p>\n<p>足矣!</p>\n<p>人生有许多的如果，</p>\n<p>却只有一个结果。</p>\n</div>\n",
-      "date_published": "2014-09-02T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生",
-      "url": "https://mister-duan.github.io/piece/life/",
-      "id": "https://mister-duan.github.io/piece/life/",
-      "summary": "介绍 这是我在高一写的人生感悟，最初发表在空间日志上。 近日将其作为少年回忆，整理在博客中。 空间相册链接",
-      "content_html": "<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">介绍</p>\n<p>这是我在高一写的人生感悟，最初发表在空间日志上。</p>\n<p>近日将其作为少年回忆，整理在博客中。</p>\n</div>\n<ul>\n<li><a href=\"https://h5.qzone.qq.com/ugc/share/?sharetag=126FDE98906EB067815B0EEA0F72BEC0&amp;subtype=3&amp;ciphertext=&amp;sid=&amp;blog_photo=&amp;g=&amp;res_uin=1178522294&amp;cellid=V10JYlHT49u8Sd&amp;subid=&amp;bp1=&amp;bp2=&amp;bp7=&amp;appid=4&amp;g_f=2000000103\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>空间相册链接</strong></a></li>\n</ul>\n",
-      "date_published": "2022-01-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "19 周岁生日有感",
-      "url": "https://mister-duan.github.io/piece/life/birthday.html",
-      "id": "https://mister-duan.github.io/piece/life/birthday.html",
-      "summary": "19 周岁生日有感 古往今来， 无数人把人生比作路， 那成长必是 路上的一段灿烂旅程。 ♢ 我的故乡啊， 承载了多少成长过往， 一颦一蹙，亦喜亦嗔。 成长注定是孤独的旅程， 纵一世繁华，尘埃亦会落定， 物是人非，只待须臾。 正如这故乡胜利广场上的花吧， 年年岁岁花相似， 却不知是哪朵曾让我青睐。 每年近元宵之时唯白雪皑皑， 不知在哪一秒间烟花绽放; 不...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>古往今来，</p>\n<p>无数人把人生比作路，</p>\n<p>那成长必是</p>\n<p>路上的一段灿烂旅程。</p>\n<p>♢</p>\n<p>我的故乡啊，</p>\n<p>承载了多少成长过往，</p>\n<p>一颦一蹙，亦喜亦嗔。</p>\n<p>成长注定是孤独的旅程，</p>\n<p>纵一世繁华，尘埃亦会落定，</p>\n<p>物是人非，只待须臾。</p>\n<p>正如这故乡胜利广场上的花吧，</p>\n<p>年年岁岁花相似，</p>\n<p>却不知是哪朵曾让我青睐。</p>\n<p>每年近元宵之时唯白雪皑皑，</p>\n<p>不知在哪一秒间烟花绽放;</p>\n<p>不知几秒后唯有空寂。</p>\n<p>烟花虽易冷，</p>\n<p>却在我脑海中，</p>\n<p>留下了灿烂的回忆。</p>\n<p>♢</p>\n<p>分离，</p>\n<p>是成长的必经之路</p>\n<p>当我们翻开相册，</p>\n<p>昔日熟悉的面孔历历在目，</p>\n<p>可是当真聚会时，</p>\n<p>却发现曾经熟悉的人，</p>\n<p>已然逐渐陌生。</p>\n<p>成长的孤独</p>\n<p>也正体现于此。</p>\n<p>昔日成群结队的挚友</p>\n<p>如今三三两两，</p>\n<p>曾经咫尺之间的兄弟</p>\n<p>现在天各一方。</p>\n<p>或许每个人</p>\n<p>都对情分天长地久有所幻想，</p>\n<p>只可惜路好长，</p>\n<p>终会选择不同方向。</p>\n<p>♢</p>\n<p>唯有淡忘了曾经的灿烂与辉煌，</p>\n<p>才能更好地把握今后的方向。</p>\n<p>成长不是分离时伤心绝望，</p>\n<p>而是在逆境中愈加坚强，</p>\n<p>零点已过，钟声回响，</p>\n<p>标志了我新的成长，</p>\n<p>新岁定英勇而上，</p>\n<p>吾必乘风破浪!</p>\n</div>\n",
-      "date_published": "2017-02-11T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈坦然】",
-      "url": "https://mister-duan.github.io/piece/life/calm.html",
-      "id": "https://mister-duan.github.io/piece/life/calm.html",
-      "summary": "笑谈人生【谈坦然】 人生旅程中，顺畅也好，低谷也罢，都应该坦然面对。因为在这世界上，本不存在极乐天堂，无人能从世俗的羁绊中解脱出来，我们所能做的，只是爬起来比倒下去多一次，用汗水代替口水而已； 也唯有如此，方能让生命在磨难中得到升华。 我们要坚信人生没有过不去的坎，以勇敢的姿态迎接命运的挑战。",
-      "content_html": "\n<p>人生旅程中，顺畅也好，低谷也罢，都应该坦然面对。因为在这世界上，本不存在极乐天堂，无人能从世俗的羁绊中解脱出来，我们所能做的，只是爬起来比倒下去多一次，用汗水代替口水而已；</p>\n<p>也唯有如此，方能让生命在磨难中得到升华。</p>\n<p>我们要坚信人生没有过不去的坎，以勇敢的姿态迎接命运的挑战。</p>\n",
-      "date_published": "2015-01-17T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈选择】",
-      "url": "https://mister-duan.github.io/piece/life/choice.html",
-      "id": "https://mister-duan.github.io/piece/life/choice.html",
-      "summary": "笑谈人生【谈选择】 生活中有太多的选择，时刻考验着我们的心智。我们在一次次选择中成长。经历让我们承受太多无奈，些许的沧桑也被岁月刻在脸上。点点滴滴琐碎的融入，伴着侵入骨髓的苦楚，在崎岖不平的路上使我们跌跌撞撞，在断续的跌倒爬起中变得坚强。心中有所选择，有份属于自己的坚持，是件令人高兴的事。心中有梦，就不怕前路茫茫。有所追求，心灵就不会迷失，不会沉沦。即...",
-      "content_html": "\n<p>生活中有太多的选择，时刻考验着我们的心智。我们在一次次选择中成长。经历让我们承受太多无奈，些许的沧桑也被岁月刻在脸上。点点滴滴琐碎的融入，伴着侵入骨髓的苦楚，在崎岖不平的路上使我们跌跌撞撞，在断续的跌倒爬起中变得坚强。心中有所选择，有份属于自己的坚持，是件令人高兴的事。心中有梦，就不怕前路茫茫。有所追求，心灵就不会迷失，不会沉沦。即使面对凄风冷雨，也会默默的坚持。有时候一种选择，就是一种力量。这种强大的支撑，让我们不惧怕冷言冷语，即使没人理解，也固执的给自己力量，告诉自己: 风雨过后，会有不一样的风景，风雨冲洗过的天空，空气更好。</p>\n",
-      "date_published": "2014-09-18T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈感情】",
-      "url": "https://mister-duan.github.io/piece/life/emotion.html",
-      "id": "https://mister-duan.github.io/piece/life/emotion.html",
-      "summary": "笑谈人生【谈感情】 并不是所有的感情都会久远，比如爱情，又比如友情。 有些人，也许从未想过会有交集，可是冥冥中注定的一样，就走在了一起；有些人，曾经同甘共苦、患难与共，一起走过了数年或数十年，却渐渐地淡却了。可能是双方同时的，也可能是有一方在先，而另一方自然就放弃了。回忆总是美好的，无论回忆里有哭、有笑，想起那些朋友，会由衷的觉得，生命中曾经有你，真好...",
-      "content_html": "\n<p>并不是所有的感情都会久远，比如爱情，又比如友情。</p>\n<p>有些人，也许从未想过会有交集，可是冥冥中注定的一样，就走在了一起；有些人，曾经同甘共苦、患难与共，一起走过了数年或数十年，却渐渐地淡却了。可能是双方同时的，也可能是有一方在先，而另一方自然就放弃了。回忆总是美好的，无论回忆里有哭、有笑，想起那些朋友，会由衷的觉得，生命中曾经有你，真好! 可是依然无法改变现实，有些人确实疏远了。</p>\n<p>我相信，没有人会毫无原因就疏远谁，也更不会因为时间和距离刻意去忘记谁。冷漠的背后，必然有让人伤心的事，那些事无法轻易忘记。这样的决绝是否会让人费解，甚至会让人误解?</p>\n<p>在生命的旅途中，一定会有一些人陪你走完某段路，然后各不相干，这就是所谓的过客。其实本来可以走得更远，只因为有的人没有珍惜，所以走向了分离。既然选择了不同的路，就要做好自己承担的准备。不会有那么一个人，永远的陪你走下去。你的路对了，错了，都与别人无关。不要怨天尤人，也不要埋怨谁舍你而去。一些人近了，一些人必然就远了。不要计较谁先转身，离开了谁。只要明白，你走了，就不会有人等你。爱情也好，友情也罢，顺其自然，不要强求。</p>\n",
-      "date_published": "2014-09-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈亲情】",
-      "url": "https://mister-duan.github.io/piece/life/family.html",
-      "id": "https://mister-duan.github.io/piece/life/family.html",
-      "summary": "笑谈人生【谈亲情】 成长中的亲情， 不像爱情那样多情， 不像友情那样述说， 却是最长久的感情。 我们每天 都在亲人的关怀下， 幸福的生活着。 ♢ 亲情， 不像爱情那样浓烈， 不像友情那样欢笑， 却能在平淡日子里 默默的温暖着我们， 平淡得 让我们有所忽略。 ♢ 青春年少的叛逆， 是我们最难回首的曾经， 是否还记得， 你因为父母的一声责骂就摔门而出， 许...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>成长中的亲情，</p>\n<p>不像爱情那样多情，</p>\n<p>不像友情那样述说，</p>\n<p>却是最长久的感情。</p>\n<p>我们每天</p>\n<p>都在亲人的关怀下，</p>\n<p>幸福的生活着。</p>\n<p>♢</p>\n<p>亲情，</p>\n<p>不像爱情那样浓烈，</p>\n<p>不像友情那样欢笑，</p>\n<p>却能在平淡日子里</p>\n<p>默默的温暖着我们，</p>\n<p>平淡得</p>\n<p>让我们有所忽略。</p>\n<p>♢</p>\n<p>青春年少的叛逆，</p>\n<p>是我们最难回首的曾经，</p>\n<p>是否还记得，</p>\n<p>你因为父母的一声责骂就摔门而出，</p>\n<p>许多天不说一句话；</p>\n<p>是否还记得，</p>\n<p>你出了远门，</p>\n<p>好久也不打个电话回去，</p>\n<p>父母是有多么的牵挂；</p>\n<p>是否还记得，</p>\n<p>你每次被人欺负，</p>\n<p>父母是有多么的心疼?</p>\n<p>♢</p>\n<p>亲情，</p>\n<p>虽然只占了生命的一部分，</p>\n<p>只是一生中的一个片段，</p>\n<p>但是，</p>\n<p>他们确实是</p>\n<p>值得一生去珍惜和留念的那些人。</p>\n<p>那些渐渐老去的亲人，</p>\n<p>那些渐渐模糊的背影，</p>\n<p>是我们一生需要珍藏的最美时光。</p>\n</div>\n",
-      "date_published": "2014-09-04T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈友情】",
-      "url": "https://mister-duan.github.io/piece/life/friendship.html",
-      "id": "https://mister-duan.github.io/piece/life/friendship.html",
-      "summary": "笑谈人生【谈友情】 成长中的友情， 或许没有爱情那样一见倾心， 却是日久生情最好的写照。 也许爱情是眼泪， 友情是纸巾， 爱情是那个会让你流泪的东西， 而友情就是帮你擦泪的东西。 在如今高中的那些朋友， 是对整个人生影响最大的人群之一， 如今的我们不需也不应谈恋爱， 但我们必须会有一些朋友， 来充实自己的生活。 ♢ 你还记得吗? 当你考试失利， 萎靡不...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>成长中的友情，</p>\n<p>或许没有爱情那样一见倾心，</p>\n<p>却是日久生情最好的写照。</p>\n<p>也许爱情是眼泪，</p>\n<p>友情是纸巾，</p>\n<p>爱情是那个会让你流泪的东西，</p>\n<p>而友情就是帮你擦泪的东西。</p>\n<p>在如今高中的那些朋友，</p>\n<p>是对整个人生影响最大的人群之一，</p>\n<p>如今的我们不需也不应谈恋爱，</p>\n<p>但我们必须会有一些朋友，</p>\n<p>来充实自己的生活。</p>\n<p>♢</p>\n<p>你还记得吗?</p>\n<p>当你考试失利，</p>\n<p>萎靡不振的时候，</p>\n<p>是谁在你耳边说些安慰的话，</p>\n<p>帮你走出学习的压力；</p>\n<p>当你感情受挫，</p>\n<p>恋爱不顺的时候，</p>\n<p>是谁充当你的心理导师，</p>\n<p>帮你走出情感的阴影；</p>\n<p>当你陷入流言蜚语，</p>\n<p>遭遇他人误解的时候，</p>\n<p>是谁不顾别人的冷眼，</p>\n<p>帮你澄清难解的误会?</p>\n<p>♢</p>\n<p>友情，</p>\n<p>像一股涓涓细流，</p>\n<p>是一点一滴的累积起来的情感，</p>\n<p>不会一涌而出，</p>\n<p>却能在最需要的时候</p>\n<p>给你一口救命的甘甜。</p>\n<p>友情，就是这样。</p>\n<p>你一路前行，</p>\n<p>他一路跟随，</p>\n<p>只要彼此相惜，</p>\n<p>一定不会走丢。</p>\n<p>我的朋友们，</p>\n<p>一路上有你们，真好!</p>\n<p>这份最美的时光，</p>\n<p>我一定藏在心底。</p>\n</div>\n",
-      "date_published": "2014-09-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈淡泊】",
-      "url": "https://mister-duan.github.io/piece/life/indifferent.html",
-      "id": "https://mister-duan.github.io/piece/life/indifferent.html",
-      "summary": "笑谈人生【谈淡泊】 何为淡泊? 淡泊就是 对世间事洞明后的淡然， 不争，不辩， 不急，不燥， 以平常心态 去面对生活。 淡中出真味， 常中识英奇。 淡泊的人处事低调， 得也不喜，失也不悲。 淡泊的人， 是识尽愁滋味后的 不知愁滋味。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>何为淡泊?</p>\n<p>淡泊就是</p>\n<p>对世间事洞明后的淡然，</p>\n<p>不争，不辩，</p>\n<p>不急，不燥，</p>\n<p>以平常心态</p>\n<p>去面对生活。</p>\n<p>淡中出真味，</p>\n<p>常中识英奇。</p>\n<p>淡泊的人处事低调，</p>\n<p>得也不喜，失也不悲。</p>\n<p>淡泊的人，</p>\n<p>是识尽愁滋味后的</p>\n<p>不知愁滋味。</p>\n</div>\n",
-      "date_published": "2014-09-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈生命】",
-      "url": "https://mister-duan.github.io/piece/life/life.html",
-      "id": "https://mister-duan.github.io/piece/life/life.html",
-      "summary": "笑谈人生【谈生命】 生命的美丽， 永远展现在她无时无刻无处不在的进取中； 就像大树的美丽， 是展现在它负势向上高耸入云蓬勃生机中； 就像雄鹰的美丽， 是展现在它搏风击雨如苍天之魂的翱翔中； 就像江河的美丽， 是展现在它波涛汹涌承载船只的奔腾之中。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>生命的美丽，</p>\n<p>永远展现在她无时无刻无处不在的进取中；</p>\n<p>就像大树的美丽，</p>\n<p>是展现在它负势向上高耸入云蓬勃生机中；</p>\n<p>就像雄鹰的美丽，</p>\n<p>是展现在它搏风击雨如苍天之魂的翱翔中；</p>\n<p>就像江河的美丽，</p>\n<p>是展现在它波涛汹涌承载船只的奔腾之中。</p>\n</div>\n",
-      "date_published": "2014-09-04T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈爱情】",
-      "url": "https://mister-duan.github.io/piece/life/love.html",
-      "id": "https://mister-duan.github.io/piece/life/love.html",
-      "summary": "笑谈人生【谈爱情】 成长中的爱情， 伴随着淡淡苦涩， 却是永远的珍藏。 没有人知道 什么时候的遇见是对的遇见， 什么时候遇到的人是对的人， 即使相爱的两人最终分开， 也只不过是命运 和我们说了一个幸福的谎言。 当这个谎言被戳破时， 每个人似乎都理性了一截， 这就是所谓的成长。 ♢ 初恋， 一直是很多人无法绕过的心结， 也是青春年少最深刻的记忆， 或许最...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>成长中的爱情，</p>\n<p>伴随着淡淡苦涩，</p>\n<p>却是永远的珍藏。</p>\n<p>没有人知道</p>\n<p>什么时候的遇见是对的遇见，</p>\n<p>什么时候遇到的人是对的人，</p>\n<p>即使相爱的两人最终分开，</p>\n<p>也只不过是命运</p>\n<p>和我们说了一个幸福的谎言。</p>\n<p>当这个谎言被戳破时，</p>\n<p>每个人似乎都理性了一截，</p>\n<p>这就是所谓的成长。</p>\n<p>♢</p>\n<p>初恋，</p>\n<p>一直是很多人无法绕过的心结，</p>\n<p>也是青春年少最深刻的记忆，</p>\n<p>或许最初的恋爱给人们一个共识，</p>\n<p>那是不掺带任何杂质的恋爱，</p>\n<p>也是最纯净的爱情。</p>\n<p>♢</p>\n<p>喜欢的人不一定非要相交，</p>\n<p>相交过后是远远的相离，</p>\n<p>而相互平行，</p>\n<p>却能看到彼此的生活轨迹，</p>\n<p>默默的相望，</p>\n<p>胜过一切千言万语。</p>\n<p>逝去的爱情，</p>\n<p>虽没能走到最后，</p>\n<p>却是短短一生里的最美时光。</p>\n</div>\n",
-      "date_published": "2014-09-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈纯真】",
-      "url": "https://mister-duan.github.io/piece/life/pure.html",
-      "id": "https://mister-duan.github.io/piece/life/pure.html",
-      "summary": "笑谈人生【谈纯真】 我喜欢简单的人、简单的事， 傻傻的， 每天简简单单的过日子。 我也想像曾经那样， 几个人围在一起， 总有说不完的话， 不耍心计， 不挖苦， 不讽刺， 都真诚的去对待每一个人。 可是那逝去的时光， 真的能得以复返么?",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>我喜欢简单的人、简单的事，</p>\n<p>傻傻的，</p>\n<p>每天简简单单的过日子。</p>\n<p>我也想像曾经那样，</p>\n<p>几个人围在一起，</p>\n<p>总有说不完的话，</p>\n<p>不耍心计，</p>\n<p>不挖苦，</p>\n<p>不讽刺，</p>\n<p>都真诚的去对待每一个人。</p>\n<p>可是那逝去的时光，</p>\n<p>真的能得以复返么?</p>\n</div>\n",
-      "date_published": "2014-09-03T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈路】",
-      "url": "https://mister-duan.github.io/piece/life/road.html",
-      "id": "https://mister-duan.github.io/piece/life/road.html",
-      "summary": "笑谈人生【谈路】 人，不应该总选择轻松的路，而应该选择正确的道路，无论路途多么遥远，永远不要放弃，坚持走下去，肯定会有意想不到的风景。也许不在你本来想走的路上，也不是你本来想登临的山顶，可另一条路也有另一条路的风景，不同的山顶也一样会有美丽的日出，所以更多时候，不如试着静下心来，走上一条新路。",
-      "content_html": "\n<p>人，不应该总选择轻松的路，而应该选择正确的道路，无论路途多么遥远，永远不要放弃，坚持走下去，肯定会有意想不到的风景。也许不在你本来想走的路上，也不是你本来想登临的山顶，可另一条路也有另一条路的风景，不同的山顶也一样会有美丽的日出，所以更多时候，不如试着静下心来，走上一条新路。</p>\n",
-      "date_published": "2014-10-31T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈一步】",
-      "url": "https://mister-duan.github.io/piece/life/step.html",
-      "id": "https://mister-duan.github.io/piece/life/step.html",
-      "summary": "笑谈人生【谈一步】 一步很短，一生很长。 一步近在脚下，一生漫远无边。 一步易于修饰，一生难于描画。 一步短暂瞬间，一生烛照永恒。 每一步都刻满一生的选择， 每一步都关及一生的希望， 每一步都镶了时间的密码， 每一步都相扣一生的成败。 走对一步人生会光明一片， 走错一步人生会惨淡黑暗。 关键时一步，决定着一生。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>一步很短，一生很长。</p>\n<p>一步近在脚下，一生漫远无边。</p>\n<p>一步易于修饰，一生难于描画。</p>\n<p>一步短暂瞬间，一生烛照永恒。</p>\n<p>每一步都刻满一生的选择，</p>\n<p>每一步都关及一生的希望，</p>\n<p>每一步都镶了时间的密码，</p>\n<p>每一步都相扣一生的成败。</p>\n<p>走对一步人生会光明一片，</p>\n<p>走错一步人生会惨淡黑暗。</p>\n<p>关键时一步，决定着一生。</p>\n</div>\n",
-      "date_published": "2014-09-03T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "笑谈人生【谈岁月】",
-      "url": "https://mister-duan.github.io/piece/life/year.html",
-      "id": "https://mister-duan.github.io/piece/life/year.html",
-      "summary": "笑谈人生【谈岁月】 岁月，当真无情。 任凭沧海桑田，世事变迁， 它都冷眼旁观， 绝不会为任何一个人， 放慢脚步，停留驻足。 时光的流逝， 仿佛一双苍老又温柔的手， 不停的推着我们向前、再向前。 不论我们多么急于向前， 抑或渴望停留， 时间它都会不紧不慢， 遵循着它的轨迹与速度， 一刻不停地向前进行着。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>岁月，当真无情。</p>\n<p>任凭沧海桑田，世事变迁，</p>\n<p>它都冷眼旁观，</p>\n<p>绝不会为任何一个人，</p>\n<p>放慢脚步，停留驻足。</p>\n<p>时光的流逝，</p>\n<p>仿佛一双苍老又温柔的手，</p>\n<p>不停的推着我们向前、再向前。</p>\n<p>不论我们多么急于向前，</p>\n<p>抑或渴望停留，</p>\n<p>时间它都会不紧不慢，</p>\n<p>遵循着它的轨迹与速度，</p>\n<p>一刻不停地向前进行着。</p>\n</div>\n",
-      "date_published": "2014-09-04T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【一】",
-      "url": "https://mister-duan.github.io/piece/poem/1.html",
-      "id": "https://mister-duan.github.io/piece/poem/1.html",
-      "summary": "轻言细语【一】 雨是云的诺， 湿了心丢了情， 化作滴滴雨滴； 落在谁的指尖? ♢ 泪是眼的诺， 欲语还休泪涟漪， 一点朱砂， 落在谁的心上? ♢ 谁又是我的诺， 海誓山盟真情在， 执子之手， 比翼齐飞? ♢ 这个季节， 是落叶对秋的诺， 所有的依恋， 所有的不舍， 都化作一撮泥土， 守候着最后的深情。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>雨是云的诺，</p>\n<p>湿了心丢了情，</p>\n<p>化作滴滴雨滴；</p>\n<p>落在谁的指尖?</p>\n<p>♢</p>\n<p>泪是眼的诺，</p>\n<p>欲语还休泪涟漪，</p>\n<p>一点朱砂，</p>\n<p>落在谁的心上?</p>\n<p>♢</p>\n<p>谁又是我的诺，</p>\n<p>海誓山盟真情在，</p>\n<p>执子之手，</p>\n<p>比翼齐飞?</p>\n<p>♢</p>\n<p>这个季节，</p>\n<p>是落叶对秋的诺，</p>\n<p>所有的依恋，</p>\n<p>所有的不舍，</p>\n<p>都化作一撮泥土，</p>\n<p>守候着最后的深情。</p>\n</div>\n",
-      "date_published": "2014-10-02T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【十】",
-      "url": "https://mister-duan.github.io/piece/poem/10.html",
-      "id": "https://mister-duan.github.io/piece/poem/10.html",
-      "summary": "轻言细语【十】 并不是聊得来， 就适合在一起； 并不是适合， 就能够在一起； 并不是能够在一起 就会永远在一起； 并不是永远在一起 就会得到幸福的。 一切， 随缘。 既然如此， 为何急躁? 为何烦恼?",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>并不是聊得来，</p>\n<p>就适合在一起；</p>\n<p>并不是适合，</p>\n<p>就能够在一起；</p>\n<p>并不是能够在一起</p>\n<p>就会永远在一起；</p>\n<p>并不是永远在一起</p>\n<p>就会得到幸福的。</p>\n<p>一切，</p>\n<p>随缘。</p>\n<p>既然如此，</p>\n<p>为何急躁?</p>\n<p>为何烦恼?</p>\n</div>\n",
-      "date_published": "2015-12-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "11 月 11 日有感",
-      "url": "https://mister-duan.github.io/piece/poem/11-11.html",
-      "id": "https://mister-duan.github.io/piece/poem/11-11.html",
-      "summary": "11 月 11 日有感 曾一个人走过， 一个人上学，一个人回家; 一个人思索，一个人彷徨; 在汹涌人潮中， 迷失在下一个街口的转角。 曾以为一腔热血挥洒至今， 就能赢得荣耀与辉煌。 曾背负着太沉重的梦想， 直到某天输给了现实， 任凭自己再怎么努力， 都无法向着梦想的彼岸前进一步。 ♢ 这些年， 一个人花开，一个人花败， 不曾对谁诉说这一路走过的艰辛， ...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>曾一个人走过，</p>\n<p>一个人上学，一个人回家;</p>\n<p>一个人思索，一个人彷徨;</p>\n<p>在汹涌人潮中，</p>\n<p>迷失在下一个街口的转角。</p>\n<p>曾以为一腔热血挥洒至今，</p>\n<p>就能赢得荣耀与辉煌。</p>\n<p>曾背负着太沉重的梦想，</p>\n<p>直到某天输给了现实，</p>\n<p>任凭自己再怎么努力，</p>\n<p>都无法向着梦想的彼岸前进一步。</p>\n<p>♢</p>\n<p>这些年，</p>\n<p>一个人花开，一个人花败，</p>\n<p>不曾对谁诉说这一路走过的艰辛，</p>\n<p>也从未被问起自己内心的孤寂。</p>\n<p>反正，总是一个人过，</p>\n<p>少了纷扰，倒也省心。</p>\n<p>♢</p>\n<p>一个人行走的时光，</p>\n<p>或明媚，或悲伤，</p>\n<p>或平凡无奇，或惊天动地，</p>\n<p>但无论将来的我们</p>\n<p>是以何种形式存在于这个世界，</p>\n<p>到最后，</p>\n<p>那些曾经自己一个人走过的路</p>\n<p>终将成为内心最美的风景。</p>\n<p>♢</p>\n<p>或许，</p>\n<p>最后时光还是没有改变残酷的现实，</p>\n<p>我还是会输得一败涂地;</p>\n<p>可是至少，</p>\n<p>我也曾轰轰烈烈走过属于自己一个人的青春。</p>\n<p>成功也好，失败也罢，</p>\n<p>这些都不是青春的定义。</p>\n<p>从没有人可以给我们的青春下定义，</p>\n<p>除了我们自己。</p>\n<p>不知不觉，</p>\n<p>一个人也走过了很长的一段路，</p>\n<p>偶尔转过身回头看看，</p>\n<p>一个人也并没有什么不好，</p>\n<p>简单，快乐，自由，</p>\n<p>亦可以勇敢去追求自己想要的生活。</p>\n<p>不用对谁虚伪讨好，</p>\n<p>亦不必在乎别人的眼光，</p>\n<p>并不是我们矫情做作，</p>\n<p>只是用自己的形式去追逐内心的渴望。</p>\n<p>努力地去尝试过自己向往的生活，</p>\n<p>虽然有时孤独，</p>\n<p>亦会感到无助，</p>\n<p>但人生何尝不是一种孤独?</p>\n<p>而这无助又何尝不是一种成长?</p>\n<p>♢</p>\n<p>虽曾经历着迷茫和彷徨，</p>\n<p>却也肆意地在自己青春里，</p>\n<p>享受着</p>\n<p>一个人的狂欢，</p>\n<p>一个人的放浪，</p>\n<p>和那独自行走的时光，</p>\n<p>一个人孤独看海，</p>\n<p>一个人寂寞听风，</p>\n<p>一个人肆意奔跑，</p>\n<p>一个人涅槃重生。</p>\n<p>避开了俗世的纷扰，</p>\n<p>倒也落得个悠闲自在。</p>\n<p>在风轻云淡的日子里，</p>\n<p>读书，写字，看风景，感悟人生。</p>\n<p>手捧着一本书，认真地读，</p>\n<p>用心写下一些感悟的文字，</p>\n<p>偶尔回头看看</p>\n<p>这一路走过的风景和见过的人，</p>\n<p>或许，日子久了，</p>\n<p>有些俗事，就看淡了；</p>\n<p>有些偏执，就放下了。</p>\n<p>而我也终可以</p>\n<p>在这错综复杂的现实世界里</p>\n<p>不为现实之乱所烦，</p>\n<p>为世俗之事所困。</p>\n<p>一个人行走的日子，</p>\n<p>是被安静下来的时光，</p>\n<p>是自己跟内心对话的时刻</p>\n<p>让自己有时间读懂内心的独白，</p>\n<p>清楚追求的彼岸在何处，</p>\n<p>未来的人生路又如何走……</p>\n<p>♢</p>\n<p>一个人行走的旅程，</p>\n<p>注定是孤独的，</p>\n<p>所有的风雨都要一个人挡，</p>\n<p>所有的困难都要一个人扛。</p>\n<p>或许，拼到最后，</p>\n<p>还是会败北，</p>\n<p>还是会一无所有，</p>\n<p>甚至还会失去原本的样子，</p>\n<p>但这都无所谓，</p>\n<p>至少我在追求有价值的东西，</p>\n<p>也没有过自己不想过的生活。</p>\n<p>♢</p>\n<p>一个人，一颗心，</p>\n<p>背起梦想，说走就走，</p>\n<p>管它路还有多长，</p>\n<p>管它梦还有多远，</p>\n<p>一直往前奔跑，</p>\n<p>终会找到属于自己的风景。</p>\n<p>既然选择一个人孤独行走，</p>\n<p>哪怕最后只剩下影子，</p>\n<p>也要义无返顾地向前冲，</p>\n<p>直到有一天，</p>\n<p>能够与一切梦想的阻力抗衡。</p>\n<p>♢</p>\n<p>如果，</p>\n<p>到最后我还是没有变得更好，</p>\n<p>那么我也仍要</p>\n<p>活得更像当初想要成为的样子:</p>\n<p>独立，坚强，自信，亦不害怕孤独。</p>\n</div>\n",
-      "date_published": "2016-11-11T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【十一】",
-      "url": "https://mister-duan.github.io/piece/poem/11.html",
-      "id": "https://mister-duan.github.io/piece/poem/11.html",
-      "summary": "轻言细语【十一】 如今才知， 总有场场遇见， 开始惊艳， 结局悲怜。 ♢ 当爱情搁浅， 只有孤星残月共我赴约。 风里，雨里， 我只能独自拥抱黑夜。 ♢ 思念，躲在角落的尘埃里面， 从不肯走远。 柳湖岸边的衰草上， 满满都是如泣如诉的幽怨。 ♢ 我努力踮起脚尖， 却得不到幸福的召见。 那倾城的花海里， 瞳孔找不到 曾让我聚焦的 那抹亮点。 ♢ 那枚刻满誓...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>如今才知，</p>\n<p>总有场场遇见，</p>\n<p>开始惊艳，</p>\n<p>结局悲怜。</p>\n<p>♢</p>\n<p>当爱情搁浅，</p>\n<p>只有孤星残月共我赴约。</p>\n<p>风里，雨里，</p>\n<p>我只能独自拥抱黑夜。</p>\n<p>♢</p>\n<p>思念，躲在角落的尘埃里面，</p>\n<p>从不肯走远。</p>\n<p>柳湖岸边的衰草上，</p>\n<p>满满都是如泣如诉的幽怨。</p>\n<p>♢</p>\n<p>我努力踮起脚尖，</p>\n<p>却得不到幸福的召见。</p>\n<p>那倾城的花海里，</p>\n<p>瞳孔找不到</p>\n<p>曾让我聚焦的</p>\n<p>那抹亮点。</p>\n<p>♢</p>\n<p>那枚刻满誓言的情签，</p>\n<p>不知飘向了哪个山谷水涧；</p>\n<p>隔世离空的飞吻，</p>\n<p>不知埋在了哪个沙漠荒原。</p>\n<p>♢</p>\n<p>原以为，</p>\n<p>会有人和我永远相伴在伊甸园，</p>\n<p>琴声拨起的恋曲，</p>\n<p>不会在烟雨深处呜咽。</p>\n<p>可如今我们之间，</p>\n<p>再没有了剧情关联，</p>\n<p>那一叠厚厚词阙，</p>\n<p>都化作片片雪花，</p>\n<p>落寞而又蹁跹。</p>\n<p>♢</p>\n<p>落雪缤纷的夜晚，</p>\n<p>你的名字是我唯一的牵念。</p>\n<p>那一滴相思泪，</p>\n<p>潮湿了纸片，</p>\n<p>滋润了钢笔，</p>\n<p>也播种了春天。</p>\n<p>♢</p>\n<p>卷不起记忆的重帘，</p>\n<p>所以，只好以凄美转身，</p>\n<p>把悲情锁在眉眼。</p>\n<p>从此，陷在独角戏里，</p>\n<p>兀自回忆、独自成眠。</p>\n</div>\n",
-      "date_published": "2016-01-18T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【十二】",
-      "url": "https://mister-duan.github.io/piece/poem/12.html",
-      "id": "https://mister-duan.github.io/piece/poem/12.html",
-      "summary": "轻言细语【十二】 时间在走，年龄在长。 懂得多了，看透多了， 可快乐却越来越少了。 怀念生命中的那些年， 未来遥远的没有形状， 我们单纯得没有烦恼。 如今是不是一种悲哀， 有时因为说了真话， 反而要和别人道歉， 只因为戳穿了事实。 想要活得舒心顺畅， 只得时刻打起精神， 用起那颗疲惫的心。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>时间在走，年龄在长。</p>\n<p>懂得多了，看透多了，</p>\n<p>可快乐却越来越少了。</p>\n<p>怀念生命中的那些年，</p>\n<p>未来遥远的没有形状，</p>\n<p>我们单纯得没有烦恼。</p>\n<p>如今是不是一种悲哀，</p>\n<p>有时因为说了真话，</p>\n<p>反而要和别人道歉，</p>\n<p>只因为戳穿了事实。</p>\n<p>想要活得舒心顺畅，</p>\n<p>只得时刻打起精神，</p>\n<p>用起那颗疲惫的心。</p>\n</div>\n",
-      "date_published": "2016-11-09T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【十三】",
-      "url": "https://mister-duan.github.io/piece/poem/13.html",
-      "id": "https://mister-duan.github.io/piece/poem/13.html",
-      "summary": "轻言细语【十三】 孤窗外，夜色朦胧，镰月如勾，寒夜添寂寞，我将心事摘落，化作相思梧桐，拂一抹诗意在浅冬的诗笺上，寄给白雪素影里。 ——题记 今晚，在雾霾之下，没有清凉凉的月光，也没有耀眼的繁星。可即使没有明月，仍可以在音乐和文字里享受一个人的幸福，享受这孤独的美丽。南森曾说: 人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。是的，只有敢于承受孤...",
-      "content_html": "\n<p>孤窗外，夜色朦胧，镰月如勾，寒夜添寂寞，我将心事摘落，化作相思梧桐，拂一抹诗意在浅冬的诗笺上，寄给白雪素影里。</p>\n<div style=\"text-align:right\">\n<p>——题记</p>\n</div>\n<p>今晚，在雾霾之下，没有清凉凉的月光，也没有耀眼的繁星。可即使没有明月，仍可以在音乐和文字里享受一个人的幸福，享受这孤独的美丽。南森曾说: 人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。是的，只有敢于承受孤独的人，才会发现自我。依着夜色的隽然，泡一杯清茶，(再泡一袋方便面)，在吊椅上呆呆的小坐，不予喧嚣奔跑，只与宁静轻握。夜幕里，习惯了与音乐，文字，清茶(还有方便面)为伴，是知音，是情人，是朋友。</p>\n<p>音乐，是宁静里的一泓碧水，是与灵魂契机的知音，在每一个音节的律动里，都是一种深深的懂得和惜我。</p>\n<p>文字，像是一个爱抚灵魂的伴侣，会永远安静的守护你的寂寞、你的孤独、你的欢乐、你的惆怅，只要去文字里发泄，或者狂欢。冥冥之中，已经注定，文字，才是最贴心的情人，一生最佳的长情伴侣。</p>\n<p>如果说音乐，文字是你的知音和情人，那么茶香，就是最温暖的朋友，在一缕茶烟袅娜里，读懂四季，读明禅音，读清生命里那些跌宕起伏，绵远悠长，柔情如水，沉淀睿智的故事。</p>\n<p>静谧的夜晚，因为有了音乐，而快乐。铺开一张宣纸(字帖本)，在音乐的曼妙音符里，将幸福的心事，典藏在幽幽笔墨间，幻化成隽永劲道的小字，流进每一寸的光阴里。放下手心的笔，感受那<s>溢满在房间的茶香</s>自习室的泡面味，感受手心，唇边，残留着没有消散的那杯茶的温度。此刻，只想把安谧，祥和，欣喜，藏在一页<s>宣纸</s>字帖本的留白里。音乐，还在耳边飞舞，我似乎又看到了久违的阳光，在浅冬里，沐浴与欢愉着自然万物的生命;笔尖，还在纸上舞动，我仿佛又看到阳光，正跳跃在枯枝的节末上……</p>\n",
-      "date_published": "2016-11-09T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【十四】",
-      "url": "https://mister-duan.github.io/piece/poem/14.html",
-      "id": "https://mister-duan.github.io/piece/poem/14.html",
-      "summary": "轻言细语【十四】 刚烈的冬风敲打着车窗， 和着淡淡的薄凉， 飘洒在飞驰的列车旁。 窗外景色飞退， 心微凉，情慵懒， 一缕倦意心头堆， 劳累此般又为谁? 寒寂渐深，心乱纷沓， 犹如一片孤寂的小雪花— 没有目的地却有牵挂， 飘荡在虚空中渐渐升华",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>刚烈的冬风敲打着车窗，</p>\n<p>和着淡淡的薄凉，</p>\n<p>飘洒在飞驰的列车旁。</p>\n<p>窗外景色飞退，</p>\n<p>心微凉，情慵懒，</p>\n<p>一缕倦意心头堆，</p>\n<p>劳累此般又为谁?</p>\n<p>寒寂渐深，心乱纷沓，</p>\n<p>犹如一片孤寂的小雪花—</p>\n<p>没有目的地却有牵挂，</p>\n<p>飘荡在虚空中渐渐升华</p>\n</div>\n",
-      "date_published": "2016-12-09T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【二】",
-      "url": "https://mister-duan.github.io/piece/poem/2.html",
-      "id": "https://mister-duan.github.io/piece/poem/2.html",
-      "summary": "轻言细语【二】 遇见，是幸; 留下，是缘; 一起走便是命中注定。 遵从内心的召唤， 走在人生的平凡路上， 只要认认真真地活着， 每一个日子就有希望。 ♢ 人生路上， 一路艰辛，一路风景。 如果你不相信前进 是通向幸福的唯一途经 那停滞更不会是答案。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>遇见，是幸;</p>\n<p>留下，是缘;</p>\n<p>一起走便是命中注定。</p>\n<p>遵从内心的召唤，</p>\n<p>走在人生的平凡路上，</p>\n<p>只要认认真真地活着，</p>\n<p>每一个日子就有希望。</p>\n<p>♢</p>\n<p>人生路上，</p>\n<p>一路艰辛，一路风景。</p>\n<p>如果你不相信前进</p>\n<p>是通向幸福的唯一途经</p>\n<p>那停滞更不会是答案。</p>\n</div>\n",
-      "date_published": "2014-10-04T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【三】",
-      "url": "https://mister-duan.github.io/piece/poem/3.html",
-      "id": "https://mister-duan.github.io/piece/poem/3.html",
-      "summary": "轻言细语【三】 一卷诗书。 人半旧，心半旧，物半旧; 月半旧，花半旧，风半旧。 会在旧时光里 偶尔翻出 一滴旧时的泪， 一点旧时的雨， 甚至 一朵旧时的花儿， 一幅旧时的墨迹， 一段旧时的心情， 可有莫名的感动， 丝丝的温暖。 善待生命，善待自己； 热爱生活，热爱自己； 拥抱明天，拥抱自己。 ♢ 人生是条漫长的旅途， 有平坦的大道， 也有崎岖的小路； ...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>一卷诗书。</p>\n<p>人半旧，心半旧，物半旧;</p>\n<p>月半旧，花半旧，风半旧。</p>\n<p>会在旧时光里</p>\n<p>偶尔翻出</p>\n<p>一滴旧时的泪，</p>\n<p>一点旧时的雨，</p>\n<p>甚至</p>\n<p>一朵旧时的花儿，</p>\n<p>一幅旧时的墨迹，</p>\n<p>一段旧时的心情，</p>\n<p>可有莫名的感动，</p>\n<p>丝丝的温暖。</p>\n<p>善待生命，善待自己；</p>\n<p>热爱生活，热爱自己；</p>\n<p>拥抱明天，拥抱自己。</p>\n<p>♢</p>\n<p>人生是条漫长的旅途，</p>\n<p>有平坦的大道，</p>\n<p>也有崎岖的小路；</p>\n<p>有鲜花，也有荆棘，</p>\n<p>但无论顺境还是逆境，</p>\n<p>都要从容面对。</p>\n<p>♢</p>\n<p>许多事情的答案都不是只有一个，</p>\n<p>即使切都在变，</p>\n<p>唯一不变的就是我们依旧在前行。</p>\n<p>那些藏在过去，埋葬的碎梦，</p>\n<p>在时间流过的瞬间，</p>\n<p>早已相隔千里，</p>\n<p>岁月摇曳的长河里，</p>\n<p>注定有明媚的忧伤。</p>\n</div>\n",
-      "date_published": "2014-10-08T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【四】",
-      "url": "https://mister-duan.github.io/piece/poem/4.html",
-      "id": "https://mister-duan.github.io/piece/poem/4.html",
-      "summary": "轻言细语【四】 有一种情，叫做思念; 有一种爱，叫做动心; 有一一种念，叫牵挂; 有一种想，叫暧昧; 爱了，小气了; 心动了， 在乎了。 因为爱得深，所以会痛; 因为爱得真，所以会疼: 因为疼痛，所以难舍: 因为懂得，所以慈悲。 花也有爱? 风也有情? 心动了，就会看见红尘， 见色是色，见情是情。 因爱故生憎， 因憎故生怖。 ♢ 也罢，因为， 所有的相...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>有一种情，叫做思念;</p>\n<p>有一种爱，叫做动心;</p>\n<p>有一一种念，叫牵挂;</p>\n<p>有一种想，叫暧昧;</p>\n<p>爱了，小气了;</p>\n<p>心动了， 在乎了。</p>\n<p>因为爱得深，所以会痛;</p>\n<p>因为爱得真，所以会疼:</p>\n<p>因为疼痛，所以难舍:</p>\n<p>因为懂得，所以慈悲。</p>\n<p>花也有爱?</p>\n<p>风也有情?</p>\n<p>心动了，就会看见红尘，</p>\n<p>见色是色，见情是情。</p>\n<p>因爱故生憎，</p>\n<p>因憎故生怖。</p>\n<p>♢</p>\n<p>也罢，因为，</p>\n<p>所有的相遇，都是前世的缘;</p>\n<p>所有的离别，都是今生的果。</p>\n<p>世界上总会有值得-爱的人，</p>\n<p>亦必有可以掏心掏肺的知己。</p>\n<p>♢</p>\n<p>既然</p>\n<p>所有的擦肩，</p>\n<p>要有五百次的回首;</p>\n<p>所有的相遇，</p>\n<p>要有一千年的缘。</p>\n<p>轻轻问一句:</p>\n<p>我的心，你懂。</p>\n<p>又何必在乎地久天长?</p>\n</div>\n",
-      "date_published": "2014-10-12T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【五】",
-      "url": "https://mister-duan.github.io/piece/poem/5.html",
-      "id": "https://mister-duan.github.io/piece/poem/5.html",
-      "summary": "轻言细语【五】 去收集那一朵朵云的白， 去采集秋日阳光的融暖， 便沿着这份青翠找来。 挑开了帘， 安放了光阴的青藤， 听那风铃的细微声响， 和那正合时宜的花草鸟木。 如果可以， 就牵着岁月的手， 一起走过安之若素的浅秋。 或许，便会多了些烟火的味道。 然而，琐碎的时光， 终寻不到些许烟火存留的气息， 只有寸寸重叠的光阴， 在岁月的花篮中繁花锦簇， 唯美...",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>去收集那一朵朵云的白，</p>\n<p>去采集秋日阳光的融暖，</p>\n<p>便沿着这份青翠找来。</p>\n<p>挑开了帘，</p>\n<p>安放了光阴的青藤，</p>\n<p>听那风铃的细微声响，</p>\n<p>和那正合时宜的花草鸟木。</p>\n<p>如果可以，</p>\n<p>就牵着岁月的手，</p>\n<p>一起走过安之若素的浅秋。</p>\n<p>或许，便会多了些烟火的味道。</p>\n<p>然而，琐碎的时光，</p>\n<p>终寻不到些许烟火存留的气息，</p>\n<p>只有寸寸重叠的光阴，</p>\n<p>在岁月的花篮中繁花锦簇，</p>\n<p>唯美,忧伤。</p>\n<p>♢</p>\n<p>爱了，小气了，</p>\n<p>眼里只有一个人，</p>\n<p>心里只有一个人。</p>\n<p>心为你跳，</p>\n<p>情为你动，</p>\n<p>是蛊?</p>\n<p>是毒?</p>\n<p>没了你就是万箭穿心，</p>\n<p>毒瘾发作，生不如死。</p>\n<p>倾情了，在乎了，</p>\n<p>一举一动，</p>\n<p>都牵着肠，挂着肚，</p>\n<p>眼里是情火，</p>\n<p>心中是暧昧。</p>\n<p>相聚，欢畅；</p>\n<p>离别，肠断。</p>\n</div>\n",
-      "date_published": "2014-10-16T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【六】",
-      "url": "https://mister-duan.github.io/piece/poem/6.html",
-      "id": "https://mister-duan.github.io/piece/poem/6.html",
-      "summary": "轻言细语【六】 在时光的夹缝中不停的辗转， 数一程过往， 看一路云烟， 留不住的美丽， 定格在某一个角落， 不曾提及却频频忆起。 或许， 在美丽的繁华， 也经不起轮回的践踏， 沾花一笑的音容， 回首已是落寞。 都说放下就是一个新的开始， 但又有几人 能够放下的如此洒脱!",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>在时光的夹缝中不停的辗转，</p>\n<p>数一程过往，</p>\n<p>看一路云烟，</p>\n<p>留不住的美丽，</p>\n<p>定格在某一个角落，</p>\n<p>不曾提及却频频忆起。</p>\n<p>或许，</p>\n<p>在美丽的繁华，</p>\n<p>也经不起轮回的践踏，</p>\n<p>沾花一笑的音容，</p>\n<p>回首已是落寞。</p>\n<p>都说放下就是一个新的开始，</p>\n<p>但又有几人</p>\n<p>能够放下的如此洒脱!</p>\n</div>\n",
-      "date_published": "2014-10-19T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【七】",
-      "url": "https://mister-duan.github.io/piece/poem/7.html",
-      "id": "https://mister-duan.github.io/piece/poem/7.html",
-      "summary": "轻言细语【七】 岁月流逝， 也总会有 那淡淡的心伤抹， 徘徊在经年的路口上。 时光并没有亏欠， 不是谁不解风尘， 只因季节的错落， 分割那一站琉璃。 秋风不解秋水寒， 秋水难懂落花语， 一程过往难断两两相牵， 一世尘缘迷离几许无言。 时光走过， 散落在风尘中的碎片， 堆积成了岁月的箴言， 随流年默默。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>岁月流逝，</p>\n<p>也总会有</p>\n<p>那淡淡的心伤抹，</p>\n<p>徘徊在经年的路口上。</p>\n<p>时光并没有亏欠，</p>\n<p>不是谁不解风尘，</p>\n<p>只因季节的错落，</p>\n<p>分割那一站琉璃。</p>\n<p>秋风不解秋水寒，</p>\n<p>秋水难懂落花语，</p>\n<p>一程过往难断两两相牵，</p>\n<p>一世尘缘迷离几许无言。</p>\n<p>时光走过，</p>\n<p>散落在风尘中的碎片，</p>\n<p>堆积成了岁月的箴言，</p>\n<p>随流年默默。</p>\n</div>\n",
-      "date_published": "2014-10-21T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【八】",
-      "url": "https://mister-duan.github.io/piece/poem/8.html",
-      "id": "https://mister-duan.github.io/piece/poem/8.html",
-      "summary": "轻言细语【八】 鹰， 不需鼓掌也在飞翔。 小草， 没人心疼也在成长。 深山的野花， 没人欣赏也在芬芳。 做事， 不需人人都理解， 只需尽心尽力； 做人， 不需人人都喜欢， 只需坦坦荡荡。 坚持， 注定有孤独彷徨， 质疑嘲笑， 也都无妨。 就算遍体鳞伤， 也要撑起坚强； 就算人生短暂， 也要活得漂亮!",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>鹰，</p>\n<p>不需鼓掌也在飞翔。</p>\n<p>小草，</p>\n<p>没人心疼也在成长。</p>\n<p>深山的野花，</p>\n<p>没人欣赏也在芬芳。</p>\n<p>做事，</p>\n<p>不需人人都理解，</p>\n<p>只需尽心尽力；</p>\n<p>做人，</p>\n<p>不需人人都喜欢，</p>\n<p>只需坦坦荡荡。</p>\n<p>坚持，</p>\n<p>注定有孤独彷徨，</p>\n<p>质疑嘲笑，</p>\n<p>也都无妨。</p>\n<p>就算遍体鳞伤，</p>\n<p>也要撑起坚强；</p>\n<p>就算人生短暂，</p>\n<p>也要活得漂亮!</p>\n</div>\n",
-      "date_published": "2014-10-25T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语【九】",
-      "url": "https://mister-duan.github.io/piece/poem/9.html",
-      "id": "https://mister-duan.github.io/piece/poem/9.html",
-      "summary": "轻言细语【九】 年少的我们， 总是喜欢， 不停地揣测对方心情， 不停地猜忌对方想法， 然后开始惶恐不安， 开始患得患失， 开始责怪自己哪里不够好。 人生的经历终会告诉你， 太过在乎就是失去的开始。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>年少的我们，</p>\n<p>总是喜欢，</p>\n<p>不停地揣测对方心情，</p>\n<p>不停地猜忌对方想法，</p>\n<p>然后开始惶恐不安，</p>\n<p>开始患得患失，</p>\n<p>开始责怪自己哪里不够好。</p>\n<p>人生的经历终会告诉你，</p>\n<p>太过在乎就是失去的开始。</p>\n</div>\n",
-      "date_published": "2015-12-06T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "轻言细语",
-      "url": "https://mister-duan.github.io/piece/poem/",
-      "id": "https://mister-duan.github.io/piece/poem/",
-      "summary": "介绍 这是我在高一写的一些小的散文诗，最初发表在空间日志上。 近日将其作为少年回忆，整理在博客中。",
-      "content_html": "<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">介绍</p>\n<p>这是我在高一写的一些小的散文诗，最初发表在空间日志上。</p>\n<p>近日将其作为少年回忆，整理在博客中。</p>\n</div>\n<!-- more -->\n<ul>\n<li><a href=\"https://h5.qzone.qq.com/ugc/share/?sharetag=38F7D93E6B85A1E5BE96A0C93F17652D&amp;subtype=3&amp;ciphertext=&amp;sid=&amp;blog_photo=&amp;g=&amp;res_uin=1178522294&amp;cellid=V10JYlHT29nRn4&amp;subid=&amp;bp1=&amp;bp2=&amp;bp7=&amp;appid=4&amp;g_f=2000000103\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>空间相册链接</strong></a></li>\n</ul>\n<blockquote>\n<p>由 赵婧一 摘抄</p>\n</blockquote>\n",
-      "date_published": "2022-01-07T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "江城子·高考",
-      "url": "https://mister-duan.github.io/piece/poem/exam.html",
-      "id": "https://mister-duan.github.io/piece/poem/exam.html",
-      "summary": "江城子·高考 丙申六月六日午凭窗远望，闻林中歌扬，有感，故作此篇。 十年苦读月相望，夜沧茫，内彷徨。一盏孤灯，无处话凄凉。明日一举定成败，虽抱恙，又何妨? 如闻鸦啼肠断况，尘满面，自难忘。相顾无言，惟有泪千行。若榜题名成栋梁，心飞扬，愿得偿!",
-      "content_html": "\n<p>丙申六月六日午凭窗远望，闻林中歌扬，有感，故作此篇。</p>\n<p>十年苦读月相望，夜沧茫，内彷徨。一盏孤灯，无处话凄凉。明日一举定成败，虽抱恙，又何妨?</p>\n<p>如闻鸦啼肠断况，尘满面，自难忘。相顾无言，惟有泪千行。若榜题名成栋梁，心飞扬，愿得偿!</p>\n",
-      "date_published": "2016-06-08T00:00:00.000Z",
-      "date_modified": "2025-12-01T03:56:25.000Z",
-      "authors": [],
-      "tags": [
-        "随笔"
-      ]
-    },
-    {
-      "title": "醉落魄·夏夜抒怀",
-      "url": "https://mister-duan.github.io/piece/poem/sad.html",
-      "id": "https://mister-duan.github.io/piece/poem/sad.html",
-      "summary": "醉落魄·夏夜抒怀 兄长难做。 相留舍妹责吾过。 针入子胸撑心破。 心仅情谊，反却遭人唾。 ♢ 士帼唯爱安非错? 厚谊更比苍天阔。 忆追尘事徒萧索。 辗转寻眠，愁溢又生惑。",
-      "content_html": "\n<div style=\"text-align:center\">\n<p>兄长难做。</p>\n<p>相留舍妹责吾过。</p>\n<p>针入子胸撑心破。</p>\n<p>心仅情谊，反却遭人唾。</p>\n<p>♢</p>\n<p>士帼唯爱安非错?</p>\n<p>厚谊更比苍天阔。</p>\n<p>忆追尘事徒萧索。</p>\n<p>辗转寻眠，愁溢又生惑。</p>\n</div>\n",
-      "date_published": "2016-06-27T00:00:00.000Z",
       "date_modified": "2025-12-01T03:56:25.000Z",
       "authors": [],
       "tags": [
