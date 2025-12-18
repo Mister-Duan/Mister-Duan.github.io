@@ -8,6 +8,7 @@ import {
   markdown,
   python,
   typescript,
+  java,
 } from "./language/index.js";
 import { linux } from "./linux.js";
 import { miniapp } from "./mini-app/index.js";
@@ -63,6 +64,8 @@ export const zhSidebarConfig = sidebar({
   "/code/language/markdown/": markdown,
 
   "/code/language/js/": javascript,
+  
+  "/code/language/java/": java,
 
   "/code/language/dart/": dart,
 

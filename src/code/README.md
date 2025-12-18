@@ -31,9 +31,11 @@ next: ./basic/
 
 - [Node.js](node-js/README.md)
 
+<!-- /code/language/java/ -->
+
 ### 代码学习
 
-- [代码学习](language/README.md)
+- [代码学习教程](language/README.md)
 
 - [如何学习一门语言](language/learning.md)
 
@@ -41,13 +43,16 @@ next: ./basic/
 
 - [TypeScript 教程](language/typescript/README.md)
 
-- [Python 教程](language/python/README.md) (编写中...)
+<!-- - [Python 教程](language/python/README.md) (编写中...) -->
+
+- [Java 教程](language/java/README.md)
 
 - [Markdown 教程](language/markdown/README.md)
 
 - [YAML 教程](language/yaml/README.md)
 
 - [JSON 教程](language/json/README.md)
+
 
 ### APP
 
